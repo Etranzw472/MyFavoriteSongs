@@ -1,0 +1,106 @@
+#main div {
+    display: flex;
+    flex-direction: column; /* 縦並びにする */
+	margin: auto;
+}
+
+#main button {
+    margin: 5px 0; /* ボタンの上下にマージンを追加 */
+}
+
+#main{
+    background-color: seashell;
+    
+}
+
+body {
+    font-family: Arial, sans-serif; /* フォントの設定 */
+	font-size: 12px; /* 基本のフォントサイズを下げる */
+	max-width: 400px;
+    min-width: 399px;
+    height: auto;
+	margin: auto;
+	display: flex;
+}
+
+h1 {
+    text-align: center; /* タイトルを中央に配置 */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: separate; /* セルの間隔を開けるため */
+    border-spacing: 0 15px; /* 行の間隔を15pxに設定 */
+}
+
+tr {
+	justify-content: center; /* 水平方向に中央揃え */
+    background-color: #FFFFFF; /* 長方形の背景色 */
+    border-radius: 5px; /* 角を丸める */
+    overflow: hidden; /* 角がはみ出さないように */
+}
+
+td {
+    padding: 15px; /* セル内の余白 */
+}
+
+
+.songlist {
+    width: 95%; /* 親要素の幅に合わせる */
+}
+
+.songlist table {
+    width: 100%; /* テーブルを親要素の幅に合わせる */
+	padding: 10px;
+	border-collapse: separate;
+	border-spacing: 10px;
+	background-color:mediumslateblue;
+    
+/* border-collapse: collapse; ボーダーを重ねて表示 */
+}
+
+
+
+.songlist th {
+    background-color: #f2f2f2; /* ヘッダーの背景色 */
+	margin-top: 10px;
+    margin-bottom: 6px;
+    border: 1;
+
+}
+
+
+/* Musictable表示の際のフェードイン */
+/* 追加するCSS */
+.fade-in {
+    opacity: 0; /* 初期状態は透明 */
+    transition: opacity 0.5s ease-in; /* 0.5秒でフェードイン */
+}
+
+.fade-in.visible {
+    opacity: 1; /* 表示状態の時は不透明 */
+}
+
+
+
+#musicTable {
+    font-size: 16px; /* テーブル全体のフォントサイズを下げる */
+
+}
+
+.song-title {
+    font-size: 1.5em; /* 曲名のフォントサイズを調整（必要に応じて） */
+	font-weight: bold; /* 太字にする */
+}
+
+.songlist th, .songlist td {
+    font-size: 16px; /* ヘッダーとセルのフォントサイズを調整 */
+}
+
+
+
+#musicTable th:last-child, #musicTable td:last-child {
+    width: 30%; /* アーティストの列幅を30%に設定 */
+}
+
