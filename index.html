@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>My Songs</title>
+  <link rel="stylesheet" type="text/css" href="MySongs.css">
+</head>
+
+<body>
+<!--	<div id="menu">
+		<div><a href="#menu" class="menuopen">OPEN</a><a href="#close" class="menuclose">CLOSE</div>
+		<ul>
+			<li><a href="#" onclick="filterSongs('すべて')">参加者向け機能</a></li>
+			<li><a href="#" onclick="filterSongs('ロック')">テンポ昇順</a></li>
+			<li><a href="#" onclick="filterSongs('ポップ')">Cumbia</a></li>
+			<li><a href="#" onclick="filterSongs('ロック')">Reggaeton</a></li>
+			<li><a href="#" onclick="filterSongs('すべて')">Others</a></li>
+		</ul>
+	</div>
+-->
+	<div id="main">
+		<!-- メイン内容 -->
+	    <h1>楽曲一覧</h1>
+	    <div>
+    	    <button onclick="filterSongs('Merengue')">Merengue</button>
+        	<button onclick="filterSongs('Salsa')">Salsa</button>
+    	    <button onclick="filterSongs('Cumbia')">Cumbia</button>
+        	<button onclick="filterSongs('Reggaeton')">Reggaeton</button>
+        	<button onclick="filterSongs('すべて')">すべて表示</button>
+    	</div>
+    	<table id="musicTable">
+        	<thead>
+            	<tr>
+                	<th>タイトル<br>アーティスト【収録】</th>
+            	</tr>
+        	</thead>
+        	<tbody>
+            <!-- データがここに挿入されます -->
+        	</tbody>
+    	</table>
+
+    	<script src="script.js"></script>
+
+	</div>
+</body>
