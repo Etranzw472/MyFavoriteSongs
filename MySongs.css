@@ -9,7 +9,8 @@
 }
 
 #main{
-    background-color: seashell;
+    background-color: #FFFFFF;
+    
     
 }
 
@@ -18,7 +19,7 @@ body {
 	font-size: 12px; /* 基本のフォントサイズを下げる */
 	max-width: 400px;
     min-width: 399px;
-    height: auto;
+    height: 0px 20px;
 	margin: auto;
 	display: flex;
 }
@@ -34,16 +35,15 @@ table {
     border-spacing: 0 15px; /* 行の間隔を15pxに設定 */
 }
 
-tr {
+td {
+	margin: auto;
+	padding: 25px 35px; /* セル内の余白 */
 	justify-content: center; /* 水平方向に中央揃え */
-    background-color: #FFFFFF; /* 長方形の背景色 */
-    border-radius: 5px; /* 角を丸める */
+    background-color: whitesmoke; /* 長方形の背景色 */
+    border-radius: 20px; /* 角を丸める */
     overflow: hidden; /* 角がはみ出さないように */
 }
 
-td {
-    padding: 15px; /* セル内の余白 */
-}
 
 
 .songlist {
@@ -61,14 +61,13 @@ td {
 }
 
 
-
-.songlist th {
-    background-color: #f2f2f2; /* ヘッダーの背景色 */
-	margin-top: 10px;
+/* .songlist th {
+    background-color: #f2f2f2;	margin-top: 10px;
     margin-bottom: 6px;
     border: 1;
+*/
 
-}
+
 
 
 /* Musictable表示の際のフェードイン */
@@ -103,4 +102,3 @@ td {
 #musicTable th:last-child, #musicTable td:last-child {
     width: 30%; /* アーティストの列幅を30%に設定 */
 }
-
