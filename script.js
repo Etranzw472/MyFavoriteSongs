@@ -1,23 +1,6 @@
 const musicData = [
-    {
-        title: "Si Antes Te Hubiera Conocido",
-        artist: ["Karol G"],
-        genre: ["Merengue"],
-        type: "ZIN 112",
-        category: ["Emotional"],
-		tempo: "",
-        link: "https://youtu.be/MgsdDfdGdHc?si=7CdYuVYFKPXjm5zb"
-    },
-    {
-        title: "M.I.A.M.I.",
-        artist: ["Nacho"],
-        genre: ["Cubaton", "Afrobeat"],
-        type: "ZIN 109",
-        category: ["Dark", "Rhythmic"],
-		tempo: "1",
-        link: "https://youtu.be/DTLvwh49j5w?si=x3Wz1UK2KQyik6wH"
-    },
-    {
+       
+        {
         title: "La Pantera Mambo",
         artist: ["La-33", "(Covered by Zumba)"],
         genre: ["Salsa", "Mambo"],
@@ -121,7 +104,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Milonga", "Tango"],
         type: "MegaMix 52",
-        category: ["Dramatic"],
+        category: ["Cool", "Emotional"],
 		tempo: "1",
         link: ""
     },
@@ -130,7 +113,7 @@ const musicData = [
         artist: ["La Poderosa", "Víctor Manuelle", "(Covered by Zumba)"],
         genre: ["Salsa", "Batucada"],
         type: "MegaMix 52",
-        category: ["Bright", "Powerful"],
+        category: ["Bright", "Powerful", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/zAlJdUmMzsA?si=7zIIdMYB1fqdvgO3"
     },
@@ -148,7 +131,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Salsa",],
         type: "ZIN 55",
-        category: ["Dramatic", "Rhythmic"],
+        category: ["Emotional", "Rhythmic"],
 		tempo: "1",
         link: ""
     },
@@ -171,7 +154,7 @@ const musicData = [
         link: "https://youtu.be/4Xr24SmSvBI?si=tjysHq5_iqdROZ__"
 	},
     {
-        title: "Rompa laPompa",
+        title: "Rompa la Pompa",
         artist: ["Zumba Studio"],
         genre: ["Cumbia", "Oriental","Fusion"],
         type: "ZIN 58",
@@ -243,8 +226,8 @@ const musicData = [
         link: "https://youtu.be/-41v6jLOcas?si=8R_pafH9PXLtyuzn"
 	},
     {
-        title: "Macarena",
-        artist: ["Los Del Rio", "(Covered by Zumba)"],
+        title: "Macarena (Zumba Remix)",
+        artist: ["Los Del Rio"],
         genre: ["Salsa"],
         type: "ZIN 64",
         category: ["", "Rhythmic"],
@@ -253,7 +236,7 @@ const musicData = [
 	},
     {
         title: "Como En Las Vegas",
-        artist: ["Olga Tanon"],
+        artist: ["Olga Tañon"],
         genre: ["Reggaeton"],
         type: "MegaMix 65",
         category: ["Emotional", "Dark"],
@@ -306,8 +289,8 @@ const musicData = [
         link: ""
 	},
     {
-        title: "That’s What I Like",
-        artist: ["Bruno Mars", "(Covered by Zumba)"],
+        title: "That’s What I Like (Zumba Remix)",
+        artist: ["Bruno Mars"],
         genre: ["Trap", "Reggaeton"],
         type: "ZIN 70",
         category: ["Cool", "Power"],
@@ -451,7 +434,7 @@ const musicData = [
 	}
 ,
     {
-        title: "Mas Que Bien",
+        title: "Mas Que Bien (Zumba Remix)",
         artist: ["Juan Por Dios"],
         genre: ["Quebradita", "Hip-hop"],
         type: "ZIN 80",
@@ -461,7 +444,7 @@ const musicData = [
 	}
 ,
     {
-        title: "Pegadito",
+        title: "Pegadito (Zumba Remix)",
         artist: ["Play-N-Skillz"],
         genre: ["Reggaeton", "Cha-cha-cha"],
         type: "ZIN 80",
@@ -562,7 +545,7 @@ const musicData = [
         link: "https://youtu.be/CBqCOwv4c6E?si=xqUMy4b9GVuCrPy9"
 	},
     {
-        title: "Escucha Mujer",
+        title: "Escucha Mujer (Zumba Remix)",
         artist: ["Zona Prieta", "feat.", "Aldo Ranks"],
         genre: ["Pacific", "Urban"],
         type: "MegaMix 85",
@@ -598,6 +581,15 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Pa'lante",
+        artist: ["Salomon Beda"],
+        genre: ["Latin", "C-down"],
+        type: "ZIN 87",
+        category: ["Relaxing", "Emotional"],
+		tempo: "1",
+        link: "https://youtu.be/Y5jwkDM-AQc?si=iKhFPoqukPQ9EyI1"
+	},
+    {
         title: "So Sexy",
         artist: ["Max Pizzolante"],
         genre: ["Boogaloo", "Merengue"],
@@ -607,7 +599,7 @@ const musicData = [
         link: "https://youtu.be/Zn0B2HcMprs?si=lgNKluS-ytk_JvkV"
 	},
     {
-        title: "CInturita",
+        title: "Cinturita (Zumba Remix)",
         artist: ["Bela Hamilton"],
         genre: ["Merengue", "EDM"],
         type: "ZIN 92",
@@ -643,6 +635,15 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Go Where You Wanna Go",
+        artist: ["Lolo"],
+        genre: ["Latin", "C-down"],
+        type: "ZIN 94",
+        category: ["Powerful", "Emotional"],
+		tempo: "1",
+        link: ""
+	},
+	{
         title: "Salsa De Ahora",
         artist: ["Motiff", "Los Xl del XXl"],
         genre: ["Salsa"],
@@ -733,7 +734,7 @@ const musicData = [
         link: ""
 	},
     {
-        title: "La Batidora",
+        title: "La Batidora (Zumba Remix)",
         artist: ["Sofia Reyes", "El Gran Silencio"],
         genre: ["Cumbia"],
         type: "MegaMix 98",
@@ -760,8 +761,8 @@ const musicData = [
         link: "https://youtu.be/fOAYjG_G4xY?si=-IDiwwJk1KwDiR4C"
 	},
 	{
-        title: "Mi Forma De Ser",
-        artist: ["Olga Tanon"],
+        title: "Mi Forma De Ser (Salsa Version)",
+        artist: ["Olga Tañon"],
         genre: ["Salsa"],
         type: "ZIN 99",
         category: ["Bright", "Relaxing", "Emotional"],
@@ -802,7 +803,7 @@ const musicData = [
         type: "ZIN 99",
         category: ["Cool", "Rhythmic"],
 		tempo: "1",
-        link: "https://music.youtube.com/watch?v=b55wVvQo6hU&si=GIRmjAc4dUe07XrQ&feature=xapp_share"
+        link: ""
 	},
     {
         title: "Tu Tiene' El Flow",
@@ -832,106 +833,681 @@ const musicData = [
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Pa Bailar",
+        artist: ["Juan Magan", "Topo La Maskara", "Mr.Vegas"],
+        genre: ["Dancehall"],
+        type: "ZIN 100",
+        category: ["Dark"],
+		tempo: "1",
+        link: "https://music.youtube.com/watch?v=PGQJGkbD8KM&si=Cnu9bduolZWQjPa5&feature=xapp_share"
+	},
+    {
+        title: "Berlin",
+        artist: ["Zion", "Lennox", "Maria Becerra"],
+        genre: ["Latin", "House"],
+        type: "ZIN 100",
+        category: ["Dark", "Cool", "Emotional"],
+		tempo: "1",
+        link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
+	},
+    {
+        title: "Me Albrota",
+        artist: ["Zumba"],
+        genre: ["Salsa"],
+        type: "MegaMix 100",
+        category: ["Relaxing"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
+        title: "Chilling",
+        artist: ["The Flow", "BIP"],
+        genre: ["Soca"],
+        type: "MegaMix 100",
+        category: ["Power", "Dark", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
+	},
+    {
+        title: "Sah Sah (Zumba Remix)",
+        artist: ["Nancy Ajram", "Marshmello"],
+        genre: ["Bellydance", "Guaracha"],
+        type: "ZIN 101",
+        category: ["Traditional", "Rhythmic", "Dark"],
+		tempo: "1",
+        link: "https://youtu.be/eUfU31LrTqQ?si=wcmHtqxIAXAIeT9V"
+	},
+    {
+        title: "Tengo Un Amor",
+        artist: ["Los Enbajadres de la Salsa"],
+        genre: ["Salsa", "Cumbia"],
+        type: "ZIN 101",
+        category: ["Bright", "Emotional", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/FCYkWbPmRfo"
+	},
+    {
+        title: "Ella Quiere Mambo (Zumba Version)",
+        artist: ["E Tune"],
+        genre: ["Merengue"],
         type: "",
-        category: [""],
+        category: ["Power", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/tzZC26HDgqI"
+	},
+    {
+        title: "Con Ganas",
+        artist: ["Zumba"],
+        genre: ["Bachata", "Fusion"],
+        type: "ZIN 101",
+        category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Mareao",
+        artist: ["OKAA"],
+        genre: ["Soca"],
+        type: "MegaMix 101",
+        category: ["Bright", "Power", "Rhythmic"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Eres Tu",
+        artist: ["Mara Prada", "Robert Taylor"],
+        genre: ["Reggaeton"],
+        type: "MegaMix 101",
+        category: ["Experimental"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Ay Dios",
+        artist: ["CNCO"],
+        genre: ["Reggaeton", "Cumbia"],
+        type: "ZIN 102",
+        category: ["Emotional", "Relaxing"],
+		tempo: "1",
+        link: "https://youtu.be/r5o8Dyn8aiQ"
+	},
+    {
+        title: "Let It Out",
+        artist: ["Active Nation"],
+        genre: ["Bachata", "EDM"],
+        type: "ZIN 102",
+        category: ["Dark", "Powerful", "Experimental"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Monotonia",
+        artist: ["Shakira", "Ozuna"],
+        genre: ["Bachata"],
+        type: "ZIN 102",
+        category: ["Emotional", "Relaxing"],
+		tempo: "1",
+        link: "https://youtu.be/j5y6xLpRwx4?si=b35MAgJi0lq5lCYG"
+	},
+    {
+        title: "Besame",
+        artist: ["Moino"],
+        genre: ["Flamenco"],
+        type: "MegaMix 102",
+        category: ["Experimental", "Rhythmic"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Sha La La",
+        artist: ["David DLuna"],
+        genre: ["Afrobeat"],
+        type: "MegaMix 102",
+        category: ["Relaxing", "Emotional"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Timba",
+        artist: ["Zumba"],
+        genre: ["Cumbia"],
+        type: "ZIN 103",
+        category: ["Dark", "Traditional"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Revolu",
+        artist: ["ZZ"],
+        genre: ["Reggaeton"],
+        type: "MegaMix 103",
+        category: ["Rhythmic", "Emotional", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
     {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
-		tempo: "1",
-        link: ""
-	},
-    {
-        title: "",
-        artist: [""],
-        genre: [""],
-        type: "",
-        category: [""],
+        title: "Baila Pa' Mi",
+        artist: ["Haniset"],
+        genre: ["Salsa", "Afrobeat"],
+        type: "ZIN 104",
+        category: ["Experimental", "Rhythmic"],
 		tempo: "1",
         link: ""
 	}
-
-
+,
+    {
+        title: "Sapeca",
+        artist: ["Aroxa", "feat.", "Topo La Maaskara", "3 Tenores"],
+        genre: ["Brazilian Funk"],
+        type: "ZIN 104",
+        category: ["Traditional", "Powerful"],
+		tempo: "1",
+        link: "https://youtu.be/6EcsIy_FUfg?si=gAJY1U_4gagdg0It"
+	},
+    {
+        title: "Arranca",
+        artist: ["Becky G", "feat.", "Omega"],
+        genre: ["Mambo", "Merengue"],
+        type: "ZIN 104",
+        category: ["Experimental", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/sCEV3YzPCnw"
+	},
+    {
+        title: "Beautiful",
+        artist: ["Mara Prada", "Robert Taylor"],
+        genre: ["Mambo", "Fusion"],
+        type: "ZIN 105",
+        category: ["Bright", "Rhythmic", "Powerful"],
+		tempo: "1",
+        link: "https://youtu.be/qg41mcLpE1w?si=2kbcdhWBicp6fKFG"
+	},
+    {
+        title: "Como E'",
+        artist: ["Zumba"],
+        genre: ["Salsa Choke"],
+        type: "ZIN 105",
+        category: ["Bright", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Vagabundo",
+        artist: ["Sebastián Yatra", "Manuel Turizo", "Beéle"],
+        genre: ["Pop", "Merengue"],
+        type: "ZIN 105",
+        category: ["Relaxing", "Distinctive", "Bright"],
+		tempo: "1",
+        link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
+	},
+    {
+        title: "A Contra Tiempo",
+        artist: ["Santander"],
+        genre: ["Bachata", "Reggae", "Merengue"],
+        type: "ZIN 106",
+        category: ["Emotional", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Com Pila De Sed",
+        artist: ["Chimbara"],
+        genre: ["Afrobeat", "Dembow"],
+        type: "ZIN 106",
+        category: ["Distinctive", "Experimental", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Funk Rave",
+        artist: ["Anitta"],
+        genre: ["Brazilian Funk"],
+        type: "ZIN 106",
+        category: ["Cool", "Rhythmic", "Dark"],
+		tempo: "1",
+        link: "https://youtu.be/srmxQt0QNR4?si=9-ujaXf2FgR6-oxI"
+	},
+    {
+        title: "Mucho Flow",
+        artist: ["Ilgales", "Happy Colors"],
+        genre: ["Latin", "Pop"],
+        type: "ZIN 106",
+        category: ["Bright", "Rhythmic", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/VolmYSTcUzM?si=K8qDlBJFtu13gTDB"
+	},
+    {
+        title: "Cumbia Bacana",
+        artist: ["Zumba"],
+        genre: ["Cumbia"],
+        type: "ZIN 106",
+        category: ["Powerful", "Traditional"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Metele Saoco",
+        artist: ["Pinto Picasso"],
+        genre: ["Merengue", "Reggaeton"],
+        type: "ZIZN 106",
+        category: ["Dark", "Powerful", "Emotional"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Dientes",
+        artist: ["J Balvin", "Usher", "DJ Khaled"],
+        genre: ["Urban", "Pop"],
+        type: "ZIN 107",
+        category: ["Powerful", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/gVPgwoXm5Rc?si=yLk80z5z3UXXJWiU"
+	},
+    {
+        title: "Mueve El Cuerpo",
+        artist: ["Ronald Borjas"],
+        genre: ["Salsa"],
+        type: "ZIN 107",
+        category: ["Rhythmic", "Traditional"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Me Buscas",
+        artist: ["Pinto Picasso"],
+        genre: ["Brazilan Funk", "Fusion"],
+        type: "ZIN 107",
+        category: ["Powerful", "Cool"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Mas Que to Amigo",
+        artist: ["Hey Broders"],
+        genre: ["Cumbia"],
+        type: "ZIN 108",
+        category: ["Emotional", "Relaxing", "Traditional"],
+		tempo: "1",
+        link: "https://youtu.be/VEp_2nGB0AU?si=fHLUhG-q2xjQeNw-"
+	},
+    {
+        title: "Batea",
+        artist: ["Magic Juan", "feat.", "Kiko El Crazy"],
+        genre: ["Merengue"],
+        type: "ZIN 108",
+        category: ["Powerful", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/bbNl15ffEv8?si=5sxThIvwtrh4MoFW"
+	},
+    {
+        title: "On That Feeling",
+        artist: ["Nalya K"],
+        genre: ["Brazilian Funk"],
+        type: "ZIN 108",
+        category: ["Experimental"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Ya No Extrano",
+        artist: ["Natti Natasha"],
+        genre: ["Reggaeton"],
+        type: "ZIN 109",
+        category: ["Bright", "Relaxing", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/EWmyO1yWKls?si=S7Iovd5NgZQKu1K1"
+	},
+    {
+        title: "Te Provoca",
+        artist: ["Lion Lazaro"],
+        genre: ["Salsa"],
+        type: "ZIN 109",
+        category: ["Experimental", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "M.I.A.M.I.",
+        artist: ["Nacho"],
+        genre: ["Cubaton", "Afrobeat"],
+        type: "ZIN 109",
+        category: ["Dark", "Rhythmic"],
+		tempo: "1",
+        link: "https://example.com"
+    },
+    {
+        title: "Sueltate El Pelo",
+        artist: ["Pinto Picasso"],
+        genre: ["Merengue", "Fusion"],
+        type: "ZIN 109",
+        category: ["Cool", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Aprieta",
+        artist: ["Max Pizzolante"],
+        genre: ["Salsa", "Afrobeat"],
+        type: "ZIN 110",
+        category: ["Cool", "Rhythmic", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/RcbwlEejylI?si=oJ3w6M79XNXb0D52"
+	},
+    {
+        title: "Barcelona",
+        artist: ["Leslie Shawn"],
+        genre: ["Merengue"],
+        type: "ZIN 110",
+        category: ["Rhythmic", "Experimental"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "La Dieta",
+        artist: ["Guaynaa"],
+        genre: ["Cumbia", "Urban"],
+        type: "ZIN 110",
+        category: ["Powerful", "Traditional", "Cool"],
+		tempo: "1",
+        link: "https://youtu.be/S61iMZDiN_w?si=XKozmGriyFHjBIYY"
+	},
+    {
+        title: "Lo Nuestro",
+        artist: ["Bela"],
+        genre: ["Bachata"],
+        type: "ZIN 110",
+        category: ["Distinctive", "Relaxing", "Emotional"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Muevence",
+        artist: ["Mark Anthony"],
+        genre: ["Salsa"],
+        type: "ZIN 111",
+        category: ["Distinctive", "Experimental", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/gruomptSqq0?si=rM4co35G7SdzWog1"
+	},
+    {
+        title: "Mujeron",
+        artist: ["Mannel"],
+        genre: ["Cumbia"],
+        type: "ZIN 111",
+        category: ["Bright", "Distinctive"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Una Fiesta",
+        artist: ["Reggi El Autentico"],
+        genre: ["Bachata", "Fusion", "Afrobeat"],
+        type: "ZIN 111",
+        category: ["Relaxing"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Sushi Azul",
+        artist: ["Max Pizzolante"],
+        genre: ["Merengue"],
+        type: "ZIN 111",
+        category: ["Cool", "Powerful", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
+	},
+    {
+        title: "Si Antes Te Hubiera Conocido",
+        artist: ["Karol G"],
+        genre: ["Merengue"],
+        type: "ZIN 112",
+        category: ["Emotional"],
+		tempo: "",
+        link: "https://example.com"
+    },
+    {
+        title: "La Cumbia",
+        artist: ["Zumba"],
+        genre: ["Cumbia"],
+        type: "ZIN 112",
+        category: ["Distinctive", "Traditional"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Mi Cora",
+        artist: ["DK"],
+        genre: ["Caribbean", "Fusion"],
+        type: "ZIN 112",
+        category: ["Bright", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Insomnio",
+        artist: ["Nicky Jam"],
+        genre: ["Bachata", "Fusion"],
+        type: "ZIN 113",
+        category: ["Emotional", "Cool"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Help Me!",
+        artist: ["The Moonsters", "Enric Font", "feat.", "Lexter"],
+        genre: ["EDM"],
+        type: "KIDS 2017 JUL",
+        category: ["Cool", "Powerful"],
+		tempo: "1",
+        link: "https://youtu.be/tCeW-DFbcgw"
+	},
+    {
+        title: "Punta Tacon",
+        artist: ["Eduardo Imbelloni"],
+        genre: ["Flamenco"],
+        type: "KIDS 2018 APR",
+        category: ["Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Arabian Flow",
+        artist: ["Zumba"],
+        genre: ["Arabic", "Salsa"],
+        type: "KIDS 2018 NOV",
+        category: ["Dark", "Cool", "Traditional", "Distinctive"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Soy Yo",
+        artist: ["Bomba Esteleo"],
+        genre: ["Cumbia"],
+        type: "KIDS 2019 SEP",
+        category: ["Bright", "Experimental"],
+		tempo: "1",
+        link: "https://youtu.be/bxWxXncl53U"
+	},
+    {
+        title: "Hulk",
+        artist: ["Blaxx"],
+        genre: ["Soca"],
+        type: "KIDS 2021 AUG",
+        category: ["Powerful", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
+	},
+    {
+        title: "Born Ready",
+        artist: ["Aaron Duncan"],
+        genre: ["Soca"],
+        type: "KIDS 2021 NOV",
+        category: ["Powerful", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/BdokhLg2LaE"
+	},
+    {
+        title: "Her",
+        artist: ["Topo La Maskara", "Berra"],
+        genre: ["Afrobeat"],
+        type: "KIDS 2023 MAR",
+        category: ["Relaxing"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Sube La Mano",
+        artist: ["Zumba"],
+        genre: ["Merengue"],
+        type: "KIDS 2024 JUL",
+        category: ["Bright", "Rhythmic"],
+		tempo: "1",
+        link: ""
+	},
+    {
+        title: "Cyberpunk",
+        artist: ["ATEEZ"],
+        genre: ["K-Pop", "Pop"],
+        type: "Others",
+        category: ["Powerful", "Cool", "Dark"],
+		tempo: "1",
+        link: "https://youtu.be/nHFd4eEBvP4?si=RGUeuXGRd8Hp1i4i"
+	},
+    {
+        title: "It's Plenty",
+        artist: ["Burna Boy"],
+        genre: ["Afrobeat", "Fusion"],
+        type: "Others",
+        category: ["Emotional", "Relaxing"],
+		tempo: "1",
+        link: "https://youtu.be/F8bZVnynDdc?si=GWnevmOKOkiSvoGc"
+	},
+    {
+        title: "Ram Pam Pam",
+        artist: ["Natti Natasha", "feat.", "Becky G"],
+        genre: ["Reggeton", "Cumbia", "Urban"],
+        type: "Others",
+        category: ["Dark", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/_wE3hDN06Qg?si=9lDtR1mi3l2L-mkp"
+	},
+    {
+        title: "Santorini",
+        artist: ["Beéle", "Farruko"],
+        genre: ["Latin"],
+        type: "Others",
+        category: ["Emotional", "Cool"],
+		tempo: "1",
+        link: "https://youtu.be/FS__SaIBf-A?si=BwYeaXnwgqtOk-KS"
+	},
+    {
+        title: "Thriller (Steve Aoki Midnight Hour Remix)",
+        artist: ["Michael Jackson"],
+        genre: ["EDM", "Rock"],
+        type: "Others",
+        category: ["Powerful", "Dark", "Cool"],
+		tempo: "1",
+        link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
+	},
+    {
+        title: "Yo No Fui",
+        artist: ["Croocked Stilo", "El Dusty"],
+        genre: ["Cumbia"],
+        type: "Others",
+        category: ["Dark", "Traditional"],
+		tempo: "1",
+        link: "https://youtu.be/rn9tEErGMik?si=mixHpnvaCO2MLFdZ"
+	},
+    {
+        title: "Volare",
+        artist: ["Gipsy Kings"],
+        genre: ["Flamenco"],
+        type: "Others",
+        category: ["Bright", "Powerful", "Traditional"],
+		tempo: "1",
+        link: "https://youtu.be/X8TOhb_4jU0?si=tQC6KAf9kbTfqtcC"
+	},
+    {
+        title: "Mi Forma De Ser",
+        artist: ["Olga Tañon"],
+        genre: ["Merengue"],
+        type: "Others",
+        category: ["Bright", "Emotional", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/w9_1RuFkqzA?si=7wsXy_5001KQMepd"
+	},
+    {
+        title: "Tu Amor, More, More",
+        artist: ["Chino", "Nacho"],
+        genre: ["Latin"],
+        type: "Others",
+        category: ["Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/dR8dBCzs2EY?si=oW86LMbQax-TlXb7"
+	},
+    {
+        title: "Soñer(Breaker)",
+        artist: ["NMIXX"],
+        genre: ["K-Pop", "Pop"],
+        type: "Others",
+        category: ["Dark", "Cool", "Experimental"],
+		tempo: "1",
+        link: "https://youtu.be/4_vzrcxpT4I?si=afr5f_HCG2jDPcF9"
+	},
+    {
+        title: "Bling-Bang-Bang-Born [Merengue]",
+        artist: ["Creepy Nuts", "The Covers Duo"],
+        genre: ["Hip-hop", "Merengue"],
+        type: "Others",
+        category: ["Distinctive", "Powerful"],
+		tempo: "1",
+        link: "https://youtu.be/pYOgZFtjcas?si=4irg6zsQtApILFm3"
+	},
+    {
+        title: "Perhaps, Perhaps, Perhaps",
+        artist: ["Daniel Boaventura"],
+        genre: ["Cha-cha-cha"],
+        type: "Others",
+        category: ["Relaxing", "Cool"],
+		tempo: "1",
+        link: "https://youtu.be/EgknmfB7Ux4?si=x-G1Llbv-SIMs13c"
+	},
+    {
+        title: "Bambilambambilambilambam",
+        artist: ["Farmer Nappy"],
+        genre: ["Soca"],
+        type: "Others",
+        category: ["Bright", "Experimental"],
+		tempo: "1",
+        link: "https://youtu.be/XXEVLxTUAsM?si=1O2BllwaF1tGaJXA"
+	},
+    {
+        title: "Dreamers",
+        artist: ["JUNG KOOK", "BTS"],
+        genre: ["Pop"],
+        type: "Others",
+        category: ["Emotional", "Powerful"],
+		tempo: "1",
+        link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
+	},
+    {
+        title: "Galway Girl",
+        artist: ["Ed Sheeran"],
+        genre: ["Pop", "Folk"],
+        type: "Others",
+        category: ["Pop", "Emotional", "Traditional"],
+		tempo: "1",
+        link: "https://youtu.be/87gWaABqGYs?si=1ghDXpzw5rjUbClA"
+	},
+    {
+        title: "To My Love (Tainy Remix)",
+        artist: ["Bomba Esteleo"],
+        genre: ["Pop", "Reggaeton"],
+        type: "Others",
+        category: ["Relaxing", "Distinctive"],
+		tempo: "1",
+        link: "https://youtu.be/THBP1tq49wk?si=r6WQFqTjd7e4BIoY"
+	}
 
 
 
