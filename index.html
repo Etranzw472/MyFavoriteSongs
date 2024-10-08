@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
 <!--	<div id="menu">
 		<div><a href="#menu" class="menuopen">OPEN</a><a href="#close" class="menuclose">CLOSE</div>
 		<ul>
@@ -23,7 +24,7 @@
 -->
 	<div id="main">
 		<!-- メイン内容 -->
-	    <h1>MyClassSongs（仮）</h1>
+	    <h1>楽曲一覧</h1>
 	    <div>
     	    <button onclick="filterSongs('Merengue')">Merengue</button>
         	<button onclick="filterSongs('Salsa')">Salsa</button>
@@ -31,18 +32,22 @@
         	<button onclick="filterSongs('Reggaeton')">Reggaeton</button>
         	<button onclick="filterSongs('すべて')">すべて表示</button>
     	</div>
-    	<table id="musicTable">
-        	<thead>
-            	<tr>
-                	<th>タイトル<br>アーティスト【収録】</th>
-            	</tr>
-        	</thead>
-        	<tbody>
+		<div id="container">
+	    	<table id="musicTable">
+				<thead>
+            		<tr>
+                		<th>タイトル<br>アーティスト【収録】</th>
+            		</tr>
+        		</thead>
+        		<tbody>
             <!-- データがここに挿入されます -->
-        	</tbody>
-    	</table>
+        		</tbody>
+    		</table>
+
+		</div>
 
     	<script src="script.js"></script>
+
 
 	</div>
 </body>
