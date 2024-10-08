@@ -1,6 +1,6 @@
 const musicData = [
-       
-        {
+
+    {
         title: "La Pantera Mambo",
         artist: ["La-33", "(Covered by Zumba)"],
         genre: ["Salsa", "Mambo"],
@@ -1514,6 +1514,8 @@ const musicData = [
 
 ];
 
+
+
 function filterSongs(targetGenre) {
     let filteredSongs;
     if (targetGenre === 'すべて') {
@@ -1559,41 +1561,51 @@ function displaySongs(songs) {
             }, 10); // 短い遅延を入れてアニメーションが機能するように
         }, index * 250); // 250ms間隔で表示
     });
+// 6曲目の表示後に残りの曲を一括表示
+if (remainingSongs.length > 0) {
+    setTimeout(() => {
+        remainingSongs.forEach(song => {
+            const row = document.createElement('tr');
+            row.classList.add('fade-in'); // フェードインクラスを追加
 
-    // 6曲目の表示後に残りの曲を一括表示
-    if (remainingSongs.length > 0) {
-        setTimeout(() => {
-            remainingSongs.forEach(song => {
-                const row = document.createElement('tr');
-                row.classList.add('fade-in'); // フェードインクラスを追加
+            const artistText = song.artist.join(', ');
 
-                const artistText = song.artist.join(', ');
+            row.innerHTML = `
+                <td>
+                    <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                    <br>
+                    ${artistText}
+                    <br>
+                    【${song.type}】
+                </td>
+            `;
+            tableBody.appendChild(row);
 
-                row.innerHTML = `
-                    <td>
-                        <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
-                        <br>
-                        ${artistText}
-                        <br>
-                        【${song.type}】
-						<br>
-                    </td>
-                `;
-                tableBody.appendChild(row);
+            // フェードインを適用
+            setTimeout(() => {
+                row.classList.add('visible'); // visibleクラスを追加
+            }, 10); // 短い遅延を入れてアニメーションが機能するように
+        });
 
-                // フェードインを適用
-                setTimeout(() => {
-                    row.classList.add('visible'); // visibleクラスを追加
-                }, 10); // 短い遅延を入れてアニメーションが機能するように
-            });
-        }, limitedSongs.length * 250); // 6曲表示後に一括表示
-    }
+        // テーブルの幅を再設定
+        const table = document.getElementById('musicTable');
+        table.style.width = '100%'; // もしくは適切な幅を設定
+    }, limitedSongs.length * 250); // 6曲表示後に一括表示
+}
 
     // ページを一番上にスクロール
     window.scrollTo(0, 0);
 }
 
-// 最初の表示
+
+// DOMが読み込まれた後に実行
 document.addEventListener('DOMContentLoaded', () => {
+    const screenWidth = window.innerWidth; // 画面の幅を取得
+
+    // containerの幅を設定
+    const container = document.getElementById('container'); // containerを取得
+    container.style.width = `${screenWidth}px`; // containerの幅を画面幅に設定
+
+    // 最初の表示
     displaySongs(musicData); // 音楽データを表示
 });
