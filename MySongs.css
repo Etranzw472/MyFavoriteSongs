@@ -21,6 +21,7 @@ body {
     min-width: 399px;
     height: 0px 20px;
 	margin: auto;
+    padding: auto;
 	display: flex;
 }
 
@@ -28,6 +29,12 @@ h1 {
     text-align: center; /* タイトルを中央に配置 */
 }
 
+#container {
+    width: auto;
+    height: auto;
+	margin: auto;
+    padding: 0px 30px;
+}
 
 table {
     width: 100%;
@@ -47,7 +54,7 @@ td {
 
 
 .songlist {
-    width: 95%; /* 親要素の幅に合わせる */
+    width: 90%; /* 親要素の幅に合わせる */
 }
 
 .songlist table {
