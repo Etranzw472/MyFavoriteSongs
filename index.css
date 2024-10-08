@@ -1,0 +1,61 @@
+section {
+  max-width: 300px;
+  margin: 60px auto;
+}
+/*=============
+a.btn_03
+=============*/
+a.btn_03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background: white;
+  border: 1px solid #eedcb3;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 45px 0 25px;
+  color: #AB5239;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+a.btn_03:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -6px;
+}
+/* カーソル配置時の背景・文字の色 */
+a.btn_03:hover {
+  background: #eedcb3;
+  color: #AB5239;
+    
+}
+/* カーソル配置時の文字の色など */
+a.btn_03:hover:before {
+  border-top: 2px solid #AB5239;
+  border-right: 2px solid #AB5239;
+}
+
+
+/*=============
+base
+=============*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  word-break: break-all;
+}
