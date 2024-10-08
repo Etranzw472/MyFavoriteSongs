@@ -6,6 +6,9 @@
 
 #main button {
     margin: 5px 0; /* ボタンの上下にマージンを追加 */
+    padding: 10px 15px; /* ボタンのパディングを調整 */
+    flex: 1 1 auto; /* ボタンのサイズを自動調整 */
+    min-width: 100px; /* ボタンの最小幅を設定 */
 }
 
 #main{
@@ -15,14 +18,13 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* フォントの設定 */
-	font-size: 12px; /* 基本のフォントサイズを下げる */
-	max-width: 400px;
-    min-width: 399px;
-    height: 0px 20px;
-	margin: auto;
-    padding: auto;
-	display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0; /* 余白をなくす */
+    padding: 0; /* パディングをなくす */
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: center; /* 中央に揃える */
 }
 
 h1 {
@@ -30,11 +32,12 @@ h1 {
 }
 
 #container {
-    width: auto;
-    height: auto;
+    width: 95%;
+    height: 100%;
 	margin: auto;
-    padding: 0px 30px;
+    padding: auto;
 }
+
 
 table {
     width: 100%;
@@ -43,7 +46,7 @@ table {
 }
 
 td {
-	margin: auto;
+	margin: 10px;
 	padding: 25px 35px; /* セル内の余白 */
 	justify-content: center; /* 水平方向に中央揃え */
     background-color: whitesmoke; /* 長方形の背景色 */
@@ -63,16 +66,7 @@ td {
 	border-collapse: separate;
 	border-spacing: 10px;
 	background-color:mediumslateblue;
-    
-/* border-collapse: collapse; ボーダーを重ねて表示 */
 }
-
-
-/* .songlist th {
-    background-color: #f2f2f2;	margin-top: 10px;
-    margin-bottom: 6px;
-    border: 1;
-*/
 
 
 
@@ -91,7 +85,7 @@ td {
 
 
 #musicTable {
-    font-size: 16px; /* テーブル全体のフォントサイズを下げる */
+    font-size: 15px; /* テーブル全体のフォントサイズを下げる */
 
 }
 
@@ -101,7 +95,7 @@ td {
 }
 
 .songlist th, .songlist td {
-    font-size: 16px; /* ヘッダーとセルのフォントサイズを調整 */
+    font-size: 14px; /* ヘッダーとセルのフォントサイズを調整 */
 }
 
 
