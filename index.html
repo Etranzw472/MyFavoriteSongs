@@ -6,27 +6,62 @@
 <head>
   <meta charset="utf-8">
   <title>My Class Songs</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="Index.css">
 </head>
 
 <body>
-<h1>あなたの好きなジャンルは？</h1>
-	
 	<section>
-		<a href="MySongs.html" class="btn_03"><span>すべてのジャンルがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>すべてのジャンルがすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_03"><span>Merengueがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>Merengueがすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_03"><span>Salsaがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>Salsaがすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_03"><span>Cumbiaがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>Cumbiaがすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_03"><span>Reggaetonがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>Reggaetonがすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_03"><span>よくわからない</span></a>
+		<a href="MySongs.html" class="btn_01"><span>よくわからない</span></a>
+		<br>
+		<br>
+        <div class="image-container">
+            <img class="image" src="j42_9_7.png" alt="key" id="keyImage">
+        </div>
 	</section>
 
-	<script src="script.js"></script>
+    <!-- モーダルウィンドウ -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>パスワード入力</h2>
+            <input type="text" placeholder="あいことば">
+            <a href="MySongs.html"><button id="submitPassword"> タップ </button></a>
+        </div>
+    </div>
 
+    <script>
+        const keyImage = document.getElementById('keyImage');
+        const modal = document.getElementById('passwordModal');
+        const closeModal = document.querySelector('.close');
+
+        keyImage.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        closeModal.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+	setTimeout(() => {
+		document.querySelector('.image').style.opacity = 1;
+	}, 3000);
+  </script>
+	
 </body>
-
+</html>
