@@ -1,7 +1,15 @@
+header {
+	width: 100%;
+    height: 65px;
+	background-color: #EEDCB3;
+	position: fixed;
+	top: 0;
+}
+
 #main div {
     display: flex;
     flex-direction: column; /* 縦並びにする */
-	margin: auto;
+	margin: 80px auto;
 }
 
 #main button {
@@ -12,9 +20,7 @@
 }
 
 #main{
-    background-color: #FFFFFF;
-    
-    
+    background-color: white;
 }
 
 body {
@@ -29,6 +35,7 @@ body {
 
 h1 {
     text-align: center; /* タイトルを中央に配置 */
+	color: #AB5239;
 }
 
 #container {
@@ -38,6 +45,13 @@ h1 {
     padding: auto;
 }
 
+button {
+	color: black;
+    background-color: #DCDCDC;
+    border: none;
+    border-radius: 20px; /* 角を丸める */
+    overflow: hidden; /* 角がはみ出さないように */
+}
 
 table {
     width: 100%;
@@ -49,12 +63,18 @@ td {
 	margin: 10px;
 	padding: 25px 35px; /* セル内の余白 */
 	justify-content: center; /* 水平方向に中央揃え */
-    background-color: #eedcb3; /* 長方形の背景色 */
+	background-color: #FEFEFE; /* 長方形の背景色 */
+	border: 2.5px solid #EEDCB3;
     border-radius: 20px; /* 角を丸める */
     overflow: hidden; /* 角がはみ出さないように */
 }
 
-
+/* youtubeへのリンクがある場合の色表示を変える */
+a {
+    color: #AB5239;
+    font-weight:bold    
+    
+}
 
 .songlist {
     width: 90%; /* 親要素の幅に合わせる */
@@ -65,7 +85,6 @@ td {
 	padding: 10px;
 	border-collapse: separate;
 	border-spacing: 10px;
-	background-color:mediumslateblue;
 }
 
 
