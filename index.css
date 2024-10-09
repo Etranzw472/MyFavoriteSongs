@@ -3,9 +3,9 @@ section {
   margin: 60px auto;
 }
 /*=============
-a.btn_03
+a.btn_01
 =============*/
-a.btn_03 {
+a.btn_01 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ a.btn_03 {
   height: 50px;
   position: relative;
   background: white;
-  border: 1px solid #eedcb3;
+  border: 1px solid #EEDCB3;
   border-radius: 30px;
   box-sizing: border-box;
   padding: 0 45px 0 25px;
@@ -25,7 +25,7 @@ a.btn_03 {
   text-decoration: none;
   transition-duration: 0.3s;
 }
-a.btn_03:before {
+a.btn_01:before {
   content: '';
   width: 8px;
   height: 8px;
@@ -39,13 +39,13 @@ a.btn_03:before {
   margin-top: -6px;
 }
 /* カーソル配置時の背景・文字の色 */
-a.btn_03:hover {
+a.btn_01:hover {
   background: #eedcb3;
   color: #AB5239;
     
 }
 /* カーソル配置時の文字の色など */
-a.btn_03:hover:before {
+a.btn_01:hover:before {
   border-top: 2px solid #AB5239;
   border-right: 2px solid #AB5239;
 }
@@ -58,4 +58,80 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   word-break: break-all;
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center; /* 横方向に中央寄せ */
+	max-width: 60px;
+	margin: 60px auto;
+    margin-top: 20px; /* 必要に応じて余白を調整 */
+}
+
+.image {
+    position: relative;
+    width: 20px;
+    height: 35px;
+    opacity: 0; /* 初期状態で透明 */
+    transition: opacity 1s; /* 不透明度の変化にアニメーションを追加 */
+}
+
+
+/* モーダルのスタイル */
+.modal {
+    display: none; /* 初期状態で非表示 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* 必要に応じてスクロール可能 */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の背景 */
+}
+
+.modal-content {
+    background-color: #FFFFFF;    
+    color: #AB5239;
+    margin: 200px auto;
+    padding: 10px 20px 30px 20px;
+    border: 1px solid #888;
+    width: 70%; /* モーダルの幅 */
+    max-width: 380px; /* 最大幅 */
+    border-radius: 20px; /* 角を丸める */
+    overflow: hidden; /* 角がはみ出さないように */
+}
+
+#submitPassword {
+	background-color: #AB5239;  
+    color: #FFFFFF;
+    border: 1px solid #EEDCB3;
+    border-radius: 8px; /* 角を丸める */
+    overflow: hidden; /* 角がはみ出さないように */
+}
+
+.close {
+    color: #AB5239;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 追加のスタイル（必要に応じて） */
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px; /* 角を丸める */
+    overflow: hidden; /* 角がはみ出さないように */
+    border-color: #DCDCDC;
 }
