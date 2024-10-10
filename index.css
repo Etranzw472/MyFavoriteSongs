@@ -1,6 +1,17 @@
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
 section {
-  max-width: 300px;
-  margin: 60px auto;
+    max-width: 300px;
+    margin: 250px auto;
+        opacity: 1;
+        transition: opacity 6s; /* 不透明度の変化にアニメーションを追加 */
 }
 /*=============
 a.btn_01
