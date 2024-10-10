@@ -11,17 +11,17 @@
 
 <body>
 	<section>
-		<a href="MySongs.html" class="btn_01"><span>すべてのジャンルがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>音楽にすききらいは無い</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_01"><span>Merengueがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>力強い曲がすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_01"><span>Salsaがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>ゆったりした曲がすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_01"><span>Cumbiaがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>感情的な曲がすきだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_01"><span>Reggaetonがすきだ</span></a>
+		<a href="MySongs.html" class="btn_01"><span>ノれる曲が好きだ</span></a>
 		<br>
-		<a href="MySongs.html" class="btn_01"><span>よくわからない</span></a>
+		<a href="MySongsCategory.html" class="btn_01"><span>よくわからない</span></a>
 		<br>
 		<br>
         <div class="image-container">
@@ -33,9 +33,10 @@
     <div id="passwordModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>パスワード入力</h2>
-            <input type="text" placeholder="あいことば">
-            <a href="MySongs.html"><button id="submitPassword"> タップ </button></a>
+            <h2>参加者向けページ</h2>
+            <input type="text" id="passwordInput" placeholder="あいことば">
+            <button id="submitPassword">タップ</button>
+            <p id="message" style="color: red;"></p> <!-- メッセージ表示用 -->
         </div>
     </div>
 
@@ -43,24 +44,47 @@
         const keyImage = document.getElementById('keyImage');
         const modal = document.getElementById('passwordModal');
         const closeModal = document.querySelector('.close');
+        const submitButton = document.getElementById('submitPassword');
+        const passwordInput = document.getElementById('passwordInput');
+        const message = document.getElementById('message');
+
+        const correctPassword = "あいらぶずんば"; // 正しいパスワード
 
         keyImage.onclick = function() {
             modal.style.display = "block";
+            message.textContent = ""; // メッセージをリセット
         }
 
         closeModal.onclick = function() {
             modal.style.display = "none";
+            message.textContent = ""; // メッセージをリセット
         }
 
         window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+                message.textContent = ""; // メッセージをリセット
             }
         }
 
-	setTimeout(() => {
-		document.querySelector('.image').style.opacity = 1;
-	}, 3000);
+		submitButton.onclick = function() {
+		    if (passwordInput.value === correctPassword) {
+		        window.location.href = "MySongs.html?access=true";
+		    } else {
+		        message.textContent = "違います";
+		    }
+		}
+
+		setTimeout(() => {
+		    const section = document.querySelector('section');
+		    section.style.animation = 'moveUp 1s forwards'; // アニメーションを開始
+		}, 12000); // 8秒後に実行
+
+	    // 12秒後に画像を表示
+	    setTimeout(() => {
+	        document.querySelector('.image').style.opacity = 1;
+	    }, 15000);
+
   </script>
 	
 </body>
