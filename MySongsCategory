@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Songs</title>
+  <link rel="stylesheet" type="text/css" href="MySongs.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>使用楽曲</h1>
+    </header>
+    <div id="main">
+        <!-- ここに内容が挿入されます -->
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const mainDiv = document.getElementById('main');
+
+        // <div id="main">の内容を設定
+        mainDiv.innerHTML = `
+            <div id="buttonContainer">
+                <button onclick="toggleButton(this, 'Bright')">明るい曲</button>
+                <button onclick="toggleButton(this, 'Dark')">ダークな曲</button>
+                <button onclick="toggleButton(this, 'Rhythmic')">ノれる曲</button>
+                <button onclick="toggleButton(this, 'Emotional')">感情的な曲</button>
+                <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
+            </div>
+            <div id="container">
+                <table id="musicTable">
+                    <thead>
+                        <tr>
+                            <th>タイトル<br>アーティスト【収録】</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- データがここに挿入されます -->
+                    </tbody>
+                </table>
+            </div>
+        `;
+
+        function toggleButton(button, category) {
+            button.classList.toggle('active');
+            const buttons = document.querySelectorAll('#buttonContainer button');
+            buttons.forEach(btn => {
+                if (btn !== button) {
+                    btn.classList.remove('active');
+                }
+            });
+            filterSongs(category);
+        }
+
+        function filterSongs(targetCategory) {
+            let filteredSongs;
+            if (targetCategory === 'すべて') {
+                filteredSongs = musicData; // 全楽曲を表示
+            } else {
+                filteredSongs = musicData.filter(song => song.category.includes(targetCategory)); // フィルタリングされた楽曲を表示
+            }
+            shuffle(filteredSongs);
+            displaySongs(filteredSongs);
+        }
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displaySongs(songs) {
+            const tableBody = document.getElementById('musicTable').querySelector('tbody');
+            tableBody.innerHTML = ''; // 既存の行をクリア
+            const limitedSongs = songs.slice(0, 6);
+            const remainingSongs = songs.slice(6);
+
+            limitedSongs.forEach((song, index) => {
+                setTimeout(() => {
+                    const row = document.createElement('tr');
+                    row.classList.add('fade-in');
+                    const artistText = song.artist.join(', ');
+
+                    row.innerHTML = `
+                        <td>
+                            <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                            <br>
+                            ${artistText}
+                            <br>
+                            【${song.type}】
+                        </td>
+                    `;
+                    tableBody.appendChild(row);
+                    setTimeout(() => {
+                        row.classList.add('visible');
+                    }, 10);
+                }, index * 250);
+            });
+
+            if (remainingSongs.length > 0) {
+                setTimeout(() => {
+                    remainingSongs.forEach(song => {
+                        const row = document.createElement('tr');
+                        row.classList.add('fade-in');
+                        const artistText = song.artist.join(', ');
+
+                        row.innerHTML = `
+                            <td>
+                                <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                                <br>
+                                ${artistText}
+                                <br>
+                                【${song.type}】
+                            </td>
+                        `;
+                        tableBody.appendChild(row);
+                        setTimeout(() => {
+                            row.classList.add('visible');
+                        }, 10);
+                    });
+
+                    const table = document.getElementById('musicTable');
+                    table.style.width = '100%';
+                }, limitedSongs.length * 250);
+            }
+
+            window.scrollTo(0, 0);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const screenWidth = window.innerWidth;
+            const container = document.getElementById('container');
+            container.style.width = `${screenWidth}px`;
+            displaySongs(musicData); // 音楽データを表示
+        });
+
+        $(function(){
+            $('section a').on('click', function() {
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
