@@ -1,55 +1,202 @@
 <!DOCTYPE html>
 <html lang="ja">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <head>
-  <meta charset="utf-8">
-  <title>My Songs</title>
-  <link rel="stylesheet" type="text/css" href="MySongs.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Songs</title>
+    <link rel="stylesheet" type="text/css" href="MySongs.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
+    <header>
+        <h1>使用楽曲</h1>
+    </header>
+    <div id="main">
+        <!-- ここに内容が挿入されます -->
+    </div>
 
-<!--	<div id="menu">
-		<div><a href="#menu" class="menuopen">OPEN</a><a href="#close" class="menuclose">CLOSE</div>
-		<ul>
-			<li><a href="#" onclick="filterSongs('すべて')">参加者向け機能</a></li>
-			<li><a href="#" onclick="filterSongs('ロック')">テンポ昇順</a></li>
-			<li><a href="#" onclick="filterSongs('ポップ')">Cumbia</a></li>
-			<li><a href="#" onclick="filterSongs('ロック')">Reggaeton</a></li>
-			<li><a href="#" onclick="filterSongs('すべて')">Others</a></li>
-		</ul>
-	</div>
--->
-	<header>
-		<h1>楽曲一覧</h1>
-	</header>
-	<div id="main">
-		<!-- メイン内容 -->
-	    <div>
-    	    <button onclick="filterSongs('Merengue')">Merengue</button>
-        	<button onclick="filterSongs('Salsa')">Salsa</button>
-    	    <button onclick="filterSongs('Cumbia')">Cumbia</button>
-        	<button onclick="filterSongs('Reggaeton')">Reggaeton</button>
-        	<button onclick="filterSongs('すべて')">すべて表示</button>
-    	</div>
-		<div id="container">
-	    	<table id="musicTable">
-				<thead>
-            		<tr>
-                		<th>タイトル<br>アーティスト【収録】</th>
-            		</tr>
-        		</thead>
-        		<tbody>
-            <!-- データがここに挿入されます -->
-        		</tbody>
-    		</table>
+    <script src="script.js"></script>
+    <script>
+        const allGenres = ['Merengue', 'Salsa', 'Cumbia', 'Reggaeton', 'Afrobeat', 'Soca', 'Bachata', 'Bellydance', 'Pop', 'Brazilian Funk', 'Flamenco'];
 
-		</div>
+        // ランダムに4つのジャンルを選ぶ関数
+        function getRandomGenres(arr, num) {
+            const shuffled = arr.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, num);
+        }
 
-    	<script src="script.js"></script>
+        const accessGranted = getQueryParameter('access') === 'true';
+        const mainDiv = document.getElementById('main');
 
+        // パスワードに応じたコンテンツを設定
+        if (accessGranted) {
+            // パスワードが正しい場合の内容
+            mainDiv.innerHTML = `
+                <div id="buttonContainer">
+                    <button onclick="toggleButton(this, 'Afrobeat')">Afrobeat</button>
+                    <button onclick="toggleButton(this, 'Cumbia')">Cumbia</button>
+                    <button onclick="toggleButton(this, 'Salsa')">Salsa</button>
+                    <button onclick="toggleButton(this, 'Samba')">Samba</button>
+                    <button onclick="toggleButton(this, 'Soca')">Soca</button>
+                    <button onclick="toggleButton(this, 'Dancehall')">Dancehall</button>
+                    <button onclick="toggleButton(this, 'Dembow')">Dembow</button>
+                    <button onclick="toggleButton(this, 'Bachata')">Bachata</button>
+                    <button onclick="toggleButton(this, 'Bhangra')">Bhangra</button>
+                    <button onclick="toggleButton(this, 'Vallenato')">Vallenato</button>
+                    <button onclick="toggleButton(this, 'Brazilian Funk')">Brazilian Funk</button>
+                    <button onclick="toggleButton(this, 'Flamenco')">Flamenco</button>
+                    <button onclick="toggleButton(this, 'Fusion')">Fusion</button>
+                    <button onclick="toggleButton(this, 'Bellydance')">Bellydance</button>
+                    <button onclick="toggleButton(this, 'Pop')">Pop</button>
+                    <button onclick="toggleButton(this, 'Moombathon')">Moombathon</button>
+                    <button onclick="toggleButton(this, 'Merengue')">Bellydance</button>
+                    <button onclick="toggleButton(this, 'Reggae')">Pop</button>
+                    <button onclick="toggleButton(this, 'Reggaeton')">Moombathon</button>
+                    <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
+                </div>
+                <div id="container">
+                    <table id="musicTable">
+                        <thead>
+                            <tr>
+                                <th>タイトル<br>アーティスト【収録】</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- データがここに挿入されます -->
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        } else {
+            // パスワードが間違っている場合の内容
+            const selectedGenres = getRandomGenres(allGenres, 4);
+            mainDiv.innerHTML = `
+                <div id="buttonContainer">
+                    ${selectedGenres.map(genre => `<button onclick="filterSongs('${genre}')">${genre}</button>`).join('')}
+                    <button onclick="filterSongs('すべて')">すべて表示</button>
+                </div>
+                <div id="container">
+                    <table id="musicTable">
+                        <thead>
+                            <tr>
+                                <th>タイトル<br>アーティスト【収録】</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- データがここに挿入されます -->
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
 
-	</div>
+        function toggleButton(button, genre) {
+            button.classList.toggle('active');
+            const buttons = document.querySelectorAll('#buttonContainer button');
+            buttons.forEach(btn => {
+                if (btn !== button) {
+                    btn.classList.remove('active');
+                }
+            });
+            filterSongs(genre);
+        }
+
+        function filterSongs(targetGenre) {
+            let filteredSongs;
+            if (targetGenre === 'すべて') {
+                filteredSongs = musicData; // 全楽曲を表示
+            } else {
+                filteredSongs = musicData.filter(song => song.genre.includes(targetGenre)); // フィルタリングされた楽曲を表示
+            }
+            shuffle(filteredSongs);
+            displaySongs(filteredSongs);
+        }
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displaySongs(songs) {
+            const tableBody = document.getElementById('musicTable').querySelector('tbody');
+            tableBody.innerHTML = ''; // 既存の行をクリア
+            const limitedSongs = songs.slice(0, 6);
+            const remainingSongs = songs.slice(6);
+
+            limitedSongs.forEach((song, index) => {
+                setTimeout(() => {
+                    const row = document.createElement('tr');
+                    row.classList.add('fade-in');
+                    const artistText = song.artist.join(', ');
+
+                    row.innerHTML = `
+                        <td>
+                            <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                            <br>
+                            ${artistText}
+                            <br>
+                            【${song.type}】
+                        </td>
+                    `;
+                    tableBody.appendChild(row);
+                    setTimeout(() => {
+                        row.classList.add('visible');
+                    }, 10);
+                }, index * 250);
+            });
+
+            if (remainingSongs.length > 0) {
+                setTimeout(() => {
+                    remainingSongs.forEach(song => {
+                        const row = document.createElement('tr');
+                        row.classList.add('fade-in');
+                        const artistText = song.artist.join(', ');
+
+                        row.innerHTML = `
+                            <td>
+                                <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                                <br>
+                                ${artistText}
+                                <br>
+                                【${song.type}】
+                            </td>
+                        `;
+                        tableBody.appendChild(row);
+                        setTimeout(() => {
+                            row.classList.add('visible');
+                        }, 10);
+                    });
+
+                    const table = document.getElementById('musicTable');
+                    table.style.width = '100%';
+                }, limitedSongs.length * 250);
+            }
+
+            window.scrollTo(0, 0);
+        }
+
+        // URLからパラメータを取得する関数
+        function getQueryParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // DOMが読み込まれた後に実行
+        document.addEventListener('DOMContentLoaded', () => {
+            const screenWidth = window.innerWidth;
+            const container = document.getElementById('container');
+            container.style.width = `${screenWidth}px`;
+            displaySongs(musicData); // 音楽データを表示
+        });
+
+        $(function(){
+            $('section a').on('click', function() {
+                return false;
+            });
+        });
+    </script>
 </body>
+</html>
