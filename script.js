@@ -25,7 +25,7 @@ const musicData = [
         type: "FitnessVariation 26",
         category: ["Rhythmic"],
 		tempo: "1",
-        link: "https://youtu.be/M7oZquZM8to?si=2jdbQVxlOVjLPQGQ"
+        link: "https://youtu.be/M7oZquZM8to?si=2jdbQVxlOVjLPQGQ",
     },
     {
         title: "Amor De Lejos",
@@ -69,7 +69,7 @@ const musicData = [
         genre: ["Merengue"],
         type: "MegaMix 48",
         category: ["Rhythmic"],
-		tempo: "",
+		tempo: "1",
         link: "https://youtu.be/kkY0PeMaZKA?si=JqhUCGc6MCEwfLZY"
     },
     {
@@ -890,7 +890,7 @@ const musicData = [
         title: "Ella Quiere Mambo (Zumba Version)",
         artist: ["E Tune"],
         genre: ["Merengue"],
-        type: "",
+        type: "ZIN 101",
         category: ["Power", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/tzZC26HDgqI"
@@ -1385,7 +1385,7 @@ const musicData = [
     {
         title: "Ram Pam Pam",
         artist: ["Natti Natasha", "feat.", "Becky G"],
-        genre: ["Reggeton", "Cumbia", "Urban"],
+        genre: ["Reggaeton", "Cumbia", "Urban"],
         type: "Others",
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
@@ -1450,7 +1450,7 @@ const musicData = [
         artist: ["NMIXX"],
         genre: ["K-Pop", "Pop"],
         type: "Others",
-        category: ["Dark", "Cool", "Experimental"],
+        category: ["Dark", "Cool", "Experimental", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/4_vzrcxpT4I?si=afr5f_HCG2jDPcF9"
 	},
@@ -1511,101 +1511,6 @@ const musicData = [
 
 
 
-
 ];
 
 
-
-function filterSongs(targetGenre) {
-    let filteredSongs;
-    if (targetGenre === 'すべて') {
-        filteredSongs = musicData; // 全楽曲を表示
-    } else {
-        filteredSongs = musicData.filter(song => song.genre.includes(targetGenre)); // フィルタリングされた楽曲を表示
-    }
-
-    // 楽曲を表示
-    displaySongs(filteredSongs);
-}
-
-function displaySongs(songs) {
-    const tableBody = document.getElementById('musicTable').querySelector('tbody');
-    tableBody.innerHTML = ''; // 既存の行をクリア
-
-    // 最初の6曲のみを取得
-    const limitedSongs = songs.slice(0, 6);
-    const remainingSongs = songs.slice(6); // 7曲目以降を取得
-
-    limitedSongs.forEach((song, index) => {
-        // 各楽曲を遅延させて表示 (250ms間隔)
-        setTimeout(() => {
-            const row = document.createElement('tr');
-            row.classList.add('fade-in'); // フェードインクラスを追加
-            
-            const artistText = song.artist.join(', ');
-
-            row.innerHTML = `
-                <td>
-                    <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
-                    <br>
-                    ${artistText}
-                    <br>
-                    【${song.type}】
-                </td>
-            `;
-            tableBody.appendChild(row);
-
-            // フェードインを適用
-            setTimeout(() => {
-                row.classList.add('visible'); // visibleクラスを追加
-            }, 10); // 短い遅延を入れてアニメーションが機能するように
-        }, index * 250); // 250ms間隔で表示
-    });
-// 6曲目の表示後に残りの曲を一括表示
-if (remainingSongs.length > 0) {
-    setTimeout(() => {
-        remainingSongs.forEach(song => {
-            const row = document.createElement('tr');
-            row.classList.add('fade-in'); // フェードインクラスを追加
-
-            const artistText = song.artist.join(', ');
-
-            row.innerHTML = `
-                <td>
-                    <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
-                    <br>
-                    ${artistText}
-                    <br>
-                    【${song.type}】
-                </td>
-            `;
-            tableBody.appendChild(row);
-
-            // フェードインを適用
-            setTimeout(() => {
-                row.classList.add('visible'); // visibleクラスを追加
-            }, 10); // 短い遅延を入れてアニメーションが機能するように
-        });
-
-        // テーブルの幅を再設定
-        const table = document.getElementById('musicTable');
-        table.style.width = '100%'; // もしくは適切な幅を設定
-    }, limitedSongs.length * 250); // 6曲表示後に一括表示
-}
-
-    // ページを一番上にスクロール
-    window.scrollTo(0, 0);
-}
-
-
-// DOMが読み込まれた後に実行
-document.addEventListener('DOMContentLoaded', () => {
-    const screenWidth = window.innerWidth; // 画面の幅を取得
-
-    // containerの幅を設定
-    const container = document.getElementById('container'); // containerを取得
-    container.style.width = `${screenWidth}px`; // containerの幅を画面幅に設定
-
-    // 最初の表示
-    displaySongs(musicData); // 音楽データを表示
-});
