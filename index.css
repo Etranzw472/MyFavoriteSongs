@@ -1,3 +1,5 @@
+/*=============
+仮公開終了時にコメントオフ
 @keyframes moveUp {
     0% {
         transform: translateY(0);
@@ -16,6 +18,28 @@ p {
 section {
     max-width: 300px;
     margin: 250px auto;
+        opacity: 1;
+        transition: opacity 6s;
+=============*/
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+p {
+    color: #63822D;
+    text-align: center;
+}
+
+section {
+    max-width: 300px;
+    margin: 50px auto;
         opacity: 1;
         transition: opacity 6s; /* 不透明度の変化にアニメーションを追加 */
 }
