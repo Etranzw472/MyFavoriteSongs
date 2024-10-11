@@ -7,6 +7,12 @@
     }
 }
 
+
+p {
+    color: #63822D;
+    text-align: center;
+}
+
 section {
     max-width: 300px;
     margin: 250px auto;
