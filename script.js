@@ -5,7 +5,7 @@ const musicData = [
         artist: ["La-33", "(Covered by Zumba)"],
         genre: ["Salsa", "Mambo"],
         type: "MegaMix 14",
-        category: ["Emotional"],
+        category: ["Emotional", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
@@ -14,7 +14,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Samba", "Batucada"],
         type: "MegaMix 14",
-        category: ["Relaxing"],
+        category: ["Relaxing", "Distinctive"],
 		tempo: "1",
         link: ""
     },
@@ -59,7 +59,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Quebradita"],
         type: "ZIN 47",
-        category: ["Traditional", "Powerful"],
+        category: ["Traditional", "Powerful", "Distinctive"],
 		tempo: "1",
         link: ""
     },
@@ -77,7 +77,7 @@ const musicData = [
         artist: ["Machel Montano"],
         genre: ["Reggae", "Soca"],
         type: "MegaMix 48",
-        category: ["Powerful"],
+        category: ["Powerful", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/zUxfgSdYNN4"
     },
@@ -113,7 +113,7 @@ const musicData = [
         artist: ["La Poderosa", "Víctor Manuelle", "(Covered by Zumba)"],
         genre: ["Salsa", "Batucada"],
         type: "MegaMix 52",
-        category: ["Bright", "Powerful", "Rhythmic"],
+        category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/zAlJdUmMzsA?si=7zIIdMYB1fqdvgO3"
     },
@@ -122,7 +122,7 @@ const musicData = [
         artist: ["Amarfis", "La Banda De Atakke"],
         genre: ["Merengue"],
         type: "MegaMix 52",
-        category: "Powerful",
+        category: ["Powerful", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/0NSJaxY_vzM?si=nGYg2G-1juxyrww-"
     },
@@ -147,7 +147,7 @@ const musicData = [
     {
         title: "Tu Mi Medicina",
         artist: ["Andy Quintero"],
-        genre: ["Merengue"],
+        genre: ["Merengue", "Pop"],
         type: "MegaMix 58",
         category: ["Bright"],
 		tempo: "1",
@@ -194,7 +194,7 @@ const musicData = [
         artist: ["El Dusty", "feat.", "Happy Colors", "(Covered by Zumba)"],
         genre: ["Cumbia", "Urban"],
         type: "ZIN 60",
-        category: ["Traditional"],
+        category: ["Traditional", "Experimental"],
 		tempo: "1",
         link: "https://youtu.be/MT02fwtyVVU"
 	},
@@ -219,7 +219,7 @@ const musicData = [
     {
         title: "No Voy A Llorar",
         artist: ["Carolina La O", "(feat.)", "Robert Taylor"],
-        genre: ["Merengue"],
+        genre: ["Merengue", "pop"],
         type: "ZIN 64",
         category: ["Rhythmic"],
 		tempo: "1",
@@ -230,7 +230,7 @@ const musicData = [
         artist: ["Los Del Rio"],
         genre: ["Salsa"],
         type: "ZIN 64",
-        category: ["", "Rhythmic"],
+        category: ["Distinctive", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/cV0FxPZ3YR0?si=aHcmsR-GDEMVLyrO"
 	},
@@ -239,7 +239,7 @@ const musicData = [
         artist: ["Olga Tañon"],
         genre: ["Reggaeton"],
         type: "MegaMix 65",
-        category: ["Emotional", "Dark"],
+        category: ["Emotional", "Dark", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/HJ6mZZbN2AE?si=snPj72lOa9JGhufv"
 	},
@@ -257,7 +257,7 @@ const musicData = [
         artist: ["Robert Taylor"],
         genre: ["Merengue", "Batucada"],
         type: "MegaMix 66",
-        category: ["Bright", "Rhythmic"],
+        category: ["Blast", "Rhythmic", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
@@ -266,7 +266,7 @@ const musicData = [
         artist: ["Play-N-Skillz", "feat.", "Jenn Morel", "Joelli"],
         genre: ["Reggaeton", "Dembow"],
         type: "MegaMix 67",
-        category: ["Power", "Rhythmic"],
+        category: ["Powerful", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/HBntvaWP9qc?si=8QN8Z0LU7LJUyirP"
 	},
@@ -275,7 +275,7 @@ const musicData = [
         artist: ["Armando", "&", "Heidy"],
         genre: ["Dembow"],
         type: "ZIN 68",
-        category: ["Power", "Experimental"],
+        category: ["Powerful", "Experimental"],
 		tempo: "1",
         link: "https://youtu.be/wwrgDrXK4i8?si=oTEi4E9C6aGcmeW7"
 	},
@@ -293,14 +293,14 @@ const musicData = [
         artist: ["Bruno Mars"],
         genre: ["Trap", "Reggaeton"],
         type: "ZIN 70",
-        category: ["Cool", "Power"],
+        category: ["Cool", "Powerful"],
 		tempo: "1",
         link: "https://youtu.be/PMivT7MJ41M?si=QW6itaZPAENZ3vRC"
 	},
     {
         title: "Solo Tu",
         artist: ["Jaider White", "feat.", "Robert Taylor"],
-        genre: ["Merengue"],
+        genre: ["Merengue", "Pop"],
         type: "ZIN 70",
         category: ["Rhythmic"],
 		tempo: "1",
@@ -311,7 +311,7 @@ const musicData = [
         artist: ["Prince Royce", "feat.", "Gente de Zona", "Arturo Sandoval", "(Covered by Zumba)"],
         genre: ["Bachata"],
         type: "ZIN 71",
-        category: ["Emotional"],
+        category: ["Emotional", "Cool"],
 		tempo: "1",
         link: "https://youtu.be/B6wTkZwq7nI"
 	},
@@ -329,7 +329,7 @@ const musicData = [
         artist: ["Jeison el Brother"],
         genre: ["Cumbia", "Reggaeton"],
         type: "MegaMix73",
-        category: ["Powerful"],
+        category: ["Powerful", "Experimental"],
 		tempo: "1",
         link: "https://youtu.be/NtNNiudOEgM?si=ISTOVxsELjEA1an8"
 	},
@@ -347,7 +347,7 @@ const musicData = [
         artist: ["Broz Rodriguez", "feat.", "Lujavo", "Toy Selectah"],
         genre: ["EDM", "Cumbia"],
         type: "ZIN 74",
-        category: ["Powerful", "Dark"],
+        category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/1AtvhzMDnFg"
 	},
@@ -374,7 +374,7 @@ const musicData = [
         artist: ["Liam Payne", "feat.", "J.Balvin"],
         genre: ["Latin"],
         type: "ZIN 75",
-        category: ["Dark", "Emotional"],
+        category: ["Cool", "Emotional"],
 		tempo: "1",
         link: "https://youtu.be/oWw1BcFhk-k?si=lGO9BNbHEU6OZDTS"
 	},
@@ -383,7 +383,7 @@ const musicData = [
         artist: ["Hakim"],
         genre: ["Bellydance"],
         type: "ZIN 75",
-        category: ["Distinctive"],
+        category: ["Distinctive", "Traditional"],
 		tempo: "1",
         link: "https://youtu.be/Qa56XzB7yIk?si=s2bo-Kikw7cTcjIC"
 	},
@@ -392,7 +392,7 @@ const musicData = [
         artist: ["Carolina Sabino"],
         genre: ["Cumbia"],
         type: "ZIN 77",
-        category: ["Bright"],
+        category: ["Bright", "Rhythmic"],
 		tempo: "1",
         link: ""
 	},
@@ -401,7 +401,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Bhangra", "EDM"],
         type: "MegaMix 78",
-        category: ["Powerful", "Traditional"],
+        category: ["Powerful", "Traditional", "Blast"],
 		tempo: "1",
         link: ""
 	},
@@ -410,7 +410,7 @@ const musicData = [
         artist: ["DEMOglias"],
         genre: ["Merengue"],
         type: "MegaMix 79",
-        category: ["Powerful", "Rhythmic"],
+        category: ["Powerful", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/lYzPoNQvCoE"
 	},
@@ -419,7 +419,7 @@ const musicData = [
         artist: ["Juan Magan", "Deorro", "MAKJ"],
         genre: ["Merengue", "EDM"],
         type: "ZIN 79",
-        category: ["Power", "Dark"],
+        category: ["Powerful", "Cool"],
 		tempo: "1",
         link: "https://youtu.be/v6lELbZiZG8?si=FASZyEH_jaR_UnON"
 	},
@@ -438,7 +438,7 @@ const musicData = [
         artist: ["Juan Por Dios"],
         genre: ["Quebradita", "Hip-hop"],
         type: "ZIN 80",
-        category: ["Rhythmic"],
+        category: ["Rhythmic", "Powerful"],
 		tempo: "1",
         link: "https://youtu.be/4vjLdni4OVQ"
 	}
@@ -448,7 +448,7 @@ const musicData = [
         artist: ["Play-N-Skillz"],
         genre: ["Reggaeton", "Cha-cha-cha"],
         type: "ZIN 80",
-        category: ["Dark"],
+        category: ["Dark", "Cool"],
 		tempo: "1",
         link: "https://youtu.be/O8_LW71sfE0"
 	}
@@ -493,7 +493,7 @@ const musicData = [
     {
         title: "Se Te Ve",
         artist: ["Ray El Ingeniero"],
-        genre: ["Cumbia", "Bhangra"],
+        genre: ["Cumbia", "Bhangra", "Bellydance"],
         type: "ZIN 81",
         category: ["Traditional", "Relaxing"],
 		tempo: "1",
@@ -504,7 +504,7 @@ const musicData = [
         artist: ["Wisin", "feat.", "Jon Z", "Chezina"],
         genre: ["Reggaeton", "Urban"],
         type: "ZIN 82",
-        category: ["Dark", "Power"],
+        category: ["Dark", "Powerful"],
 		tempo: "1",
         link: "https://youtu.be/y5Hf0O1nWMQ?si=IKRUF7IJ-6BP8-Zp"
 	},
@@ -522,7 +522,7 @@ const musicData = [
         artist: ["Bela Hamilton"],
         genre: ["Reggaeton", "Urban"],
         type: "ZIn 82",
-        category: ["Cool", ""],
+        category: ["Cool", "Dark"],
 		tempo: "1",
         link: "https://youtu.be/D3nmBUEBJYs"
 	},
@@ -558,7 +558,7 @@ const musicData = [
         artist: ["Nadia Batson", "Destra Garcia"],
         genre: ["Soca"],
         type: "ZIN 86",
-        category: ["Rhythmic", "Bright"],
+        category: ["Rhythmic", "Bright", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/0J_g5zeUeCo?si=pwAXyk74RQ7iLvOk"
 	},
@@ -576,7 +576,7 @@ const musicData = [
         artist: ["Reggi", "feat.", "Gizzle"],
         genre: ["Dubstep"],
         type: "ZIN 87",
-        category: ["Cool", "Dark"],
+        category: ["Cool", "Dark", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
@@ -603,7 +603,7 @@ const musicData = [
         artist: ["Bela Hamilton"],
         genre: ["Merengue", "EDM"],
         type: "ZIN 92",
-        category: ["Powerful", "Rhythmic"],
+        category: ["Powerful", "Rhythmic", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/cMneYC0LnEo?si=kX_ZqaXvup0xHzyQ"
 	},
@@ -657,7 +657,7 @@ const musicData = [
         artist: ["DEMOglias", "SNDY", "Young F", "Chune"],
         genre: ["EDM"],
         type: "Megamix 95",
-        category: ["Rhythmic", "Dark"],
+        category: ["Powerful", "Dark"],
 		tempo: "1",
         link: "https://youtu.be/Y_YJ5tIG8XM"
 	},
@@ -682,9 +682,9 @@ const musicData = [
     {
         title: "Amaneci",
         artist: ["Puchu y Tucutu"],
-        genre: ["Dembow"],
+        genre: ["Dembow", "Guaracha"],
         type: "MegaMix 96",
-        category: ["Dark", "Rhythmic"],
+        category: ["Cool", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/Ajrkot_J5Qk?si=_gWMPxcnYIe6Okmo"
 	},
@@ -693,7 +693,7 @@ const musicData = [
         artist: ["David DLuna"],
         genre: ["Salsa"],
         type: "MegaMix 96",
-        category: ["Dark", "Cool", "Rhythmic"],
+        category: ["Experimental", "Cool", "Rhythmic"],
 		tempo: "1",
         link: ""
 	},
@@ -702,7 +702,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Cumbia", "Dembow"],
         type: "ZIN 96",
-        category: ["Cool", "Experimental", "Powerful"],
+        category: ["Cool", "Experimental", "Blast"],
 		tempo: "1",
         link: ""
 	},
@@ -738,7 +738,7 @@ const musicData = [
         artist: ["Sofia Reyes", "El Gran Silencio"],
         genre: ["Cumbia"],
         type: "MegaMix 98",
-        category: ["Emotional", "Rhythmic", "Experimental"],
+        category: ["Emotional", "Experimental"],
 		tempo: "1",
         link: "https://youtu.be/eeN7tHYQorE?si=-JdIsr7Nu4fl3em2"
 	},
@@ -756,7 +756,7 @@ const musicData = [
         artist: ["Carlos Vives", "Camilo"],
         genre: ["Vallenato"],
         type: "ZIN 98",
-        category: ["Relaxing", "Bright", "Emotional"],
+        category: ["Relaxing", "Emotional"],
 		tempo: "1",
         link: "https://youtu.be/fOAYjG_G4xY?si=-IDiwwJk1KwDiR4C"
 	},
@@ -774,7 +774,7 @@ const musicData = [
         artist: ["Dahrio"],
         genre: ["Funk"],
         type: "MegaMix 99",
-        category: ["Bright", "Rhythmic"],
+        category: ["Blast", "Rhythmic"],
 		tempo: "1",
         link: ""
 	},
@@ -819,7 +819,7 @@ const musicData = [
         artist: ["Pinto Picasso"],
         genre: ["Flamenco"],
         type: "MegaMix 99",
-        category: ["Cool", "Emotional"],
+        category: ["Cool", "Blast"],
 		tempo: "1",
         link: ""
 	},
@@ -837,7 +837,7 @@ const musicData = [
         artist: ["Juan Magan", "Topo La Maskara", "Mr.Vegas"],
         genre: ["Dancehall"],
         type: "ZIN 100",
-        category: ["Dark"],
+        category: ["Dark", "Cool"],
 		tempo: "1",
         link: "https://music.youtube.com/watch?v=PGQJGkbD8KM&si=Cnu9bduolZWQjPa5&feature=xapp_share"
 	},
@@ -846,7 +846,7 @@ const musicData = [
         artist: ["Zion", "Lennox", "Maria Becerra"],
         genre: ["Latin", "House"],
         type: "ZIN 100",
-        category: ["Dark", "Cool", "Emotional"],
+        category: ["Dark", "Cool", "Emotional", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
 	},
@@ -864,7 +864,7 @@ const musicData = [
         artist: ["The Flow", "BIP"],
         genre: ["Soca"],
         type: "MegaMix 100",
-        category: ["Power", "Dark", "Rhythmic"],
+        category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
 	},
@@ -882,7 +882,7 @@ const musicData = [
         artist: ["Los Enbajadres de la Salsa"],
         genre: ["Salsa", "Cumbia"],
         type: "ZIN 101",
-        category: ["Bright", "Emotional", "Rhythmic"],
+        category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/FCYkWbPmRfo"
 	},
@@ -963,7 +963,7 @@ const musicData = [
         artist: ["David DLuna"],
         genre: ["Afrobeat"],
         type: "MegaMix 102",
-        category: ["Relaxing", "Emotional"],
+        category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
@@ -973,6 +973,15 @@ const musicData = [
         genre: ["Cumbia"],
         type: "ZIN 103",
         category: ["Dark", "Traditional"],
+		tempo: "1",
+        link: ""
+	},
+	{
+        title: "Azucar",
+        artist: ["BIP"],
+        genre: ["Salsa", "Trap"],
+        type: "ZIN 103",
+        category: ["Cool", "Experimental", "Blast"],
 		tempo: "1",
         link: ""
 	},
@@ -993,8 +1002,7 @@ const musicData = [
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
         link: ""
-	}
-,
+	},
     {
         title: "Sapeca",
         artist: ["Aroxa", "feat.", "Topo La Maaskara", "3 Tenores"],
@@ -1018,10 +1026,11 @@ const musicData = [
         artist: ["Mara Prada", "Robert Taylor"],
         genre: ["Mambo", "Fusion"],
         type: "ZIN 105",
-        category: ["Bright", "Rhythmic", "Powerful"],
+        category: ["Bright", "Rhythmic", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/qg41mcLpE1w?si=2kbcdhWBicp6fKFG"
 	},
+
     {
         title: "Como E'",
         artist: ["Zumba"],
@@ -1036,7 +1045,7 @@ const musicData = [
         artist: ["Sebastián Yatra", "Manuel Turizo", "Beéle"],
         genre: ["Pop", "Merengue"],
         type: "ZIN 105",
-        category: ["Relaxing", "Distinctive", "Bright"],
+        category: ["Relaxing", "Distinctive", "Emotional"],
 		tempo: "1",
         link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
 	},
@@ -1072,7 +1081,7 @@ const musicData = [
         artist: ["Ilgales", "Happy Colors"],
         genre: ["Latin", "Pop"],
         type: "ZIN 106",
-        category: ["Bright", "Rhythmic", "Distinctive"],
+        category: ["Bright", "Rhythmic", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/VolmYSTcUzM?si=K8qDlBJFtu13gTDB"
 	},
@@ -1084,6 +1093,15 @@ const musicData = [
         category: ["Powerful", "Traditional"],
 		tempo: "1",
         link: ""
+	},
+    {
+        title: "Chillin",
+        artist: ["HIZO_888", "Topo La Maskara", "DavidDLuna"],
+        genre: ["Brazilian Funk", "Latin"],
+        type: "ZIN 106",
+        category: ["Emotional", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/dhDhjmsz4aI?si=mIX3-9dfybIau97y"
 	},
     {
         title: "Metele Saoco",
@@ -1248,6 +1266,15 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Let's Freak",
+        artist: ["Robbie Elias" ,"BIP"],
+        genre: ["Meren"],
+        type: "ZIN 111",
+        category: ["Cool", "Powerful", "Rhythmic"],
+		tempo: "1",
+        link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
+	},
+    {
         title: "Sushi Azul",
         artist: ["Max Pizzolante"],
         genre: ["Merengue"],
@@ -1284,6 +1311,15 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Rapapari",
+        artist: ["Magic Juan", "feat.", "El Pekeno"],
+        genre: ["Merengue"],
+        type: "ZIN 113",
+        category: ["Bright", "Blast", "Distinctive"],
+		tempo: "1",
+        link: ""
+	},
+    {
         title: "Insomnio",
         artist: ["Nicky Jam"],
         genre: ["Bachata", "Fusion"],
@@ -1313,7 +1349,7 @@ const musicData = [
     {
         title: "Arabian Flow",
         artist: ["Zumba"],
-        genre: ["Arabic", "Salsa"],
+        genre: ["Arabic", "Salsa", "Bellydance"],
         type: "KIDS 2018 NOV",
         category: ["Dark", "Cool", "Traditional", "Distinctive"],
 		tempo: "1",
@@ -1333,7 +1369,7 @@ const musicData = [
         artist: ["Blaxx"],
         genre: ["Soca"],
         type: "KIDS 2021 AUG",
-        category: ["Powerful", "Distinctive"],
+        category: ["Powerful", "Distinctive", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
 	},
@@ -1405,7 +1441,7 @@ const musicData = [
         artist: ["Michael Jackson"],
         genre: ["EDM", "Rock"],
         type: "Others",
-        category: ["Powerful", "Dark", "Cool"],
+        category: ["Powerful", "Dark", "Cool", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
 	},
@@ -1423,7 +1459,7 @@ const musicData = [
         artist: ["Gipsy Kings"],
         genre: ["Flamenco"],
         type: "Others",
-        category: ["Bright", "Powerful", "Traditional"],
+        category: ["Bright", "Powerful", "Traditional", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/X8TOhb_4jU0?si=tQC6KAf9kbTfqtcC"
 	},
@@ -1441,7 +1477,7 @@ const musicData = [
         artist: ["Chino", "Nacho"],
         genre: ["Latin"],
         type: "Others",
-        category: ["Rhythmic"],
+        category: ["Bright", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/dR8dBCzs2EY?si=oW86LMbQax-TlXb7"
 	},
@@ -1450,7 +1486,7 @@ const musicData = [
         artist: ["NMIXX"],
         genre: ["K-Pop", "Pop"],
         type: "Others",
-        category: ["Dark", "Cool", "Experimental", "Distinctive"],
+        category: ["Cool", "Experimental", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/4_vzrcxpT4I?si=afr5f_HCG2jDPcF9"
 	},
@@ -1459,7 +1495,7 @@ const musicData = [
         artist: ["Creepy Nuts", "The Covers Duo"],
         genre: ["Hip-hop", "Merengue"],
         type: "Others",
-        category: ["Distinctive", "Powerful"],
+        category: ["Distinctive", "Powerful", "Blast"],
 		tempo: "1",
         link: "https://youtu.be/pYOgZFtjcas?si=4irg6zsQtApILFm3"
 	},
@@ -1502,7 +1538,7 @@ const musicData = [
     {
         title: "To My Love (Tainy Remix)",
         artist: ["Bomba Esteleo"],
-        genre: ["Pop", "Reggaeton"],
+        genre: ["Pop", "Reggaeton", "Latin"],
         type: "Others",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
