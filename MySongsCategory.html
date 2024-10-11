@@ -18,30 +18,49 @@
 
     <script src="script.js"></script>
     <script>
+        const allCategory = ['Powerful', 'Emotional', 'Distinctive', 'Experimental', 'Traditional', 'Bright', 'Dark', 'Cool', 'Rhythmic', 'Relaxing', 'Blast'];
+		const categoryTranslations = {
+		    'Powerful': '力強い曲',
+		    'Emotional': '感情的な曲',
+		    'Distinctive': '特徴的な曲',
+		    'Experimental': '先進的な曲',
+		    'Traditional': '伝統的な曲',
+		    'Bright': '明るい曲',
+		    'Dark': '暗い曲',
+		    'Cool': 'クールな曲',
+		    'Rhythmic': 'リズム感のある曲',
+		    'Relaxing': 'リラックスできる曲',
+		    'Blast': '盛り上がる曲'
+};
+        // ランダムに4つのカテゴリを選ぶ関数
+        function getRandomCategory(arr, num) {
+            const shuffled = arr.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, num);
+        }
+
+        // 選ばれたカテゴリを取得
+        const selectedCategorys = getRandomCategory(allCategory, 4);
         const mainDiv = document.getElementById('main');
 
         // <div id="main">の内容を設定
         mainDiv.innerHTML = `
-            <div id="buttonContainer">
-                <button onclick="toggleButton(this, 'Bright')">明るい曲</button>
-                <button onclick="toggleButton(this, 'Dark')">ダークな曲</button>
-                <button onclick="toggleButton(this, 'Rhythmic')">ノれる曲</button>
-                <button onclick="toggleButton(this, 'Emotional')">感情的な曲</button>
-                <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
-            </div>
-            <div id="container">
-                <table id="musicTable">
-                    <thead>
-                        <tr>
-                            <th>タイトル<br>アーティスト【収録】</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- データがここに挿入されます -->
-                    </tbody>
-                </table>
-            </div>
-        `;
+   <div id="buttonContainer">
+        ${selectedCategorys.map(category => `<button onclick="toggleButton(this, '${category}')">${categoryTranslations[category]}</button>`).join('')}
+        <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
+    </div>
+    <div id="container">
+        <table id="musicTable">
+            <thead>
+                <tr>
+                    <th>タイトル<br>アーティスト【収録】</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- データがここに挿入されます -->
+            </tbody>
+        </table>
+    </div>
+`;
 
         function toggleButton(button, category) {
             button.classList.toggle('active');
