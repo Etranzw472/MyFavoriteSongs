@@ -1290,7 +1290,7 @@ const musicData = [
         type: "ZIN 112",
         category: ["Emotional"],
 		tempo: "",
-        link: "https://example.com"
+        link: "https://youtu.be/MgsdDfdGdHc?si=p3JLLxX7l8ed0H6Q"
     },
     {
         title: "La Cumbia",
