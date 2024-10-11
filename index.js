@@ -1,9 +1,9 @@
 		const genreMapping = {
-		    '音楽にすききらいは無い': 'All',
+		    'どんな音楽も大すきだ': 'All',
 		    '力強い曲がすきだ': 'Powerful',
 		    'ゆったりした曲がすきだ': 'Relaxing',
-		    '感情的な曲がすきだ': 'Emotional',
-		    'ノれる曲が好きだ': 'Rhythmic'
+		    '感情を刺激する曲がすきだ': 'Emotional',
+		    'リズミカルな曲がすきだ': 'Rhythmic'
 		};
 		
 		function setGenre(choice) {
