@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Songs</title>
   <link rel="stylesheet" type="text/css" href="MySongs.css">
+
 </head>
 
 <body>
     <header>
-        <h1>使用楽曲</h1>
+        <h1>使用楽曲ページ（仮）</h1>
     </header>
     <div id="main">
         <!-- ここに内容が挿入されます -->
@@ -19,16 +20,16 @@
     <script>
         const allCategory = ['Powerful', 'Emotional', 'Distinctive', 'Experimental', 'Traditional', 'Bright', 'Dark', 'Cool', 'Rhythmic', 'Relaxing', 'Blast'];
 		const categoryTranslations = {
-		    'Powerful': '力強い曲',
-		    'Emotional': '感情的な曲',
-		    'Distinctive': '特徴的な曲',
-		    'Experimental': '先進的な曲',
-		    'Traditional': '伝統的・民族的な曲',
+		    'Powerful': 'ビートが力強い曲',
+		    'Emotional': '感情に訴えかける曲',
+		    'Distinctive': '振付が特徴的な曲',
+		    'Experimental': '先進的・実験的なな曲',
+		    'Traditional': '伝統的な構成・民族的な曲',
 		    'Bright': '明るい曲',
 		    'Dark': 'ダークな曲',
 		    'Cool': 'クールな曲',
-		    'Rhythmic': 'リズム感のある曲',
-		    'Relaxing': 'リラックスできる曲',
+		    'Rhythmic': 'リズミカルな曲',
+		    'Relaxing': 'ゆったりした癒しの曲',
 		    'Blast': '盛り上がる曲'
 };
         // ランダムに4つのカテゴリを選ぶ関数
@@ -51,7 +52,7 @@
         <table id="musicTable">
             <thead>
                 <tr>
-                    <th>タイトル<br>アーティスト【収録】</th>
+                    <th>タイトル<br>アーティスト【ジャンル】</th>
                 </tr>
             </thead>
             <tbody>
@@ -108,7 +109,7 @@
                             <br>
                             ${artistText}
                             <br>
-                            【${song.type}】
+                            【${song.genre}】
                         </td>
                     `;
                     tableBody.appendChild(row);
@@ -131,7 +132,7 @@
                                 <br>
                                 ${artistText}
                                 <br>
-                                【${song.type}】
+                                【${song.genre}】
                             </td>
                         `;
                         tableBody.appendChild(row);
