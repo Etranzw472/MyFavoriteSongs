@@ -5,7 +5,7 @@ const musicData = [
         artist: ["La-33", "(Covered by Zumba)"],
         genre: ["Salsa", "Mambo"],
         type: "MegaMix 14",
-        category: ["Emotional", "Distinctive"],
+        category: ["Traditional", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
@@ -41,7 +41,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Bhangra", "Cumbia"],
         type: "FitnessVariation 31",
-        category: ["Traditional", "Rhythmic"],
+        category: ["Traditional"],
 		tempo: "1",
         link: ""
     },
@@ -201,7 +201,7 @@ const musicData = [
     {
         title: "Indian Passion",
         artist: ["Zumba"],
-        genre: ["Bhanbra", "Fusion"],
+        genre: ["Bhangra", "Fusion"],
         type: "ZIN 61",
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
@@ -239,7 +239,7 @@ const musicData = [
         artist: ["Olga Tañon"],
         genre: ["Reggaeton"],
         type: "MegaMix 65",
-        category: ["Emotional", "Dark", "Distinctive"],
+        category: ["Cool", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/HJ6mZZbN2AE?si=snPj72lOa9JGhufv"
 	},
@@ -293,7 +293,7 @@ const musicData = [
         artist: ["Bruno Mars"],
         genre: ["Trap", "Reggaeton"],
         type: "ZIN 70",
-        category: ["Cool", "Powerful"],
+        category: ["Cool", "Experimental"],
 		tempo: "1",
         link: "https://youtu.be/PMivT7MJ41M?si=QW6itaZPAENZ3vRC"
 	},
@@ -311,7 +311,7 @@ const musicData = [
         artist: ["Prince Royce", "feat.", "Gente de Zona", "Arturo Sandoval", "(Covered by Zumba)"],
         genre: ["Bachata"],
         type: "ZIN 71",
-        category: ["Emotional", "Cool"],
+        category: ["Emotional"],
 		tempo: "1",
         link: "https://youtu.be/B6wTkZwq7nI"
 	},
@@ -747,7 +747,7 @@ const musicData = [
         artist: ["Jenn Morel"],
         genre: ["Dembow"],
         type: "ZIN 98",
-        category: ["Dark", "Cool"],
+        category: ["Dark"],
 		tempo: "1",
         link: "https://youtu.be/ToSDqW69mXk?si=SQ7iyAIT75OHDxyv"
 	},
@@ -1008,7 +1008,7 @@ const musicData = [
         artist: ["Aroxa", "feat.", "Topo La Maaskara", "3 Tenores"],
         genre: ["Brazilian Funk"],
         type: "ZIN 104",
-        category: ["Traditional", "Powerful"],
+        category: ["Traditional", "Rhythmic"],
 		tempo: "1",
         link: "https://youtu.be/6EcsIy_FUfg?si=gAJY1U_4gagdg0It"
 	},
@@ -1108,7 +1108,7 @@ const musicData = [
         artist: ["Pinto Picasso"],
         genre: ["Merengue", "Reggaeton"],
         type: "ZIZN 106",
-        category: ["Dark", "Powerful", "Emotional"],
+        category: ["Dark", "Powerful"],
 		tempo: "1",
         link: ""
 	},
@@ -1144,7 +1144,7 @@ const musicData = [
         artist: ["Hey Broders"],
         genre: ["Cumbia"],
         type: "ZIN 108",
-        category: ["Emotional", "Relaxing", "Traditional"],
+        category: ["Emotional", "Relaxing"],
 		tempo: "1",
         link: "https://youtu.be/VEp_2nGB0AU?si=fHLUhG-q2xjQeNw-"
 	},
@@ -1207,7 +1207,7 @@ const musicData = [
         artist: ["Max Pizzolante"],
         genre: ["Salsa", "Afrobeat"],
         type: "ZIN 110",
-        category: ["Cool", "Rhythmic", "Distinctive"],
+        category: ["Rhythmic", "Distinctive"],
 		tempo: "1",
         link: "https://youtu.be/RcbwlEejylI?si=oJ3w6M79XNXb0D52"
 	},
@@ -1225,7 +1225,7 @@ const musicData = [
         artist: ["Guaynaa"],
         genre: ["Cumbia", "Urban"],
         type: "ZIN 110",
-        category: ["Powerful", "Traditional", "Cool"],
+        category: ["Powerful", "Traditional"],
 		tempo: "1",
         link: "https://youtu.be/S61iMZDiN_w?si=XKozmGriyFHjBIYY"
 	},
@@ -1312,7 +1312,7 @@ const musicData = [
 	},
     {
         title: "Rapapari",
-        artist: ["Magic Juan", "feat.", "El Pekeno"],
+        artist: ["Magic Juan", "feat.", "El Pekeño"],
         genre: ["Merengue"],
         type: "ZIN 113",
         category: ["Bright", "Blast", "Distinctive"],
@@ -1351,7 +1351,7 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Arabic", "Salsa", "Bellydance"],
         type: "KIDS 2018 NOV",
-        category: ["Dark", "Cool", "Traditional", "Distinctive"],
+        category: ["Traditional", "Distinctive"],
 		tempo: "1",
         link: ""
 	},
@@ -1432,7 +1432,7 @@ const musicData = [
         artist: ["Beéle", "Farruko"],
         genre: ["Latin"],
         type: "Others",
-        category: ["Emotional", "Cool"],
+        category: ["Emotional"],
 		tempo: "1",
         link: "https://youtu.be/FS__SaIBf-A?si=BwYeaXnwgqtOk-KS"
 	},
@@ -1522,7 +1522,7 @@ const musicData = [
         artist: ["JUNG KOOK", "BTS"],
         genre: ["Pop"],
         type: "Others",
-        category: ["Emotional", "Powerful"],
+        category: ["Emotional"],
 		tempo: "1",
         link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
 	},
