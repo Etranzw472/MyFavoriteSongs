@@ -1,9 +1,9 @@
 		const genreMapping = {
-		    'どんな音楽も大すきだ': 'All',
+		    '音楽にすききらいは無い': 'All',
 		    '力強い曲がすきだ': 'Powerful',
 		    'ゆったりした曲がすきだ': 'Relaxing',
-		    '感情を刺激する曲がすきだ': 'Emotional',
-		    'リズミカルな曲がすきだ': 'Rhythmic'
+		    '感情的な曲がすきだ': 'Emotional',
+		    'ノれる曲が好きだ': 'Rhythmic'
 		};
 		
 		function setGenre(choice) {
@@ -18,7 +18,7 @@
         const passwordInput = document.getElementById('passwordInput');
         const message = document.getElementById('message');
 
-        const correctPassword = "あいらぶずんば"; // 正しいパスワード
+        const correctPassword = "あ"; // 正しいパスワード
 
         keyImage.onclick = function() {
             modal.style.display = "block";
@@ -39,7 +39,7 @@
 
 		submitButton.onclick = function() {
 		    if (passwordInput.value === correctPassword) {
-		        window.location.href = "MySongs.html?access=true";
+		        window.location.href = "MySongsCategory.html?access=true";
 		    } else {
 		        message.textContent = "ちがうよ";
 		    }
