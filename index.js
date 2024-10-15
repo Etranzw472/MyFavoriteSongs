@@ -41,7 +41,7 @@
 		    if (passwordInput.value === correctPassword) {
 		        window.location.href = "MySongsCategory.html?access=true";
 		    } else {
-		        message.textContent = "ちがうよ";
+		        message.textContent = "ちがうよ　さーくるのときにきいてね";
 		    }
 		}
 
