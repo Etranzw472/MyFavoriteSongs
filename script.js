@@ -1,3 +1,5 @@
+//usage: 6ケタで最終仕様月を表す（西暦下2ケタ＋月2ケタ+その月のサークル使用回2ケタ）
+
 const musicData = [
 
     {
@@ -7,6 +9,8 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
+		usage: "241003",
+		memo: "「豹のマンボ」",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
     {
@@ -16,6 +20,8 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
+		usage: "241003",
+		memo: "Zumbaスタジオ制作の楽曲で、音源も中々見つからない曲。セルジオメンデスが演奏しているようなオシャレなサンバ・ボサノヴァのような雰囲気。Bonito：「美しい」誰かを前に、心が揺れちゃう、そんな振付です。",
         link: ""
     },
     {
@@ -25,6 +31,8 @@ const musicData = [
         type: "FitnessVariation 26",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: "https://youtu.be/M7oZquZM8to?si=2jdbQVxlOVjLPQGQ",
     },
     {
@@ -34,6 +42,8 @@ const musicData = [
         type: "FitnessVariation 26",
         category: ["Dark", "Traditional"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: "https://youtu.be/Rgq2-DYsQfM?si=EMH1UPicZE0Tw-50"
     },
     {
@@ -43,6 +53,8 @@ const musicData = [
         type: "FitnessVariation 31",
         category: ["Traditional"],
 		tempo: "1",
+		usage: "240402",
+		memo: "Zumbaスタジオの曲。",
         link: ""
     },
     {
@@ -52,6 +64,8 @@ const musicData = [
         type: "ZIN 44",
         category: ["Powerful"],
 		tempo: "1",
+		usage: "240103",
+		memo: "",
         link: ""
     },
     {
@@ -61,6 +75,8 @@ const musicData = [
         type: "ZIN 47",
         category: ["Traditional", "Powerful", "Distinctive"],
 		tempo: "1",
+		usage: "240701",
+		memo: "「ティファナでの夜」Tijuanaはメキシコの都市名らしいです。イントロの「ヤ―！」を聞いて振付がすぐに決まりました笑",
         link: ""
     },
     {
@@ -70,6 +86,8 @@ const musicData = [
         type: "MegaMix 48",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "240803",
+		memo: "",
         link: "https://youtu.be/kkY0PeMaZKA?si=JqhUCGc6MCEwfLZY"
     },
     {
@@ -79,6 +97,8 @@ const musicData = [
         type: "MegaMix 48",
         category: ["Powerful", "Blast"],
 		tempo: "1",
+		usage: "231204",
+		memo: "",
         link: "https://youtu.be/zUxfgSdYNN4"
     },
     {
@@ -88,6 +108,8 @@ const musicData = [
         type: "MegaMix51",
         category: ["Bright", "Relaxing"],
 		tempo: "1",
+		usage: "240901",
+		memo: "明るい気持ちになれる曲。「一緒に踊ろう？その方が楽しいでしょ？」という歌詞やテーマが大好き。スヌーピーの映画のテーマ曲らしいです。",
         link: "https://youtu.be/pkCyfBibIbI?si=TCtP617f0NFinUk-"
     },
     {
@@ -97,6 +119,8 @@ const musicData = [
         type: "ZIN 52",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240904",
+		memo: "",
         link: "https://youtu.be/NUsoVlDFqZg?si=R1KZNTg4obtd4uei"
 	},
     {
@@ -106,6 +130,8 @@ const musicData = [
         type: "MegaMix 52",
         category: ["Cool", "Emotional"],
 		tempo: "1",
+		usage: "231202",
+		memo: "",
         link: ""
     },
     {
@@ -115,6 +141,8 @@ const musicData = [
         type: "MegaMix 52",
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
+		usage: "2401001",
+		memo: "「」",
         link: "https://youtu.be/zAlJdUmMzsA?si=7zIIdMYB1fqdvgO3"
     },
     {
@@ -124,6 +152,8 @@ const musicData = [
         type: "MegaMix 52",
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240703",
+		memo: "速い！激しい！メレンゲの楽曲。尊敬するインストラクターの振付をを一部真似してます（許可頂きました！）ソカ・ダンスホールで有名なMachel Montanoの曲に似たのがあるのが少し気になってます笑。",
         link: "https://youtu.be/0NSJaxY_vzM?si=nGYg2G-1juxyrww-"
     },
     {
@@ -133,6 +163,8 @@ const musicData = [
         type: "ZIN 55",
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
+		usage: "240501",
+		memo: "ZIN 106にある同名の曲はこの曲のアレンジみたいですね。哀愁を感じられる旋律が大好きです。振付はクンビアVer.から拝借。",
         link: ""
     },
     {
@@ -142,6 +174,8 @@ const musicData = [
         type: "MegaMix 55",
         category: ["Experimental"],
 		tempo: "1",
+		usage: "230204",
+		memo: "",
         link: "https://youtu.be/4nXOvde7030"
     },
     {
@@ -151,6 +185,8 @@ const musicData = [
         type: "MegaMix 58",
         category: ["Bright"],
 		tempo: "1",
+		usage: "231001",
+		memo: "",
         link: "https://youtu.be/4Xr24SmSvBI?si=tjysHq5_iqdROZ__"
 	},
     {
@@ -160,6 +196,8 @@ const musicData = [
         type: "ZIN 58",
         category: ["Powerful", "Experimental"],
 		tempo: "1",
+		usage: "240403",
+		memo: "",
         link: ""
 	},
     {
@@ -169,6 +207,8 @@ const musicData = [
         type: "MegaMix 58",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240603",
+		memo: "",
         link: ""
 	},
     {
@@ -178,6 +218,8 @@ const musicData = [
         type: "ZIN 59",
         category: ["Powerful", "Experimental"],
 		tempo: "1",
+		usage: "240701",
+		memo: "",
         link: ""
 	},
 	{
@@ -187,6 +229,8 @@ const musicData = [
         type: "ZIN 59",
         category: ["Traditional"],
 		tempo: "1",
+		usage: "240104",
+		memo: "",
         link: ""
 	},
     {
@@ -196,6 +240,8 @@ const musicData = [
         type: "ZIN 60",
         category: ["Traditional", "Experimental"],
 		tempo: "1",
+		usage: "230901",
+		memo: "",
         link: "https://youtu.be/MT02fwtyVVU"
 	},
     {
@@ -205,6 +251,8 @@ const musicData = [
         type: "ZIN 61",
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
+		usage: "240103",
+		memo: "",
         link: ""
 	},
     {
@@ -214,6 +262,8 @@ const musicData = [
         type: "ZIN 63",
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
+		usage: "240501",
+		memo: "",
         link: "https://youtu.be/HagwTbmyyVA?si=uHYyZ6i0pBpbHGwJ"
 	},
     {
@@ -223,6 +273,8 @@ const musicData = [
         type: "ZIN 64",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "231204",
+		memo: "",
         link: "https://youtu.be/-41v6jLOcas?si=8R_pafH9PXLtyuzn"
 	},
     {
@@ -232,6 +284,8 @@ const musicData = [
         type: "ZIN 64",
         category: ["Distinctive", "Rhythmic"],
 		tempo: "1",
+		usage: "231003",
+		memo: "",
         link: "https://youtu.be/cV0FxPZ3YR0?si=aHcmsR-GDEMVLyrO"
 	},
     {
@@ -241,6 +295,8 @@ const musicData = [
         type: "MegaMix 65",
         category: ["Cool", "Distinctive"],
 		tempo: "1",
+		usage: "240804",
+		memo: "",
         link: "https://youtu.be/HJ6mZZbN2AE?si=snPj72lOa9JGhufv"
 	},
     {
@@ -250,6 +306,8 @@ const musicData = [
         type: "MegaMix 65",
         category: ["Bright", "Traditional"],
 		tempo: "1",
+		usage: "240604",
+		memo: "",
         link: "https://youtu.be/yBDBSx1dHX0?si=cLOY4NvxgZIKluE7"
 	},
     {
@@ -259,6 +317,8 @@ const musicData = [
         type: "MegaMix 66",
         category: ["Blast", "Rhythmic", "Distinctive"],
 		tempo: "1",
+		usage: "240704",
+		memo: "",
         link: ""
 	},
     {
@@ -268,6 +328,8 @@ const musicData = [
         type: "MegaMix 67",
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: "https://youtu.be/HBntvaWP9qc?si=8QN8Z0LU7LJUyirP"
 	},
     {
@@ -277,6 +339,8 @@ const musicData = [
         type: "ZIN 68",
         category: ["Powerful", "Experimental"],
 		tempo: "1",
+		usage: "240504",
+		memo: "",
         link: "https://youtu.be/wwrgDrXK4i8?si=oTEi4E9C6aGcmeW7"
 	},
     {
@@ -286,6 +350,8 @@ const musicData = [
         type: "ZIN 70",
         category: ["Cool"],
 		tempo: "1",
+		usage: "240603",
+		memo: "",
         link: ""
 	},
     {
@@ -295,6 +361,8 @@ const musicData = [
         type: "ZIN 70",
         category: ["Cool", "Experimental"],
 		tempo: "1",
+		usage: "2301104",
+		memo: "ブルーノマーズの有名な楽曲をZumbaがアレンジ！",
         link: "https://youtu.be/PMivT7MJ41M?si=QW6itaZPAENZ3vRC"
 	},
     {
@@ -304,6 +372,8 @@ const musicData = [
         type: "ZIN 70",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "241001",
+		memo: "",
         link: ""
 	},
     {
@@ -313,6 +383,8 @@ const musicData = [
         type: "ZIN 71",
         category: ["Emotional"],
 		tempo: "1",
+		usage: "240802",
+		memo: "クールダウンとして用いているインストラクターが多いイメージです。",
         link: "https://youtu.be/B6wTkZwq7nI"
 	},
     {
@@ -322,6 +394,8 @@ const musicData = [
         type: "MegaMix 72",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "231201",
+		memo: "",
         link: "https://youtu.be/ENZuMMdKtC8?si=JLfoRnsBW6uTq9nd"
 	},
     {
@@ -331,6 +405,8 @@ const musicData = [
         type: "MegaMix73",
         category: ["Powerful", "Experimental"],
 		tempo: "1",
+		usage: "231002",
+		memo: "",
         link: "https://youtu.be/NtNNiudOEgM?si=ISTOVxsELjEA1an8"
 	},
     {
@@ -340,6 +416,8 @@ const musicData = [
         type: "ZIN 74",
         category: ["Emotional", "Cool"],
 		tempo: "1",
+		usage: "240302",
+		memo: "バチャータで有名なプリンス・ロイスのレゲトン楽曲。",
         link: "https://youtu.be/FCfP7v9x8HI?si=8HtNwsyAF-ghp1-X"
 	},
     {
@@ -349,6 +427,8 @@ const musicData = [
         type: "ZIN 74",
         category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
+		usage: "240304",
+		memo: "クンビアってなんだっけ？となる、ダンスミュージック要素満載の楽曲。",
         link: "https://youtu.be/1AtvhzMDnFg"
 	},
     {
@@ -358,6 +438,8 @@ const musicData = [
         type: "ZIN 75",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "240203",
+		memo: "",
         link: "https://youtu.be/FTzS5Oa03WE"
 	},
     {
@@ -367,6 +449,8 @@ const musicData = [
         type: "ZIN 75",
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240301",
+		memo: "",
         link: "https://youtu.be/UI2XXgbnyrU?si=uUI-iToCd9CNkrE1"
 	},
     {
@@ -376,6 +460,8 @@ const musicData = [
         type: "ZIN 75",
         category: ["Cool", "Emotional"],
 		tempo: "1",
+		usage: "240701",
+		memo: "",
         link: "https://youtu.be/oWw1BcFhk-k?si=lGO9BNbHEU6OZDTS"
 	},
     {
@@ -385,15 +471,19 @@ const musicData = [
         type: "ZIN 75",
         category: ["Distinctive", "Traditional"],
 		tempo: "1",
+		usage: "240901",
+		memo: "",
         link: "https://youtu.be/Qa56XzB7yIk?si=s2bo-Kikw7cTcjIC"
 	},
     {
-        title: "Lista Pa’ Vivir",
+        title: "Lista Pa' Vivir",
         artist: ["Carolina Sabino"],
         genre: ["Cumbia"],
         type: "ZIN 77",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240501",
+		memo: "",
         link: ""
 	},
     {
@@ -403,6 +493,8 @@ const musicData = [
         type: "MegaMix 78",
         category: ["Powerful", "Traditional", "Blast"],
 		tempo: "1",
+		usage: "240903",
+		memo: "",
         link: ""
 	},
     {
@@ -412,6 +504,8 @@ const musicData = [
         type: "MegaMix 79",
         category: ["Powerful", "Blast"],
 		tempo: "1",
+		usage: "240104",
+		memo: "",
         link: "https://youtu.be/lYzPoNQvCoE"
 	},
     {
@@ -421,6 +515,8 @@ const musicData = [
         type: "ZIN 79",
         category: ["Powerful", "Cool"],
 		tempo: "1",
+		usage: "240103",
+		memo: "",
         link: "https://youtu.be/v6lELbZiZG8?si=FASZyEH_jaR_UnON"
 	},
     {
@@ -430,9 +526,10 @@ const musicData = [
         type: "ZIN 80",
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
+		usage: "231103",
+		memo: "",
         link: ""
-	}
-,
+	},
     {
         title: "Mas Que Bien (Zumba Remix)",
         artist: ["Juan Por Dios"],
@@ -440,9 +537,10 @@ const musicData = [
         type: "ZIN 80",
         category: ["Rhythmic", "Powerful"],
 		tempo: "1",
+		usage: "231004",
+		memo: "",
         link: "https://youtu.be/4vjLdni4OVQ"
-	}
-,
+	},
     {
         title: "Pegadito (Zumba Remix)",
         artist: ["Play-N-Skillz"],
@@ -450,9 +548,10 @@ const musicData = [
         type: "ZIN 80",
         category: ["Dark", "Cool"],
 		tempo: "1",
+		usage: "230904",
+		memo: "",
         link: "https://youtu.be/O8_LW71sfE0"
-	}
-,
+	},
     {
         title: "Sueltara",
         artist: ["Jorge Luis Chasin"],
@@ -460,9 +559,10 @@ const musicData = [
         type: "ZIN 80",
         category: ["Powerful", "Traditional", "Distinctive"],
 		tempo: "1",
+		usage: "240802",
+		memo: "",
         link: "https://youtu.be/BhnLw2mOaBU"
-	}
-,
+	},
     {
         title: "Tik Tak Tik Tok",
         artist: ["Chune", "Cami V"],
@@ -470,6 +570,8 @@ const musicData = [
         type: "MegaMix 80",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "231203",
+		memo: "",
         link: "https://youtu.be/a2OKyeX_R1g"
 	},
     {
@@ -479,6 +581,8 @@ const musicData = [
         type: "MegaMix 80",
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
+		usage: "240504",
+		memo: "",
         link: "https://youtu.be/LZjS9euH04c?si=IzZIAMorhfaJfOt_"
 	},
     {
@@ -488,6 +592,8 @@ const musicData = [
         type: "ZIN 81",
         category: ["Emotional"],
 		tempo: "1",
+		usage: "241003",
+		memo: "",
         link: "https://youtu.be/AsCnKFzhFSA?si=TA5GzfEHe3NjYOTR"
 	},
     {
@@ -497,6 +603,8 @@ const musicData = [
         type: "ZIN 81",
         category: ["Traditional", "Relaxing"],
 		tempo: "1",
+		usage: "240403",
+		memo: "",
         link: ""
 	},
     {
@@ -506,6 +614,8 @@ const musicData = [
         type: "ZIN 82",
         category: ["Dark", "Powerful"],
 		tempo: "1",
+		usage: "231102",
+		memo: "",
         link: "https://youtu.be/y5Hf0O1nWMQ?si=IKRUF7IJ-6BP8-Zp"
 	},
     {
@@ -515,6 +625,8 @@ const musicData = [
         type: "ZIN 82",
         category: ["Rhythmic", "Dark", "Experimental"],
 		tempo: "1",
+		usage: "231004",
+		memo: "",
         link: "https://youtu.be/tXA7zOQhwPA?si=4BpTEIFYSAakRDjh"
 	},
     {
@@ -524,6 +636,8 @@ const musicData = [
         type: "ZIn 82",
         category: ["Cool", "Dark"],
 		tempo: "1",
+		usage: "231203",
+		memo: "",
         link: "https://youtu.be/D3nmBUEBJYs"
 	},
     {
@@ -533,6 +647,8 @@ const musicData = [
         type: "ZIN 83",
         category: ["Cool", "Rhythmic", "Bright"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: ""
 	},
     {
@@ -542,6 +658,8 @@ const musicData = [
         type: "ZIN 83",
         category: ["Cool", "Dark"],
 		tempo: "1",
+		usage: "240804",
+		memo: "",
         link: "https://youtu.be/CBqCOwv4c6E?si=xqUMy4b9GVuCrPy9"
 	},
     {
@@ -551,6 +669,8 @@ const musicData = [
         type: "MegaMix 85",
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
+		usage: "241004",
+		memo: "",
         link: "https://youtu.be/TD1UaFbGQNo?si=nXNej9p1JU5zI_aV"
 	},
     {
@@ -560,6 +680,8 @@ const musicData = [
         type: "ZIN 86",
         category: ["Rhythmic", "Bright", "Blast"],
 		tempo: "1",
+		usage: "240304",
+		memo: "Zumbaのソカの曲と言えば…？できっと挙がる一曲。",
         link: "https://youtu.be/0J_g5zeUeCo?si=pwAXyk74RQ7iLvOk"
 	},
     {
@@ -569,6 +691,8 @@ const musicData = [
         type: "MegaMix 87",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240102",
+		memo: "Chorus（サビ）の後のパートで",
         link: "https://youtu.be/yxqkGhVvAqY?si=zzVNUBZSSfnhTYzJ"
 	},
     {
@@ -578,6 +702,8 @@ const musicData = [
         type: "ZIN 87",
         category: ["Cool", "Dark", "Distinctive"],
 		tempo: "1",
+		usage: "240901",
+		memo: "とても癖が強め（そこが好き）な楽曲を製作されるReggiとZIN 109のHip-Hopの楽曲でボーカルを務めているGizzleの楽曲。",
         link: ""
 	},
     {
@@ -587,6 +713,8 @@ const musicData = [
         type: "ZIN 87",
         category: ["Relaxing", "Emotional"],
 		tempo: "1",
+		usage: "240604",
+		memo: "この楽曲は2020年4月、コロナ禍が始まった頃に再収録リリースされた楽曲。癒しを与える暖かな光のような歌。",
         link: "https://youtu.be/Y5jwkDM-AQc?si=iKhFPoqukPQ9EyI1"
 	},
     {
@@ -596,6 +724,8 @@ const musicData = [
         type: "MegaMix 90",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
+		usage: "240701",
+		memo: "",
         link: "https://youtu.be/Zn0B2HcMprs?si=lgNKluS-ytk_JvkV"
 	},
     {
@@ -605,6 +735,8 @@ const musicData = [
         type: "ZIN 92",
         category: ["Powerful", "Rhythmic", "Blast"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: "https://youtu.be/cMneYC0LnEo?si=kX_ZqaXvup0xHzyQ"
 	},
     {
@@ -614,6 +746,8 @@ const musicData = [
         type: "MegaMix 92",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240201",
+		memo: "",
         link: "https://youtu.be/FbT5hS-sueE"
 	},
     {
@@ -623,6 +757,8 @@ const musicData = [
         type: "MegaMix 92",
         category: ["Dark", "Cool"],
 		tempo: "1",
+		usage: "240901",
+		memo: "",
         link: "https://youtu.be/M3deetRnsaM?si=G_url82Has4uqL91"
 	},
     {
@@ -632,6 +768,8 @@ const musicData = [
         type: "MegaMix 94",
         category: ["Dark", "Cool"],
 		tempo: "1",
+		usage: "240704",
+		memo: "",
         link: ""
 	},
     {
@@ -641,6 +779,8 @@ const musicData = [
         type: "ZIN 94",
         category: ["Powerful", "Emotional"],
 		tempo: "1",
+		usage: "240903",
+		memo: "",
         link: ""
 	},
 	{
@@ -650,6 +790,8 @@ const musicData = [
         type: "MegaMix 94",
         category: ["Bright"],
 		tempo: "1",
+		usage: "240504",
+		memo: "",
         link: "https://youtu.be/p2ewlAxN8-Y?si=Sb8a7B2GoHNI_boA"
 	},
     {
@@ -659,6 +801,8 @@ const musicData = [
         type: "Megamix 95",
         category: ["Powerful", "Dark"],
 		tempo: "1",
+		usage: "240302",
+		memo: "",
         link: "https://youtu.be/Y_YJ5tIG8XM"
 	},
     {
@@ -668,6 +812,8 @@ const musicData = [
         type: "MegaMix 95",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240501",
+		memo: "",
         link: ""
 	},
     {
@@ -677,6 +823,8 @@ const musicData = [
         type: "MegaMix 95",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240703",
+		memo: "",
         link: "https://youtu.be/r-K6u3Zzf3U?si=gz0L4U-XL9wkT2Rq"
 	},
     {
@@ -686,6 +834,8 @@ const musicData = [
         type: "MegaMix 96",
         category: ["Cool", "Rhythmic"],
 		tempo: "1",
+		usage: "240803",
+		memo: "",
         link: "https://youtu.be/Ajrkot_J5Qk?si=_gWMPxcnYIe6Okmo"
 	},
     {
@@ -695,6 +845,8 @@ const musicData = [
         type: "MegaMix 96",
         category: ["Experimental", "Cool", "Rhythmic"],
 		tempo: "1",
+		usage: "240802",
+		memo: "",
         link: ""
 	},
     {
@@ -704,6 +856,8 @@ const musicData = [
         type: "ZIN 96",
         category: ["Cool", "Experimental", "Blast"],
 		tempo: "1",
+		usage: "240901",
+		memo: "デンボウ要素強めの速いクンビア、人気曲。ZIN 62の「Shut Up Th Dance」と似たフレーズが入ってるなぁ最近気づきました。",
         link: ""
 	},
     {
@@ -713,6 +867,8 @@ const musicData = [
         type: "MegaMix 97",
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: ""
 	},
     {
@@ -722,6 +878,8 @@ const musicData = [
         type: "MEgaMix 97",
         category: ["Experimental"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: "https://youtu.be/7cDmucuDGHQ?si=zotRwLt8EQUXnG4j"
 	},
     {
@@ -731,6 +889,8 @@ const musicData = [
         type: "MegaMix 97",
         category: ["Emotional"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: ""
 	},
     {
@@ -740,6 +900,8 @@ const musicData = [
         type: "MegaMix 98",
         category: ["Emotional", "Experimental"],
 		tempo: "1",
+		usage: "240304",
+		memo: "歌詞の中にサルサの女王セリア・クルーズの歌から引用がある。クンビアアーティストの中で一番好きなEl Gran Silencioが携わってます。「このサウンドリズムにのって踊り続けよう、悲しみを手放すんだ」どんなシーンの曲なんでしょうね。",
         link: "https://youtu.be/eeN7tHYQorE?si=-JdIsr7Nu4fl3em2"
 	},
     {
@@ -749,6 +911,8 @@ const musicData = [
         type: "ZIN 98",
         category: ["Dark"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: "https://youtu.be/ToSDqW69mXk?si=SQ7iyAIT75OHDxyv"
 	},
     {
@@ -758,6 +922,8 @@ const musicData = [
         type: "ZIN 98",
         category: ["Relaxing", "Emotional"],
 		tempo: "1",
+		usage: "240603",
+		memo: "バジェナートといえば！のCarlos Vives。優しい雰囲気の楽曲ですね。",
         link: "https://youtu.be/fOAYjG_G4xY?si=-IDiwwJk1KwDiR4C"
 	},
 	{
@@ -767,6 +933,8 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Relaxing", "Emotional"],
 		tempo: "1",
+		usage: "240604",
+		memo: "",
         link: "https://youtu.be/mdFpJO9H_U8"
     },
     {
@@ -776,6 +944,8 @@ const musicData = [
         type: "MegaMix 99",
         category: ["Blast", "Rhythmic"],
 		tempo: "1",
+		usage: "240701",
+		memo: "",
         link: ""
 	},
     {
@@ -785,6 +955,8 @@ const musicData = [
         type: "ZIN 99",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240103",
+		memo: "",
         link: ""
 	},
     {
@@ -794,6 +966,8 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
+		usage: "240601",
+		memo: "Oro Solido(Raul Acosta)の曲の中でもイントロ、コーラス等の分かれ目が分かりやすい曲、大すき。点心を落とさないように「おっとっと！」",
         link: ""
 	},
     {
@@ -803,6 +977,8 @@ const musicData = [
         type: "ZIN 99",
         category: ["Cool", "Rhythmic"],
 		tempo: "1",
+		usage: "240503",
+		memo: "",
         link: ""
 	},
     {
@@ -812,6 +988,8 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Relaxing"],
 		tempo: "1",
+		usage: "240501",
+		memo: "",
         link: ""
 	},
     {
@@ -821,6 +999,8 @@ const musicData = [
         type: "MegaMix 99",
         category: ["Cool", "Blast"],
 		tempo: "1",
+		usage: "240803",
+		memo: "",
         link: ""
 	},
     {
@@ -830,6 +1010,8 @@ const musicData = [
         type: "MegaMix 99",
         category: ["Bright", "Distinctive"],
 		tempo: "1",
+		usage: "240603",
+		memo: "空耳シリーズ「えぇ～やん！」",
         link: ""
 	},
     {
@@ -839,6 +1021,8 @@ const musicData = [
         type: "ZIN 100",
         category: ["Dark", "Cool"],
 		tempo: "1",
+		usage: "240401",
+		memo: "",
         link: "https://music.youtube.com/watch?v=PGQJGkbD8KM&si=Cnu9bduolZWQjPa5&feature=xapp_share"
 	},
     {
@@ -848,6 +1032,8 @@ const musicData = [
         type: "ZIN 100",
         category: ["Dark", "Cool", "Emotional", "Blast"],
 		tempo: "1",
+		usage: "「Houseってジャンル」格好いいなぁとなった曲です。「忘れられない人を探してLA, New York, Berlinと世界中を探している」みたいな曲です。",
+		memo: "241004",
         link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
 	},
     {
@@ -857,6 +1043,8 @@ const musicData = [
         type: "MegaMix 100",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240802",
+		memo: "",
         link: ""
 	},
     {
@@ -866,6 +1054,8 @@ const musicData = [
         type: "MegaMix 100",
         category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
+		usage: "240802",
+		memo: "",
         link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
 	},
     {
@@ -875,6 +1065,8 @@ const musicData = [
         type: "ZIN 101",
         category: ["Traditional", "Rhythmic", "Dark"],
 		tempo: "1",
+		usage: "240304",
+		memo: "Zumbaスタジオによるワラチャアレンジが格好いい曲。",
         link: "https://youtu.be/eUfU31LrTqQ?si=wcmHtqxIAXAIeT9V"
 	},
     {
@@ -884,6 +1076,8 @@ const musicData = [
         type: "ZIN 101",
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
+		usage: "240301",
+		memo: "歌詞の全てから愛する人への想いが溢れまくってる曲。名前が変ったりもしていますがアーティスト「Los Enbajadres de la Salsa」格好いい曲ばかりなので聞いてみてください。",
         link: "https://youtu.be/FCYkWbPmRfo"
 	},
     {
@@ -893,6 +1087,8 @@ const musicData = [
         type: "ZIN 101",
         category: ["Power", "Rhythmic"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: "https://youtu.be/tzZC26HDgqI"
 	},
     {
@@ -902,6 +1098,8 @@ const musicData = [
         type: "ZIN 101",
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
+		usage: "241004",
+		memo: "",
         link: ""
 	},
     {
@@ -911,6 +1109,8 @@ const musicData = [
         type: "MegaMix 101",
         category: ["Bright", "Power", "Rhythmic"],
 		tempo: "1",
+		usage: "240803",
+		memo: "",
         link: ""
 	},
     {
@@ -920,6 +1120,8 @@ const musicData = [
         type: "MegaMix 101",
         category: ["Experimental"],
 		tempo: "1",
+		usage: "241004",
+		memo: "",
         link: ""
 	},
     {
@@ -929,6 +1131,8 @@ const musicData = [
         type: "ZIN 102",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: "https://youtu.be/r5o8Dyn8aiQ"
 	},
     {
@@ -938,6 +1142,8 @@ const musicData = [
         type: "ZIN 102",
         category: ["Dark", "Powerful", "Experimental"],
 		tempo: "1",
+		usage: "240502",
+		memo: "",
         link: ""
 	},
     {
@@ -947,6 +1153,8 @@ const musicData = [
         type: "ZIN 102",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240503",
+		memo: "",
         link: "https://youtu.be/j5y6xLpRwx4?si=b35MAgJi0lq5lCYG"
 	},
     {
@@ -956,6 +1164,8 @@ const musicData = [
         type: "MegaMix 102",
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240904",
+		memo: "",
         link: ""
 	},
     {
@@ -965,6 +1175,8 @@ const musicData = [
         type: "MegaMix 102",
         category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
+		usage: "241004",
+		memo: "",
         link: ""
 	},
     {
@@ -974,6 +1186,8 @@ const musicData = [
         type: "ZIN 103",
         category: ["Dark", "Traditional"],
 		tempo: "1",
+		usage: "240403",
+		memo: "",
         link: ""
 	},
 	{
@@ -983,6 +1197,8 @@ const musicData = [
         type: "ZIN 103",
         category: ["Cool", "Experimental", "Blast"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: ""
 	},
     {
@@ -992,6 +1208,8 @@ const musicData = [
         type: "MegaMix 103",
         category: ["Rhythmic", "Emotional", "Distinctive"],
 		tempo: "1",
+		usage: "241003",
+		memo: "",
         link: ""
 	},
     {
@@ -1001,6 +1219,8 @@ const musicData = [
         type: "ZIN 104",
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240201",
+		memo: "",
         link: ""
 	},
     {
@@ -1010,6 +1230,8 @@ const musicData = [
         type: "ZIN 104",
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
+		usage: "240201",
+		memo: "",
         link: "https://youtu.be/6EcsIy_FUfg?si=gAJY1U_4gagdg0It"
 	},
     {
@@ -1019,6 +1241,8 @@ const musicData = [
         type: "ZIN 104",
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240802",
+		memo: "",
         link: "https://youtu.be/sCEV3YzPCnw"
 	},
     {
@@ -1028,9 +1252,10 @@ const musicData = [
         type: "ZIN 105",
         category: ["Bright", "Rhythmic", "Blast"],
 		tempo: "1",
+		usage: "240801",
+		memo: "Mara Prada x Robert TaylorのMambo。ほぼCrazy Loveやん（最高！）と思ってました。Warm-upに取り入れてることが多いです。",
         link: "https://youtu.be/qg41mcLpE1w?si=2kbcdhWBicp6fKFG"
 	},
-
     {
         title: "Como E'",
         artist: ["Zumba"],
@@ -1038,6 +1263,8 @@ const musicData = [
         type: "ZIN 105",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240502",
+		memo: "",
         link: ""
 	},
     {
@@ -1047,6 +1274,8 @@ const musicData = [
         type: "ZIN 105",
         category: ["Relaxing", "Distinctive", "Emotional"],
 		tempo: "1",
+		usage: "240502",
+		memo: "これも振付が特徴的ですね。",
         link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
 	},
     {
@@ -1056,6 +1285,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: ""
 	},
     {
@@ -1065,6 +1296,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Distinctive", "Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240502",
+		memo: "デンボウ要素強め、振付はオリジナルで印章強めに。因みにアーティストのChimbaraは「モケケパケケ」部分じゃなくてこぶしのある声の男性。",
         link: ""
 	},
     {
@@ -1074,6 +1307,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Cool", "Rhythmic", "Dark"],
 		tempo: "1",
+		usage: "240302",
+		memo: "強いビートと「ずっっちゃっちゃずっちゃっちゃ」",
         link: "https://youtu.be/srmxQt0QNR4?si=9-ujaXf2FgR6-oxI"
 	},
     {
@@ -1083,6 +1318,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Bright", "Rhythmic", "Blast"],
 		tempo: "1",
+		usage: "240303",
+		memo: "たまにある「たくさんのインストラクターが使ってて、誰でもきっと好きになる曲。」",
         link: "https://youtu.be/VolmYSTcUzM?si=K8qDlBJFtu13gTDB"
 	},
     {
@@ -1092,6 +1329,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Powerful", "Traditional"],
 		tempo: "1",
+		usage: "240701",
+		memo: "ZIN 67 のEsta Nocheのフレーズが入ってますね。メロディよりも裏のビートや掛け声などに合わせた振り付けにしています。",
         link: ""
 	},
     {
@@ -1101,6 +1340,8 @@ const musicData = [
         type: "ZIN 106",
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: "https://youtu.be/dhDhjmsz4aI?si=mIX3-9dfybIau97y"
 	},
     {
@@ -1110,6 +1351,8 @@ const musicData = [
         type: "ZIZN 106",
         category: ["Dark", "Powerful"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: ""
 	},
     {
@@ -1119,6 +1362,8 @@ const musicData = [
         type: "ZIN 107",
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
+		usage: "240301",
+		memo: "バルヴィン、アッシャーとメジャーなアーティストによるアーバンポップ。",
         link: "https://youtu.be/gVPgwoXm5Rc?si=yLk80z5z3UXXJWiU"
 	},
     {
@@ -1128,6 +1373,8 @@ const musicData = [
         type: "ZIN 107",
         category: ["Rhythmic", "Traditional"],
 		tempo: "1",
+		usage: "240304",
+		memo: "",
         link: ""
 	},
     {
@@ -1137,6 +1384,8 @@ const musicData = [
         type: "ZIN 107",
         category: ["Powerful", "Cool"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: ""
 	},
     {
@@ -1146,6 +1395,8 @@ const musicData = [
         type: "ZIN 108",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240801",
+		memo: "",
         link: "https://youtu.be/VEp_2nGB0AU?si=fHLUhG-q2xjQeNw-"
 	},
     {
@@ -1155,6 +1406,8 @@ const musicData = [
         type: "ZIN 108",
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
+		usage: "240502",
+		memo: "野球の振付をしているインストラクターが多かったですね。",
         link: "https://youtu.be/bbNl15ffEv8?si=5sxThIvwtrh4MoFW"
 	},
     {
@@ -1164,6 +1417,8 @@ const musicData = [
         type: "ZIN 108",
         category: ["Experimental"],
 		tempo: "1",
+		usage: "240401",
+		memo: "",
         link: ""
 	},
     {
@@ -1173,6 +1428,8 @@ const musicData = [
         type: "ZIN 109",
         category: ["Bright", "Relaxing", "Distinctive"],
 		tempo: "1",
+		usage: "240503",
+		memo: "ダークな雰囲気の曲を得意とするナターシャの明るい曲。Youtubeで探したらクンビアバージョンもあります。",
         link: "https://youtu.be/EWmyO1yWKls?si=S7Iovd5NgZQKu1K1"
 	},
     {
@@ -1182,6 +1439,8 @@ const musicData = [
         type: "ZIN 109",
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: ""
 	},
     {
@@ -1191,7 +1450,9 @@ const musicData = [
         type: "ZIN 109",
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
-        link: "https://youtu.be/DTLvwh49j5w?si=6t-MWHzYX-r0OloG"
+		usage: "240802",
+		memo: "",
+        link: "https://example.com"
     },
     {
         title: "Sueltate El Pelo",
@@ -1200,6 +1461,8 @@ const musicData = [
         type: "ZIN 109",
         category: ["Cool", "Rhythmic"],
 		tempo: "1",
+		usage: "240502",
+		memo: "",
         link: ""
 	},
     {
@@ -1209,6 +1472,8 @@ const musicData = [
         type: "ZIN 110",
         category: ["Rhythmic", "Distinctive"],
 		tempo: "1",
+		usage: "240703",
+		memo: "",
         link: "https://youtu.be/RcbwlEejylI?si=oJ3w6M79XNXb0D52"
 	},
     {
@@ -1218,6 +1483,8 @@ const musicData = [
         type: "ZIN 110",
         category: ["Rhythmic", "Experimental"],
 		tempo: "1",
+		usage: "240601",
+		memo: "",
         link: ""
 	},
     {
@@ -1227,6 +1494,8 @@ const musicData = [
         type: "ZIN 110",
         category: ["Powerful", "Traditional"],
 		tempo: "1",
+		usage: "240602",
+		memo: "",
         link: "https://youtu.be/S61iMZDiN_w?si=XKozmGriyFHjBIYY"
 	},
     {
@@ -1236,6 +1505,8 @@ const musicData = [
         type: "ZIN 110",
         category: ["Distinctive", "Relaxing", "Emotional"],
 		tempo: "1",
+		usage: "240603",
+		memo: "",
         link: ""
 	},
     {
@@ -1245,6 +1516,8 @@ const musicData = [
         type: "ZIN 111",
         category: ["Distinctive", "Experimental", "Rhythmic"],
 		tempo: "1",
+		usage: "240703",
+		memo: "少し難解な進行をするサルサ曲。「よくわからんけど格好いい」と思ってます。",
         link: "https://youtu.be/gruomptSqq0?si=rM4co35G7SdzWog1"
 	},
     {
@@ -1254,6 +1527,8 @@ const musicData = [
         type: "ZIN 111",
         category: ["Bright", "Distinctive"],
 		tempo: "1",
+		usage: "240901",
+		memo: "「指さし→口元」の振付はきっとみんな大好き！",
         link: ""
 	},
     {
@@ -1263,6 +1538,8 @@ const musicData = [
         type: "ZIN 111",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240703",
+		memo: "",
         link: ""
 	},
     {
@@ -1272,6 +1549,8 @@ const musicData = [
         type: "ZIN 111",
         category: ["Cool", "Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240804",
+		memo: "",
         link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
 	},
     {
@@ -1281,6 +1560,8 @@ const musicData = [
         type: "ZIN 111",
         category: ["Cool", "Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240803",
+		memo: "曲名のSushiはジャケット見る限り寿司っぽいですね。",
         link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
 	},
     {
@@ -1289,7 +1570,9 @@ const musicData = [
         genre: ["Merengue"],
         type: "ZIN 112",
         category: ["Emotional"],
-		tempo: "",
+		tempo: "1",
+		usage: "240903",
+		memo: "",
         link: "https://youtu.be/MgsdDfdGdHc?si=p3JLLxX7l8ed0H6Q"
     },
     {
@@ -1299,6 +1582,8 @@ const musicData = [
         type: "ZIN 112",
         category: ["Distinctive", "Traditional"],
 		tempo: "1",
+		usage: "240901",
+		memo: "",
         link: ""
 	},
     {
@@ -1308,6 +1593,8 @@ const musicData = [
         type: "ZIN 112",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240902",
+		memo: "",
         link: ""
 	},
     {
@@ -1317,6 +1604,8 @@ const musicData = [
         type: "ZIN 113",
         category: ["Bright", "Blast", "Distinctive"],
 		tempo: "1",
+		usage: "241004",
+		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！",
         link: ""
 	},
     {
@@ -1326,6 +1615,8 @@ const musicData = [
         type: "ZIN 113",
         category: ["Emotional", "Cool"],
 		tempo: "1",
+		usage: "241003",
+		memo: "",
         link: ""
 	},
     {
@@ -1335,6 +1626,8 @@ const musicData = [
         type: "KIDS 2017 JUL",
         category: ["Cool", "Powerful"],
 		tempo: "1",
+		usage: "240301",
+		memo: "",
         link: "https://youtu.be/tCeW-DFbcgw"
 	},
     {
@@ -1344,6 +1637,8 @@ const musicData = [
         type: "KIDS 2018 APR",
         category: ["Rhythmic"],
 		tempo: "1",
+		usage: "240801",
+		memo: "",
         link: ""
 	},
     {
@@ -1353,6 +1648,8 @@ const musicData = [
         type: "KIDS 2018 NOV",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
+		usage: "241004",
+		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や表情を大切に。",
         link: ""
 	},
     {
@@ -1362,6 +1659,8 @@ const musicData = [
         type: "KIDS 2019 SEP",
         category: ["Bright", "Experimental"],
 		tempo: "1",
+		usage: "240602",
+		memo: "「何言われても、私は私。これが私よ！」という歌。アニメーション映画「Sing 2」の劇中歌にも使われてます。",
         link: "https://youtu.be/bxWxXncl53U"
 	},
     {
@@ -1371,6 +1670,8 @@ const musicData = [
         type: "KIDS 2021 AUG",
         category: ["Powerful", "Distinctive", "Blast"],
 		tempo: "1",
+		usage: "240904",
+		memo: "",
         link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
 	},
     {
@@ -1380,6 +1681,8 @@ const musicData = [
         type: "KIDS 2021 NOV",
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
+		usage: "240201",
+		memo: "",
         link: "https://youtu.be/BdokhLg2LaE"
 	},
     {
@@ -1389,6 +1692,8 @@ const musicData = [
         type: "KIDS 2023 MAR",
         category: ["Relaxing"],
 		tempo: "1",
+		usage: "240302",
+		memo: "",
         link: ""
 	},
     {
@@ -1398,6 +1703,8 @@ const musicData = [
         type: "KIDS 2024 JUL",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240902",
+		memo: "",
         link: ""
 	},
     {
@@ -1407,6 +1714,8 @@ const musicData = [
         type: "Others",
         category: ["Powerful", "Cool", "Dark"],
 		tempo: "1",
+		usage: "240404",
+		memo: "",
         link: "https://youtu.be/nHFd4eEBvP4?si=RGUeuXGRd8Hp1i4i"
 	},
     {
@@ -1416,6 +1725,8 @@ const musicData = [
         type: "Others",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
+		usage: "240603",
+		memo: "",
         link: "https://youtu.be/F8bZVnynDdc?si=GWnevmOKOkiSvoGc"
 	},
     {
@@ -1425,6 +1736,8 @@ const musicData = [
         type: "Others",
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
+		usage: "240402",
+		memo: "",
         link: "https://youtu.be/_wE3hDN06Qg?si=9lDtR1mi3l2L-mkp"
 	},
     {
@@ -1434,6 +1747,8 @@ const musicData = [
         type: "Others",
         category: ["Emotional"],
 		tempo: "1",
+		usage: "240301",
+		memo: "",
         link: "https://youtu.be/FS__SaIBf-A?si=BwYeaXnwgqtOk-KS"
 	},
     {
@@ -1443,6 +1758,8 @@ const musicData = [
         type: "Others",
         category: ["Powerful", "Dark", "Cool", "Blast"],
 		tempo: "1",
+		usage: "241003",
+		memo: "",
         link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
 	},
     {
@@ -1452,6 +1769,8 @@ const musicData = [
         type: "Others",
         category: ["Dark", "Traditional"],
 		tempo: "1",
+		usage: "241003",
+		memo: "ハロウィーンの季節にピッタリのクンビア。ジャケットは死者の日を想起させますね。",
         link: "https://youtu.be/rn9tEErGMik?si=mixHpnvaCO2MLFdZ"
 	},
     {
@@ -1461,6 +1780,8 @@ const musicData = [
         type: "Others",
         category: ["Bright", "Powerful", "Traditional", "Blast"],
 		tempo: "1",
+		usage: "240701",
+		memo: "テレビコマーシャルで聞いたことがある人も多いはず。",
         link: "https://youtu.be/X8TOhb_4jU0?si=tQC6KAf9kbTfqtcC"
 	},
     {
@@ -1470,6 +1791,8 @@ const musicData = [
         type: "Others",
         category: ["Bright", "Emotional", "Rhythmic"],
 		tempo: "1",
+		usage: "241002",
+		memo: "元は他アーティストの楽曲。メレンゲにアレンジされて力強く歌い上げているのが格好いいです。",
         link: "https://youtu.be/w9_1RuFkqzA?si=7wsXy_5001KQMepd"
 	},
     {
@@ -1479,6 +1802,8 @@ const musicData = [
         type: "Others",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
+		usage: "240603",
+		memo: "",
         link: "https://youtu.be/dR8dBCzs2EY?si=oW86LMbQax-TlXb7"
 	},
     {
@@ -1488,6 +1813,8 @@ const musicData = [
         type: "Others",
         category: ["Cool", "Experimental", "Distinctive"],
 		tempo: "1",
+		usage: "240904",
+		memo: "振付はイベントにて韓国のZES Kim Jenniferにならいました。",
         link: "https://youtu.be/4_vzrcxpT4I?si=afr5f_HCG2jDPcF9"
 	},
     {
@@ -1497,6 +1824,8 @@ const musicData = [
         type: "Others",
         category: ["Distinctive", "Powerful", "Blast"],
 		tempo: "1",
+		usage: "240504",
+		memo: "世界で流行したCreepy Nutsの楽曲のメレンゲカバー版。",
         link: "https://youtu.be/pYOgZFtjcas?si=4irg6zsQtApILFm3"
 	},
     {
@@ -1506,6 +1835,8 @@ const musicData = [
         type: "Others",
         category: ["Relaxing", "Cool"],
 		tempo: "1",
+		usage: "240801",
+		memo: "",
         link: "https://youtu.be/EgknmfB7Ux4?si=x-G1Llbv-SIMs13c"
 	},
     {
@@ -1515,6 +1846,8 @@ const musicData = [
         type: "Others",
         category: ["Bright", "Experimental"],
 		tempo: "1",
+		usage: "240901",
+		memo: "曲名間違っていません笑。カーニバル！盛り上がろうぜっ！そんな一曲。",
         link: "https://youtu.be/XXEVLxTUAsM?si=1O2BllwaF1tGaJXA"
 	},
     {
@@ -1524,6 +1857,8 @@ const musicData = [
         type: "Others",
         category: ["Emotional"],
 		tempo: "1",
+		usage: "241004",
+		memo: "2022FIFAワールドカップの公式曲。「さぁ見て僕らを、僕らは夢を追う者たち」挑戦し戦い続ける人へ向けたエールの曲。振付はアフロビートを中心に構成。",
         link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
 	},
     {
@@ -1533,6 +1868,8 @@ const musicData = [
         type: "Others",
         category: ["Pop", "Emotional", "Traditional"],
 		tempo: "1",
+		usage: "241004",
+		memo: "イギリスのアーティストエドシーランの一曲。特徴的なバイオリンの奏法などフォークミュージックの一面もある格好いい曲です。",
         link: "https://youtu.be/87gWaABqGYs?si=1ghDXpzw5rjUbClA"
 	},
     {
@@ -1542,6 +1879,8 @@ const musicData = [
         type: "Others",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
+		usage: "240904",
+		memo: "",
         link: "https://youtu.be/THBP1tq49wk?si=r6WQFqTjd7e4BIoY"
 	}
 
