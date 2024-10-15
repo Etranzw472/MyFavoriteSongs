@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Songs</title>
   <link rel="stylesheet" type="text/css" href="MySongs.css">
-
 </head>
 
 <body>
     <header>
-        <h1>使用楽曲ページ（仮）Koki</h1>
+        <h1>使用楽曲</h1>
     </header>
     <div id="main">
         <!-- ここに内容が挿入されます -->
@@ -19,48 +18,49 @@
     <script src="script.js"></script>
     <script>
         const allCategory = ['Powerful', 'Emotional', 'Distinctive', 'Experimental', 'Traditional', 'Bright', 'Dark', 'Cool', 'Rhythmic', 'Relaxing', 'Blast'];
-		const categoryTranslations = {
-		    'Powerful': 'ビートが力強い曲',
-		    'Emotional': '感情に訴えかける曲',
-		    'Distinctive': '振付が特徴的な曲',
-		    'Experimental': '先進的・実験的なな曲',
-		    'Traditional': '伝統的な構成・民族的な曲',
-		    'Bright': '明るい曲',
-		    'Dark': 'ダークな曲',
-		    'Cool': 'クールな曲',
-		    'Rhythmic': 'リズミカルな曲',
-		    'Relaxing': 'ゆったりした癒しの曲',
-		    'Blast': '盛り上がる曲'
-};
-        // ランダムに4つのカテゴリを選ぶ関数
+        const categoryTranslations = {
+            'Powerful': 'ビートが力強い曲',
+            'Emotional': '感情に訴えかける曲',
+            'Distinctive': '振付が特徴的な曲',
+            'Experimental': '先進的・実験的な曲',
+            'Traditional': '伝統的な演奏形態・民族的な曲',
+            'Bright': '明るい曲',
+            'Dark': 'ダークな曲',
+            'Cool': 'クールな曲',
+            'Rhythmic': 'リズミカルな曲',
+            'Relaxing': 'ゆったりした癒しの曲',
+            'Blast': '盛り上がる曲'
+        };
+
         function getRandomCategory(arr, num) {
             const shuffled = arr.sort(() => 0.5 - Math.random());
             return shuffled.slice(0, num);
         }
 
-        // 選ばれたカテゴリを取得
         const selectedCategorys = getRandomCategory(allCategory, 4);
+   
+
+		const accessGranted = getQueryParameter('access') === 'true';
         const mainDiv = document.getElementById('main');
 
-        // <div id="main">の内容を設定
         mainDiv.innerHTML = `
-   <div id="buttonContainer">
-        ${selectedCategorys.map(category => `<button onclick="toggleButton(this, '${category}')">${categoryTranslations[category]}</button>`).join('')}
-        <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
-    </div>
-    <div id="container">
-        <table id="musicTable">
-            <thead>
-                <tr>
-                    <th>タイトル<br>アーティスト【ジャンル】</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- データがここに挿入されます -->
-            </tbody>
-        </table>
-    </div>
-`;
+            <div id="buttonContainer">
+                ${selectedCategorys.map(category => `<button onclick="toggleButton(this, '${category}')">${categoryTranslations[category]}</button>`).join('')}
+                <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
+            </div>
+            <div id="container">
+                <table id="musicTable">
+                    <thead>
+                        <tr>
+                            <th>タイトル<br>アーティスト【ジャンル】</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- データがここに挿入されます -->
+                    </tbody>
+                </table>
+            </div>
+        `;
 
         function toggleButton(button, category) {
             button.classList.toggle('active');
@@ -76,9 +76,9 @@
         function filterSongs(targetCategory) {
             let filteredSongs;
             if (targetCategory === 'すべて') {
-                filteredSongs = musicData; // 全楽曲を表示
+                filteredSongs = musicData; 
             } else {
-                filteredSongs = musicData.filter(song => song.category.includes(targetCategory)); // フィルタリングされた楽曲を表示
+                filteredSongs = musicData.filter(song => song.category.includes(targetCategory)); 
             }
             shuffle(filteredSongs);
             displaySongs(filteredSongs);
@@ -91,18 +91,62 @@
             }
         }
 
-        function displaySongs(songs) {
-            const tableBody = document.getElementById('musicTable').querySelector('tbody');
-            tableBody.innerHTML = ''; // 既存の行をクリア
-            const limitedSongs = songs.slice(0, 6);
-            const remainingSongs = songs.slice(6);
+function displaySongs(songs) {
+    const tableBody = document.getElementById('musicTable').querySelector('tbody');
+    tableBody.innerHTML = ''; // 既存の行をクリア
+    const limitedSongs = songs.slice(0, 6);
+    const remainingSongs = songs.slice(6);
 
-            limitedSongs.forEach((song, index) => {
-                setTimeout(() => {
-                    const row = document.createElement('tr');
-                    row.classList.add('fade-in');
-                    const artistText = song.artist.join(', ');
+    limitedSongs.forEach((song, index) => {
+        setTimeout(() => {
+            const row = document.createElement('tr');
+            row.classList.add('fade-in');
+            const artistText = song.artist.join(', ');
 
+            // `accessGranted`がtrueの場合とfalseの場合で表示内容を変える
+            if (accessGranted) {
+                // パスワードが正しい場合の表示
+                row.innerHTML = `
+                    <td>
+                        <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                        <br>
+                        ${artistText}
+                        <br>
+                        【${song.genre}】
+                        <br>
+                        <img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
+                        <p id="memo-${index}" class="memo" style="display: none;">${song.memo}</p>
+                    </td>
+                `;
+            } else {
+                // パスワードが間違っている場合の表示（簡略版）
+                row.innerHTML = `
+                    <td>
+                        <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
+                        <br>
+                        ${artistText}
+                        <br>
+                        【${song.genre}】
+                    </td>
+                `;
+            }
+
+            tableBody.appendChild(row);
+            setTimeout(() => {
+                row.classList.add('visible');
+            }, 10);
+        }, index * 250);
+    });
+
+    if (remainingSongs.length > 0) {
+        setTimeout(() => {
+            remainingSongs.forEach(song => {
+                const row = document.createElement('tr');
+                row.classList.add('fade-in');
+                const artistText = song.artist.join(', ');
+
+                // `accessGranted`がtrueかどうかで同じように分岐
+                if (accessGranted) {
                     row.innerHTML = `
                         <td>
                             <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
@@ -110,50 +154,61 @@
                             ${artistText}
                             <br>
                             【${song.genre}】
+                            <br>
+                            <img src="img/image.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
+                            <p id="memo-${index}" class="memo" style="display: none;">${song.memo}</p>
                         </td>
                     `;
-                    tableBody.appendChild(row);
-                    setTimeout(() => {
-                        row.classList.add('visible');
-                    }, 10);
-                }, index * 250);
+                } else {
+                    row.innerHTML = `
+                        <td>
+                            <span class="song-title">${song.title}</span>
+                            <br>
+                            ${artistText}
+                            <br>
+                            【${song.genre}】
+                        </td>
+                    `;
+                }
+
+                tableBody.appendChild(row);
+                setTimeout(() => {
+                    row.classList.add('visible');
+                }, 10);
             });
 
-            if (remainingSongs.length > 0) {
-                setTimeout(() => {
-                    remainingSongs.forEach(song => {
-                        const row = document.createElement('tr');
-                        row.classList.add('fade-in');
-                        const artistText = song.artist.join(', ');
+            const table = document.getElementById('musicTable');
+            table.style.width = '100%';
+        }, limitedSongs.length * 250);
+    }
 
-                        row.innerHTML = `
-                            <td>
-                                <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
-                                <br>
-                                ${artistText}
-                                <br>
-                                【${song.genre}】
-                            </td>
-                        `;
-                        tableBody.appendChild(row);
-                        setTimeout(() => {
-                            row.classList.add('visible');
-                        }, 10);
-                    });
+    window.scrollTo(0, 0);
+}
 
-                    const table = document.getElementById('musicTable');
-                    table.style.width = '100%';
-                }, limitedSongs.length * 250);
-            }
+		function toggleMemo(index) {
+		    const memoElement = document.getElementById(`memo-${index}`);
+		    const memoIcon = document.querySelector(`#musicTable tbody tr:nth-child(${index + 1}) .memo-icon`);
 
-            window.scrollTo(0, 0);
-        }
+		    // メモが表示されているかどうかを確認し、表示/非表示を切り替え
+		    if (memoElement.style.display === 'none') {
+		        memoElement.style.display = 'block';
+		        memoIcon.style.opacity = '0.7'; // メモが表示されたときにアイコンを少し透明にする
+		    } else {
+		        memoElement.style.display = 'none';
+		        memoIcon.style.opacity = '1';  // メモが非表示になったら元の不透明度に戻す
+		    }
+		}
+
+		function getQueryParameter(name) {
+		    const urlParams = new URLSearchParams(window.location.search);
+		    return urlParams.get(name);
+		}
 
         document.addEventListener('DOMContentLoaded', () => {
             const screenWidth = window.innerWidth;
             const container = document.getElementById('container');
             container.style.width = `${screenWidth}px`;
-            displaySongs(musicData); // 音楽データを表示
+            displaySongs(musicData); 
         });
 
         $(function(){
