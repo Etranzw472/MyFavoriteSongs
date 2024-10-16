@@ -137,7 +137,7 @@ a {
 }
 
 .song-title {
-    font-size: 1.75em; /* 曲名のフォントサイズを調整（必要に応じて） */
+    font-size: 1.6em; /* 曲名のフォントサイズを調整（必要に応じて） */
 	font-weight: bold; /* 太字にする */
 }
 
