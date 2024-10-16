@@ -10,7 +10,7 @@ const musicData = [
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
 		usage: "241003",
-		memo: "「豹のマンボ」",
+		memo: "「豹のマンボ」サルサのステップに合わせてみんなで威嚇「シャーッ！」",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
     {
@@ -21,7 +21,7 @@ const musicData = [
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
 		usage: "241003",
-		memo: "Zumbaスタジオ制作の楽曲。セルジオ・メンデスのオシャレなサンバ・ボサノヴァのような雰囲気。Bonito：「美しい」誰かを前に、心が揺れちゃう、そんな振付です。",
+		memo: "雰囲気はまるでセルジオ・メンデスのサンバ・ボサノヴァ。Bonito：「美しい」誰かを前に心が揺れちゃう、そんな振付です。",
         link: ""
     },
     {
@@ -54,7 +54,7 @@ const musicData = [
         category: ["Traditional"],
 		tempo: "1",
 		usage: "240402",
-		memo: "Zumbaスタジオの曲。Cumbia + BhangraでCumbhangra ですがベリーダンスのステップも入れています。",
+		memo: "Cumbia + BhangraでCumbhangra ですがベリーダンスのステップも入れています。",
         link: ""
     },
     {
@@ -263,7 +263,7 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240501",
-		memo: "",
+		memo: "長めのサルサ曲。",
         link: "https://youtu.be/HagwTbmyyVA?si=uHYyZ6i0pBpbHGwJ"
 	},
     {
@@ -332,6 +332,17 @@ const musicData = [
 		memo: "",
         link: "https://youtu.be/HBntvaWP9qc?si=8QN8Z0LU7LJUyirP"
 	},
+    {
+        title: "Plastico",
+        artist: ["Willie Colon", "(Covered by Zumba)"],
+        genre: ["Salsa",],
+        type: "ZIN 55",
+        category: ["Emotional", "Rhythmic"],
+		tempo: "1",
+		usage: "240803",
+		memo: "とっても長いサルサ曲。「」",
+        link: ""
+    },
     {
         title: "Bailalo",
         artist: ["Armando", "&", "Heidy"],
@@ -659,7 +670,7 @@ const musicData = [
         category: ["Cool", "Dark"],
 		tempo: "1",
 		usage: "240804",
-		memo: "",
+		memo: "フィーチャーされている方は最近のZumba Volumeにも楽曲が収録されているアーティストですね。デンボウパートが激しめ。",
         link: "https://youtu.be/CBqCOwv4c6E?si=xqUMy4b9GVuCrPy9"
 	},
     {
@@ -670,7 +681,7 @@ const musicData = [
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "",
+		memo: "ジャンプの時は腹筋に力を入れること、あとは表情。それ以外は何も気にせず踊る曲！",
         link: "https://youtu.be/TD1UaFbGQNo?si=nXNej9p1JU5zI_aV"
 	},
     {
@@ -692,7 +703,7 @@ const musicData = [
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
 		usage: "240102",
-		memo: "Chorus（サビ）の後のパートで",
+		memo: "Chorus（サビ）の後のパート、ラテンにはあまりないようなアクセントがありますね。",
         link: "https://youtu.be/yxqkGhVvAqY?si=zzVNUBZSSfnhTYzJ"
 	},
     {
@@ -703,7 +714,7 @@ const musicData = [
         category: ["Cool", "Dark", "Distinctive"],
 		tempo: "1",
 		usage: "240901",
-		memo: "とても癖が強め（そこが好き）な楽曲を製作されるReggiとZIN 109のHip-Hopの楽曲でボーカルを務めているGizzleの楽曲。ギターをかき鳴らすように！",
+		memo: "とても癖が強め（そこが好き）なReggiとZIN 109のHip-Hopの楽曲でボーカルを務めているGizzleの楽曲。ギターをかき鳴らすように！",
         link: ""
 	},
     {
@@ -901,7 +912,7 @@ const musicData = [
         category: ["Emotional", "Experimental"],
 		tempo: "1",
 		usage: "240304",
-		memo: "歌詞の中にサルサの女王セリア・クルーズの歌から引用あり。クンビアアーティストの中で一番好きなEl Gran Silencioが携わってます。「このサウンドリズムにのって踊り続けよう、悲しみを手放すんだ」どんなシーンの曲なんでしょうね。",
+		memo: "歌詞の中にサルサの女王セリア・クルーズの歌から引用があります。「このサウンドリズムにのって踊り続けよう、悲しみを手放すんだ」どんなシーンの曲なんでしょうね。",
         link: "https://youtu.be/eeN7tHYQorE?si=-JdIsr7Nu4fl3em2"
 	},
     {
@@ -995,12 +1006,12 @@ const musicData = [
     {
         title: "Tus Pies",
         artist: ["Pinto Picasso"],
-        genre: ["Flamenco"],
+        genre: ["Flamenco", "Urban"],
         type: "MegaMix 99",
         category: ["Cool", "Blast"],
 		tempo: "1",
 		usage: "240803",
-		memo: "",
+		memo: "この曲からフラメンコに目覚めました！",
         link: ""
 	},
     {
@@ -1011,7 +1022,7 @@ const musicData = [
         category: ["Bright", "Distinctive"],
 		tempo: "1",
 		usage: "240603",
-		memo: "空耳シリーズ「えぇ～やん！」表情も大切に笑",
+		memo: "空耳シリーズ「えぇ～やん！」表情も大切に！笑",
         link: ""
 	},
     {
@@ -1022,7 +1033,7 @@ const musicData = [
         category: ["Dark", "Cool"],
 		tempo: "1",
 		usage: "240401",
-		memo: "",
+		memo: "レゲトンのような弾けるキックがありません。「重さ」を見て感じられる、波のような動きが目指せるといいですね。",
         link: "https://music.youtube.com/watch?v=PGQJGkbD8KM&si=Cnu9bduolZWQjPa5&feature=xapp_share"
 	},
     {
@@ -1032,7 +1043,7 @@ const musicData = [
         type: "ZIN 100",
         category: ["Dark", "Cool", "Emotional", "Blast"],
 		tempo: "1",
-		usage: "「Houseってジャンル」格好いいなぁとなった曲です。「忘れられない人を探してLA, New York, Berlinと世界中を探している」曲です。遠くを指さして「あっちこっち」",
+		usage: "「忘れられない人を探して。LA, New York, Berlinと世界中を探している」そんな曲です。遠くを指さして「あっちこっち」",
 		memo: "241004",
         link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
 	},
@@ -1063,7 +1074,7 @@ const musicData = [
         artist: ["Nancy Ajram", "Marshmello"],
         genre: ["Bellydance", "Guaracha"],
         type: "ZIN 101",
-        category: ["Traditional", "Rhythmic", "Dark"],
+        category: ["Experimental", "Rhythmic", "Dark"],
 		tempo: "1",
 		usage: "240304",
 		memo: "Zumbaスタジオによるワラチャアレンジが格好いい曲。",
@@ -1165,7 +1176,7 @@ const musicData = [
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240904",
-		memo: "",
+		memo: "シンセサイザーの音が入ったフラメンコ。",
         link: ""
 	},
     {
@@ -1209,7 +1220,7 @@ const musicData = [
         category: ["Rhythmic", "Emotional", "Distinctive"],
 		tempo: "1",
 		usage: "241003",
-		memo: "",
+		memo: "公開されて1日で振付作りました笑。ぜんまい仕掛けの踊る人形みたいなイメージで振付しました。",
         link: ""
 	},
     {
@@ -1220,7 +1231,7 @@ const musicData = [
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240201",
-		memo: "",
+		memo: "前半のアフロビートは出来るだけ滑らかに、後半のサルサは力強く。対比がはっきりするといいですよね。",
         link: ""
 	},
     {
@@ -1545,12 +1556,12 @@ const musicData = [
     {
         title: "Let's Freak",
         artist: ["Robbie Elias" ,"BIP"],
-        genre: ["Meren"],
+        genre: ["Disco", "Dembow"],
         type: "ZIN 111",
         category: ["Cool", "Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240804",
-		memo: "",
+		memo: "ディスコ！知らないけど雰囲気をイメージしてオリジナル振付しました。後半のDembowパートは力強くかつ滑らかに。",
         link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
 	},
     {
@@ -1572,7 +1583,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "240903",
-		memo: "",
+		memo: "「もっとはやくあなたに出会えてたら」優しい、でも少しもの悲しい曲。ZESのLorettaとNickの振付がベースです。",
         link: "https://youtu.be/MgsdDfdGdHc?si=p3JLLxX7l8ed0H6Q"
     },
     {
@@ -1583,7 +1594,7 @@ const musicData = [
         category: ["Distinctive", "Traditional"],
 		tempo: "1",
 		usage: "240901",
-		memo: "",
+		memo: "基本オリジナル振付ですね。音の強弱を体で表現してもらいたくて「静かに！」の指示が多いです。皆様の予想の3倍は出してます笑",
         link: ""
 	},
     {
@@ -1605,7 +1616,7 @@ const musicData = [
         category: ["Bright", "Blast", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！",
+		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！エレキベース・ギターがとても気持ちいい一曲。",
         link: ""
 	},
     {
@@ -1616,7 +1627,7 @@ const musicData = [
         category: ["Emotional", "Cool"],
 		tempo: "1",
 		usage: "241003",
-		memo: "",
+		memo: "イントロでハートを掴まれてしまった曲。こちらもおふたりの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
         link: ""
 	},
     {
@@ -1624,10 +1635,10 @@ const musicData = [
         artist: ["The Moonsters", "Enric Font", "feat.", "Lexter"],
         genre: ["EDM"],
         type: "KIDS 2017 JUL",
-        category: ["Cool", "Powerful"],
+        category: ["Cool", "Powerful", "Blast"],
 		tempo: "1",
 		usage: "240301",
-		memo: "",
+		memo: "夜が想起されるダンスミュージック。この楽曲はWarm-upに用いることが多いですね。",
         link: "https://youtu.be/tCeW-DFbcgw"
 	},
     {
@@ -1638,7 +1649,7 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "240801",
-		memo: "",
+		memo: "短めなフラメンコ曲。「ぷんぷん！」と怒る仕草の振りも考えましたが、あざとさが思ったより酷く自ら却下しました笑",
         link: ""
 	},
     {
@@ -1649,7 +1660,7 @@ const musicData = [
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や表情を大切に。",
+		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や顔の向きを大切に。",
         link: ""
 	},
     {
@@ -1671,7 +1682,7 @@ const musicData = [
         category: ["Powerful", "Distinctive", "Blast"],
 		tempo: "1",
 		usage: "240904",
-		memo: "",
+		memo: "マーベルヒーローのハルクですね。ハルクとブルース博士の様に力強く荒々しいところ、またそれ以外をきっちり分けて動けるといいですね。",
         link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
 	},
     {
@@ -1701,10 +1712,10 @@ const musicData = [
         artist: ["Zumba"],
         genre: ["Merengue"],
         type: "KIDS 2024 JUL",
-        category: ["Bright", "Rhythmic"],
+        category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240902",
-		memo: "",
+		memo: "コーラスでは曲名の「手を挙げてね！」を意識した振付。泳ぐ振付を入れてるのはこの曲だけかも？",
         link: ""
 	},
     {
@@ -1715,7 +1726,7 @@ const musicData = [
         category: ["Powerful", "Cool", "Dark"],
 		tempo: "1",
 		usage: "240404",
-		memo: "",
+		memo: "強いビートのK-Pop。どんどん変わる声色に合わせた振付にしました。",
         link: "https://youtu.be/nHFd4eEBvP4?si=RGUeuXGRd8Hp1i4i"
 	},
     {
@@ -1748,7 +1759,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "240301",
-		memo: "",
+		memo: "高音の透き通る声のBeéle（ZIN 108 のBachataもこの方）とEmotionalなレゲトンを歌い上げるFarrukoのコラボ曲。",
         link: "https://youtu.be/FS__SaIBf-A?si=BwYeaXnwgqtOk-KS"
 	},
     {
@@ -1759,7 +1770,7 @@ const musicData = [
         category: ["Powerful", "Dark", "Cool", "Blast"],
 		tempo: "1",
 		usage: "241003",
-		memo: "",
+		memo: "著名なDJスティーブ・アオキによるリミックス曲。オリジナルMVの有名な振付も取り入れてます。",
         link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
 	},
     {
@@ -1781,7 +1792,7 @@ const musicData = [
         category: ["Bright", "Powerful", "Traditional", "Blast"],
 		tempo: "1",
 		usage: "240701",
-		memo: "テレビコマーシャルで聞いたことがある人も多いはず。",
+		memo: "CMで聞いたことがある人も多いはず。力強い声と演奏に乗せて踊りましょう！",
         link: "https://youtu.be/X8TOhb_4jU0?si=tQC6KAf9kbTfqtcC"
 	},
     {
@@ -1803,7 +1814,7 @@ const musicData = [
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
 		usage: "240603",
-		memo: "",
+		memo: "M.I.A.M.I.などの曲も手掛けているNachoがソロで活動する前にリリースした曲のひとつ。音にはまる気持ちいい！そんな振付を目指しました。",
         link: "https://youtu.be/dR8dBCzs2EY?si=oW86LMbQax-TlXb7"
 	},
     {
@@ -1814,7 +1825,7 @@ const musicData = [
         category: ["Cool", "Experimental", "Distinctive"],
 		tempo: "1",
 		usage: "240904",
-		memo: "振付はイベントにて韓国のZES Kim Jenniferにならいました。",
+		memo: "振付は韓国のZES Jennifer Kimに習いました。ガールズK-Popらしいところ力強いところと1曲に色んな面がみられます。",
         link: "https://youtu.be/4_vzrcxpT4I?si=afr5f_HCG2jDPcF9"
 	},
     {
@@ -1858,7 +1869,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "241004",
-		memo: "2022FIFAワールドカップの公式曲。「さぁ見て僕らを、僕らは夢を追う者たち」挑戦し戦い続ける人へ向けたエールの曲。振付はアフロビートを中心に構成。",
+		memo: "「さぁ見て僕らを、僕らは夢を追う者たち」挑戦し戦い続ける人へ向けたエールの曲。振付はアフロビートを中心に構成。",
         link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
 	},
     {
@@ -1882,6 +1893,17 @@ const musicData = [
 		usage: "240904",
 		memo: "",
         link: "https://youtu.be/THBP1tq49wk?si=r6WQFqTjd7e4BIoY"
+	},
+    {
+        title: "Fuego",
+        artist: ["Dimitri Vegas", "Like Mike", "Kim Loaiza"],
+        genre: ["Reggaeton", "Dancehall", "Latin"],
+        type: "Others",
+        category: ["Dark", "Distinctive", "Emotional"],
+		tempo: "1",
+		usage: "241003",
+		memo: "",
+        link: "https://youtu.be/rMCnyJgEjnA?si=IBDYYPGwn308WcXe"
 	}
 
 
