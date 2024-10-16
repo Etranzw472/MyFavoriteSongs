@@ -138,12 +138,7 @@ a {
 	font-weight: bold; /* 太字にする */
 }
 
-.song-title, .artist {
-    white-space: nowrap; /* 折り返さない設定 */
-    overflow: hidden;    /* はみ出した部分を隠す */
-    text-overflow: ellipsis; /* はみ出した部分を...で示す */
-    max-width: calc(100% - 30px); /* 最大幅を設定（30pxは適宜調整） */
-}
+
 
 .songlist th, .songlist td {
     font-size: 12px; /* ヘッダーとセルのフォントサイズを調整 */
