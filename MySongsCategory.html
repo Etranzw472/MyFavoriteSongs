@@ -220,21 +220,7 @@ function displaySongs(songs) {
             });
         });
 
-function createRequestLink(title, genre, type) {
-    // スペースやカンマをカスタム区切り文字に変換
-    const encodedTitle = title.replace(/\s+/g, '_'); // タイトルのスペースを「_」に置換
-    const encodedGenre = genre.replace(/\s*,\s*/g, '_'); // ジャンルのカンマとスペースを「_」に置換
-    const encodedType = type.replace(/\s+/g, '_'); // タイプのスペースを「_」に置換
 
-    // 3つの要素を「-」で結合し、1つのパラメータにまとめる
-    const combinedData = `${encodedTitle}-${encodedGenre}-${encodedType}`;
-
-    // URLにまとめたパラメータを使用
-    const url = `https://business.form-mailer.jp/fms/b6f9485a239272?曲のリクエスト[0]=${combinedData}`;
-
-    // 新しいタブでリンクを開く
-    window.open(url, '_blank');
-}
 
 
     </script>
