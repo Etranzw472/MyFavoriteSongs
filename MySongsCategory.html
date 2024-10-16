@@ -117,6 +117,7 @@
                         <br>
                         <img src="j41_2_10.png" class="request-icon" alt="リクエスト画面へ" onclick="createRequestLink('${song.title}', '${song.genre}', '${song.type}')" />
                         <img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
+			<br>
                         <p id="memo-${index}" class="memo" style="display: none;">${song.memo}</p>
                     </td>
                 `;
@@ -162,6 +163,7 @@
                             <br>
                             <img src="j41_2_10.png" class="request-icon" alt="リクエスト画面へ" onclick="createRequestLink('${song.title}', '${song.genre}', '${song.type}')" />
                             <img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${overallIndex})" alt="メモを表示" />
+			    <br>
                             <p id="memo-${overallIndex}" class="memo" style="display: none;">${song.memo}</p>
                         </td>
                     `;
