@@ -21,7 +21,7 @@ const musicData = [
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
 		usage: "241003",
-		memo: "Zumbaスタジオ制作の楽曲で、音源も中々見つからない曲。セルジオメンデスが演奏しているようなオシャレなサンバ・ボサノヴァのような雰囲気。Bonito：「美しい」誰かを前に、心が揺れちゃう、そんな振付です。",
+		memo: "Zumbaスタジオ制作の楽曲。セルジオ・メンデスのオシャレなサンバ・ボサノヴァのような雰囲気。Bonito：「美しい」誰かを前に、心が揺れちゃう、そんな振付です。",
         link: ""
     },
     {
@@ -43,7 +43,7 @@ const musicData = [
         category: ["Dark", "Traditional"],
 		tempo: "1",
 		usage: "240601",
-		memo: "",
+		memo: "都会の夜のイメージ。音に合わせた力強い動きとクンビアのビートに合わせた滑らかな動きが特徴です。",
         link: "https://youtu.be/Rgq2-DYsQfM?si=EMH1UPicZE0Tw-50"
     },
     {
@@ -54,7 +54,7 @@ const musicData = [
         category: ["Traditional"],
 		tempo: "1",
 		usage: "240402",
-		memo: "Zumbaスタジオの曲。",
+		memo: "Zumbaスタジオの曲。Cumbia + BhangraでCumbhangra ですがベリーダンスのステップも入れています。",
         link: ""
     },
     {
@@ -142,7 +142,7 @@ const musicData = [
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
 		usage: "2401001",
-		memo: "「」",
+		memo: "Zumba版はVíctor Manuelleのアレンジを基にしていますね。",
         link: "https://youtu.be/zAlJdUmMzsA?si=7zIIdMYB1fqdvgO3"
     },
     {
@@ -186,7 +186,7 @@ const musicData = [
         category: ["Bright"],
 		tempo: "1",
 		usage: "231001",
-		memo: "",
+		memo: "シンプルな振付で踊れるメレンゲ曲。",
         link: "https://youtu.be/4Xr24SmSvBI?si=tjysHq5_iqdROZ__"
 	},
     {
@@ -296,7 +296,7 @@ const musicData = [
         category: ["Cool", "Distinctive"],
 		tempo: "1",
 		usage: "240804",
-		memo: "",
+		memo: "手の難しい振付はダンスホールから取り入れました。",
         link: "https://youtu.be/HJ6mZZbN2AE?si=snPj72lOa9JGhufv"
 	},
     {
@@ -318,7 +318,7 @@ const musicData = [
         category: ["Blast", "Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240704",
-		memo: "",
+		memo: "♡を投げまくる振付の曲。",
         link: ""
 	},
     {
@@ -337,10 +337,10 @@ const musicData = [
         artist: ["Armando", "&", "Heidy"],
         genre: ["Dembow"],
         type: "ZIN 68",
-        category: ["Powerful", "Experimental"],
+        category: ["Powerful", "Experimental", "Distinctive"],
 		tempo: "1",
 		usage: "240504",
-		memo: "",
+		memo: "おなかに効かせたい一曲。hala!→腹！の空耳。",
         link: "https://youtu.be/wwrgDrXK4i8?si=oTEi4E9C6aGcmeW7"
 	},
     {
@@ -362,7 +362,7 @@ const musicData = [
         category: ["Cool", "Experimental"],
 		tempo: "1",
 		usage: "2301104",
-		memo: "ブルーノマーズの有名な楽曲をZumbaがアレンジ！",
+		memo: "ブルーノマーズの有名な楽曲をZumbaがアレンジ！トラップの要素が強い後半、",
         link: "https://youtu.be/PMivT7MJ41M?si=QW6itaZPAENZ3vRC"
 	},
     {
@@ -373,7 +373,7 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "241001",
-		memo: "",
+		memo: "ZIN 112のあ",
         link: ""
 	},
     {
@@ -703,7 +703,7 @@ const musicData = [
         category: ["Cool", "Dark", "Distinctive"],
 		tempo: "1",
 		usage: "240901",
-		memo: "とても癖が強め（そこが好き）な楽曲を製作されるReggiとZIN 109のHip-Hopの楽曲でボーカルを務めているGizzleの楽曲。",
+		memo: "とても癖が強め（そこが好き）な楽曲を製作されるReggiとZIN 109のHip-Hopの楽曲でボーカルを務めているGizzleの楽曲。ギターをかき鳴らすように！",
         link: ""
 	},
     {
@@ -714,7 +714,7 @@ const musicData = [
         category: ["Relaxing", "Emotional"],
 		tempo: "1",
 		usage: "240604",
-		memo: "この楽曲は2020年4月、コロナ禍が始まった頃に再収録リリースされた楽曲。癒しを与える暖かな光のような歌。",
+		memo: "この楽曲は2020年4月、コロナ禍が始まった頃に再収録リリースされた楽曲。癒しを与える暖かな光のような歌。クールダウンによく使います。",
         link: "https://youtu.be/Y5jwkDM-AQc?si=iKhFPoqukPQ9EyI1"
 	},
     {
@@ -736,7 +736,7 @@ const musicData = [
         category: ["Powerful", "Rhythmic", "Blast"],
 		tempo: "1",
 		usage: "240601",
-		memo: "",
+		memo: "ピコピコ音のロールが特徴的な曲。頭→胸→腰→ウェーブのアイソレ要素がちょっと難しいかもです。",
         link: "https://youtu.be/cMneYC0LnEo?si=kX_ZqaXvup0xHzyQ"
 	},
     {
@@ -747,7 +747,7 @@ const musicData = [
         category: ["Relaxing"],
 		tempo: "1",
 		usage: "240201",
-		memo: "",
+		memo: "優しい雰囲気のレゲトンソング。",
         link: "https://youtu.be/FbT5hS-sueE"
 	},
     {
@@ -758,7 +758,7 @@ const musicData = [
         category: ["Dark", "Cool"],
 		tempo: "1",
 		usage: "240901",
-		memo: "",
+		memo: "ダンスホールの振付のみで構成してます。力を溜めて開放して…抜き切らないのがポイント。",
         link: "https://youtu.be/M3deetRnsaM?si=G_url82Has4uqL91"
 	},
     {
@@ -780,7 +780,7 @@ const musicData = [
         category: ["Powerful", "Emotional"],
 		tempo: "1",
 		usage: "240903",
-		memo: "",
+		memo: "短めなクールダウン曲。",
         link: ""
 	},
 	{
@@ -802,7 +802,7 @@ const musicData = [
         category: ["Powerful", "Dark"],
 		tempo: "1",
 		usage: "240302",
-		memo: "",
+		memo: "ジョセフZJに習いに行った振付でしています。",
         link: "https://youtu.be/Y_YJ5tIG8XM"
 	},
     {
@@ -813,7 +813,7 @@ const musicData = [
         category: ["Relaxing"],
 		tempo: "1",
 		usage: "240501",
-		memo: "",
+		memo: "こちらもジョセフZJより。後半に突然入るショルダーシミ―&ウェーブが音にピッタリ。",
         link: ""
 	},
     {
@@ -824,7 +824,7 @@ const musicData = [
         category: ["Relaxing"],
 		tempo: "1",
 		usage: "240703",
-		memo: "",
+		memo: "原曲とZumba Volume収録版が少し違いますね。",
         link: "https://youtu.be/r-K6u3Zzf3U?si=gz0L4U-XL9wkT2Rq"
 	},
     {
@@ -901,7 +901,7 @@ const musicData = [
         category: ["Emotional", "Experimental"],
 		tempo: "1",
 		usage: "240304",
-		memo: "歌詞の中にサルサの女王セリア・クルーズの歌から引用がある。クンビアアーティストの中で一番好きなEl Gran Silencioが携わってます。「このサウンドリズムにのって踊り続けよう、悲しみを手放すんだ」どんなシーンの曲なんでしょうね。",
+		memo: "歌詞の中にサルサの女王セリア・クルーズの歌から引用あり。クンビアアーティストの中で一番好きなEl Gran Silencioが携わってます。「このサウンドリズムにのって踊り続けよう、悲しみを手放すんだ」どんなシーンの曲なんでしょうね。",
         link: "https://youtu.be/eeN7tHYQorE?si=-JdIsr7Nu4fl3em2"
 	},
     {
@@ -934,18 +934,18 @@ const musicData = [
         category: ["Bright", "Relaxing", "Emotional"],
 		tempo: "1",
 		usage: "240604",
-		memo: "",
+		memo: "サルサバージョンのみZumba Volumeに収録。メレンゲ版と同じような振付になるようにしています。",
         link: "https://youtu.be/mdFpJO9H_U8"
     },
     {
         title: "Overtime",
-        artist: ["Dahrio"],
+        artist: ["Dahrio", "Joellii", "Jhon Hart", "Mario Parra"],
         genre: ["Funk"],
         type: "MegaMix 99",
         category: ["Blast", "Rhythmic"],
 		tempo: "1",
 		usage: "240701",
-		memo: "",
+		memo: "4つ打ちのリズムだけでなく&カウントのビートにのってもらえるような振付にしました。指差しで4方向回転は時計をイメージ。BttFの時計塔みたく時を戻してます。",
         link: ""
 	},
     {
@@ -1011,7 +1011,7 @@ const musicData = [
         category: ["Bright", "Distinctive"],
 		tempo: "1",
 		usage: "240603",
-		memo: "空耳シリーズ「えぇ～やん！」",
+		memo: "空耳シリーズ「えぇ～やん！」表情も大切に笑",
         link: ""
 	},
     {
@@ -1032,7 +1032,7 @@ const musicData = [
         type: "ZIN 100",
         category: ["Dark", "Cool", "Emotional", "Blast"],
 		tempo: "1",
-		usage: "「Houseってジャンル」格好いいなぁとなった曲です。「忘れられない人を探してLA, New York, Berlinと世界中を探している」みたいな曲です。",
+		usage: "「Houseってジャンル」格好いいなぁとなった曲です。「忘れられない人を探してLA, New York, Berlinと世界中を探している」曲です。遠くを指さして「あっちこっち」",
 		memo: "241004",
         link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
 	},
@@ -1055,7 +1055,7 @@ const musicData = [
         category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
 		usage: "240802",
-		memo: "",
+		memo: "激しく動くパートの後はバイクをイメージ。レッグカールしながら「ブゥォン！」とエンジンをふかすように。",
         link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
 	},
     {
@@ -1077,7 +1077,7 @@ const musicData = [
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
 		usage: "240301",
-		memo: "歌詞の全てから愛する人への想いが溢れまくってる曲。名前が変ったりもしていますがアーティスト「Los Enbajadres de la Salsa」格好いい曲ばかりなので聞いてみてください。",
+		memo: "歌詞の全てから愛する人への想いが溢れまくってる曲。振付もそれに合わせて作りました。名前が変わったりもしていますがアーティスト「Los Enbajadres de la Salsa」格好いい曲ばかりなので聞いてみてください。",
         link: "https://youtu.be/FCYkWbPmRfo"
 	},
     {
@@ -1088,7 +1088,7 @@ const musicData = [
         category: ["Power", "Rhythmic"],
 		tempo: "1",
 		usage: "240601",
-		memo: "",
+		memo: "短めなメレンゲ曲。",
         link: "https://youtu.be/tzZC26HDgqI"
 	},
     {
@@ -1099,7 +1099,7 @@ const musicData = [
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "",
+		memo: "手を合わせてスリスリ、多くのインストラクターが取り入れてますね。",
         link: ""
 	},
     {
@@ -1121,7 +1121,7 @@ const musicData = [
         category: ["Experimental"],
 		tempo: "1",
 		usage: "241004",
-		memo: "",
+		memo: "最近の曲調ではないような音の使い方をするレゲトン曲。基本の動きに忠実に、ちょっと遊びも入れながら。",
         link: ""
 	},
     {
@@ -1132,7 +1132,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240402",
-		memo: "",
+		memo: "CNCOはオシャレなレゲトン曲が多いですね。",
         link: "https://youtu.be/r5o8Dyn8aiQ"
 	},
     {
@@ -1143,7 +1143,7 @@ const musicData = [
         category: ["Dark", "Powerful", "Experimental"],
 		tempo: "1",
 		usage: "240502",
-		memo: "",
+		memo: "前半はバチャータのリズム、後半はビートの強いダンス系。",
         link: ""
 	},
     {
@@ -1176,7 +1176,7 @@ const musicData = [
         category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "",
+		memo: "雨の音から入る静かな曲。振り一つひとつが楽器の音に合うようにしているので聞いてみてください。",
         link: ""
 	},
     {
