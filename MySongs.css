@@ -129,7 +129,7 @@ a {
 
 
 #musicTable {
-    font-size: 15px; /* テーブル全体のフォントサイズを下げる */
+    font-size: 13px; /* テーブル全体のフォントサイズを下げる */
 
 }
 
@@ -139,7 +139,7 @@ a {
 }
 
 .songlist th, .songlist td {
-    font-size: 14px; /* ヘッダーとセルのフォントサイズを調整 */
+    font-size: 12px; /* ヘッダーとセルのフォントサイズを調整 */
 }
 
 
