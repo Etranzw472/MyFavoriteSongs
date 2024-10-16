@@ -18,7 +18,7 @@
         const passwordInput = document.getElementById('passwordInput');
         const message = document.getElementById('message');
 
-        const correctPassword = "すんばすきやねん"; // 正しいパスワード
+        const correctPassword = "おるがたにょん"; // 正しいパスワード
 
         keyImage.onclick = function() {
             modal.style.display = "block";
@@ -41,7 +41,7 @@
 		    if (passwordInput.value === correctPassword) {
 		        window.location.href = "MySongsCategory.html?access=true";
 		    } else {
-		        message.textContent = "ちがうよ　さーくるのときにきいてね";
+		        message.textContent = "ちがうよ";
 		    }
 		}
 
