@@ -162,7 +162,7 @@ function displaySongs(songs) {
                 } else {
                     row.innerHTML = `
                         <td>
-                            <span class="song-title">${song.title}</span>
+                            <span class="song-title">${song.link ? `<a href="${song.link}" target="_blank">${song.title}</a>` : song.title}</span>
                             <br>
                             ${artistText}
                             <br>
