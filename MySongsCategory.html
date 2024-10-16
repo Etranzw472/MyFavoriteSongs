@@ -85,7 +85,7 @@
         }
 
         function shuffle(array) {
-            for (let i = array.length - 1; i > 0; i--) {
+            for (let i = array.length - 1; i > 0; i++) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [array[i], array[j]] = [array[j], array[i]];
             }
@@ -114,7 +114,8 @@ function displaySongs(songs) {
                         <br>
                         【${song.genre}】
                         <br>
-                        <img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
+                        <img src="j41_2_10.png" class="request-icon" alt="リクエスト画面へ" onclick="createRequestLink('${song.title}', '${song.genre}', '${song.type}')" />
+						<img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
                         <p id="memo-${index}" class="memo" style="display: none;">${song.memo}</p>
                     </td>
                 `;
@@ -140,10 +141,11 @@ function displaySongs(songs) {
 
     if (remainingSongs.length > 0) {
         setTimeout(() => {
-            remainingSongs.forEach(song => {
+            remainingSongs.forEach((song, remainingIndex) => {
                 const row = document.createElement('tr');
                 row.classList.add('fade-in');
                 const artistText = song.artist.join(', ');
+                const overallIndex = remainingIndex + 6; // 7曲目以降のインデックス
 
                 // `accessGranted`がtrueかどうかで同じように分岐
                 if (accessGranted) {
@@ -155,8 +157,9 @@ function displaySongs(songs) {
                             <br>
                             【${song.genre}】
                             <br>
-                            <img src="img/image.png" class="memo-icon" onclick="toggleMemo(${index})" alt="メモを表示" />
-                            <p id="memo-${index}" class="memo" style="display: none;">${song.memo}</p>
+							<img src="j41_2_10.png" class="request-icon" alt="リクエスト画面へ" onclick="createRequestLink('${song.title}', '${song.genre}', '${song.type}')" />
+                            <img src="j96_8_1.png" class="memo-icon" onclick="toggleMemo(${overallIndex})" alt="メモを表示" />
+                            <p id="memo-${overallIndex}" class="memo" style="display: none;">${song.memo}</p>
                         </td>
                     `;
                 } else {
@@ -216,6 +219,24 @@ function displaySongs(songs) {
                 return false;
             });
         });
+
+function createRequestLink(title, genre, type) {
+    // スペースやカンマをカスタム区切り文字に変換
+    const encodedTitle = title.replace(/\s+/g, '_'); // タイトルのスペースを「_」に置換
+    const encodedGenre = genre.replace(/\s*,\s*/g, '_'); // ジャンルのカンマとスペースを「_」に置換
+    const encodedType = type.replace(/\s+/g, '_'); // タイプのスペースを「_」に置換
+
+    // 3つの要素を「-」で結合し、1つのパラメータにまとめる
+    const combinedData = `${encodedTitle}-${encodedGenre}-${encodedType}`;
+
+    // URLにまとめたパラメータを使用
+    const url = `https://business.form-mailer.jp/fms/b6f9485a239272?曲のリクエスト[0]=${combinedData}`;
+
+    // 新しいタブでリンクを開く
+    window.open(url, '_blank');
+}
+
+
     </script>
 </body>
 </html>
