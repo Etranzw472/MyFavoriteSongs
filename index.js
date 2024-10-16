@@ -48,9 +48,9 @@
 		setTimeout(() => {
 		    const section = document.querySelector('section');
 		    section.style.animation = 'moveUp 1s forwards'; // アニメーションを開始
-		},32000); // 12秒後に実行
+		},12000); // 12秒後に実行
 
 	    // 12秒後に画像を表示
 	    setTimeout(() => {
 	        document.querySelector('.image').style.opacity = 1;
-	    }, 33000);
+	    }, 13000);
