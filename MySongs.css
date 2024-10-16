@@ -8,8 +8,11 @@ header {
     height: 65px;
 	background-color: #63822D;
 	position: fixed;
+    z-index: 100;
 	top: 0;
 }
+
+
 
 #main div {
     display: flex;
@@ -151,5 +154,5 @@ a {
 }
 
 .memo {
-	color: #63822D;
+	color:#63822D;
 }
