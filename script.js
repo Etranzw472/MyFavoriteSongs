@@ -967,7 +967,7 @@ const musicData = [
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240601",
-		memo: "Oro Solido(Raul Acosta)の曲の中でもイントロ、コーラス等の分かれ目が分かりやすい曲、大すき。点心を落とさないように「おっとっと！」",
+		memo: "Oro Solido(Raul Acosta)の曲の中でもイントロ、コーラス等の分かれ目が分かりやすい曲、大好き。点心を落とさないように「おっとっと！」",
         link: ""
 	},
     {
@@ -1055,7 +1055,7 @@ const musicData = [
         category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
 		usage: "240802",
-		memo: "激しく動くパートの後はバイクをイメージ。レ「ブゥォン！」とエンジンをふかすように。",
+		memo: "激しく動くパートの後はバイクをイメージ。「ブゥォン！」とエンジンをふかすように。",
         link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
 	},
     {
