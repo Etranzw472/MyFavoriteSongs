@@ -18,7 +18,7 @@
         const passwordInput = document.getElementById('passwordInput');
         const message = document.getElementById('message');
 
-        const correctPassword = "おるがたにょん"; // 正しいパスワード
+        const correctPassword = "あいらぶずんば"; // 正しいパスワード
 
         keyImage.onclick = function() {
             modal.style.display = "block";
