@@ -29,10 +29,10 @@ const musicData = [
         artist: ["Ronald Borjas", "feat.", "Motif"],
         genre: ["Salsa"],
         type: "FitnessVariation 26",
-        category: ["Rhythmic"],
+        category: ["Rhythmic", "Traditional"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "ZIN 107のサルサと同じアーティストですね。リズムの構成が特殊で好きです。",
         link: "https://youtu.be/M7oZquZM8to?si=2jdbQVxlOVjLPQGQ",
     },
     {
@@ -65,7 +65,7 @@ const musicData = [
         category: ["Powerful"],
 		tempo: "1",
 		usage: "240103",
-		memo: "",
+		memo: "「ダン！ダダン！」でバトゥカーダのリズムを覚えましょう！バチャータパートも電子楽器系で格好いいです♪",
         link: ""
     },
     {
@@ -87,7 +87,7 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "240803",
-		memo: "",
+		memo: "アイスクリームとケーキ。食べたいですね。いいお値段するけどとってもおいしいやつ。我慢できませんわ、もう。…そんな振付です笑。",
         link: "https://youtu.be/kkY0PeMaZKA?si=JqhUCGc6MCEwfLZY"
     },
     {
@@ -120,7 +120,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240904",
-		memo: "",
+		memo: "オススメして頂いて大好きになった曲の一つです。最後の「oh oh oh oh」では回りの方に是非会いに行ってくださいね。",
         link: "https://youtu.be/NUsoVlDFqZg?si=R1KZNTg4obtd4uei"
 	},
     {
@@ -131,7 +131,7 @@ const musicData = [
         category: ["Cool", "Emotional"],
 		tempo: "1",
 		usage: "231202",
-		memo: "",
+		memo: "タンゴの仲間、ミロンガ。ライトも落として、雰囲気たっぷりで踊ると気持ちいです♪",
         link: ""
     },
     {
@@ -142,7 +142,7 @@ const musicData = [
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
 		usage: "2401001",
-		memo: "Zumba版はVíctor Manuelleのアレンジを基にしていますね。",
+		memo: "Zumba版はVíctor Manuelleのアレンジを基にしていますね。「人生はあっという間。飛び出して！踊ろうよ！」",
         link: "https://youtu.be/zAlJdUmMzsA?si=7zIIdMYB1fqdvgO3"
     },
     {
@@ -164,7 +164,7 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240501",
-		memo: "ZIN 106にある同名の曲はこの曲のアレンジみたいですね。哀愁を感じられる旋律が大好きです。振付はクンビアVer.から拝借。",
+		memo: "ZIN 106にある同名の曲はこの曲のアレンジでしょうか。哀愁を感じられる旋律が大好きです。振付はクンビアVer.から拝借。",
         link: ""
     },
     {
@@ -175,7 +175,7 @@ const musicData = [
         category: ["Experimental"],
 		tempo: "1",
 		usage: "230204",
-		memo: "",
+		memo: "サルサチョケというジャンル。少し複雑かもしれませんが、サルサとは違う雰囲気の細かい音も身体で表現できると楽しいですよ！",
         link: "https://youtu.be/4nXOvde7030"
     },
     {
@@ -197,7 +197,7 @@ const musicData = [
         category: ["Powerful", "Experimental"],
 		tempo: "1",
 		usage: "240403",
-		memo: "",
+		memo: "同じ振付でも音楽に合わせて強弱をつけてます。胴部の回旋などは少なめ、力強いクンビアですね。",
         link: ""
 	},
     {
@@ -208,8 +208,8 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240603",
-		memo: "",
-        link: ""
+		memo: "コーラスの「デス・パ・シート」の部分で鳥肌が立っちゃいます。足元が忙しいですが、曲の雰囲気をいっぱい感じながら踊れるといいですね。",
+        link: "https://youtu.be/kJQP7kiw5Fk?si=58YW4GhEKvD_iobq"
 	},
     {
         title: "Sola",
@@ -219,7 +219,7 @@ const musicData = [
         category: ["Powerful", "Experimental"],
 		tempo: "1",
 		usage: "240701",
-		memo: "",
+		memo: "レゲトンの曲にバングラの要素が入っていますね。振付も同様にして作りました。",
         link: ""
 	},
 	{
@@ -230,7 +230,7 @@ const musicData = [
         category: ["Traditional"],
 		tempo: "1",
 		usage: "240104",
-		memo: "",
+		memo: "クンビアとフラメンコのフュージョン曲。タイトルのZumba Fuegoの掛け声に合わせて手を高らかに！",
         link: ""
 	},
     {
@@ -241,7 +241,7 @@ const musicData = [
         category: ["Traditional", "Experimental"],
 		tempo: "1",
 		usage: "230901",
-		memo: "",
+		memo: "Happy Colorsというアーティスト、ZIN106 Mucho Flowにも携わっているアーティストなんですよ。アーバンチックなクンビアを手掛けるElDustyとの曲です。",
         link: "https://youtu.be/MT02fwtyVVU"
 	},
     {
@@ -252,7 +252,7 @@ const musicData = [
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
 		usage: "240103",
-		memo: "",
+		memo: "足の振り幅はそれぞれでOK！細かい振りは少なめですのでバングラの雰囲気を知りたい方にオススメです。",
         link: ""
 	},
     {
@@ -263,18 +263,18 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240501",
-		memo: "長めのサルサ曲。",
+		memo: "勢いはあるのに少しもの悲しげな雰囲気、サルサはこんな曲がいくつもあるので好きです。",
         link: "https://youtu.be/HagwTbmyyVA?si=uHYyZ6i0pBpbHGwJ"
 	},
     {
         title: "No Voy A Llorar",
         artist: ["Carolina La O", "(feat.)", "Robert Taylor"],
-        genre: ["Merengue", "pop"],
+        genre: ["Merengue", "Pop"],
         type: "ZIN 64",
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "231204",
-		memo: "",
+		memo: "メレンゲポップ。「もう泣かない」失恋の曲でしょうか？次々展開していく雰囲気が想像をかきたてますね。",
         link: "https://youtu.be/-41v6jLOcas?si=8R_pafH9PXLtyuzn"
 	},
     {
@@ -285,7 +285,7 @@ const musicData = [
         category: ["Distinctive", "Rhythmic"],
 		tempo: "1",
 		usage: "231003",
-		memo: "",
+		memo: "Zumbaではこの有名な楽曲をサルサにアレンジ！僕の振付は…「マーカレナ！」の後の掛け声のところ、キメてください！",
         link: "https://youtu.be/cV0FxPZ3YR0?si=aHcmsR-GDEMVLyrO"
 	},
     {
@@ -296,7 +296,7 @@ const musicData = [
         category: ["Cool", "Distinctive"],
 		tempo: "1",
 		usage: "240804",
-		memo: "手の難しい振付はダンスホールから取り入れました。",
+		memo: "手の難しい振付はダンスホールから取り入れました。頭を使いますがこちらも練習で出来るようになるはず！",
         link: "https://youtu.be/HJ6mZZbN2AE?si=snPj72lOa9JGhufv"
 	},
     {
@@ -307,7 +307,7 @@ const musicData = [
         category: ["Bright", "Traditional"],
 		tempo: "1",
 		usage: "240604",
-		memo: "",
+		memo: "元は同アーティストYo Voy Contigoという、大切な人へ贈った歌。母国コロンビアへの賛歌へアレンジされた楽曲。",
         link: "https://youtu.be/yBDBSx1dHX0?si=cLOY4NvxgZIKluE7"
 	},
     {
@@ -318,7 +318,7 @@ const musicData = [
         category: ["Blast", "Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240704",
-		memo: "♡を投げまくる振付の曲。",
+		memo: "♡を投げまくる振付の曲。一曲終わるまでに、部屋の全員へ♡渡しに言ってください！",
         link: ""
 	},
     {
@@ -329,7 +329,7 @@ const musicData = [
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "デンボウで有名なジェン・モレルが参加している楽曲。振付はレゲトンでしていますが、ダンスチックな部分も一部あり、難易度は高めですね。",
         link: "https://youtu.be/HBntvaWP9qc?si=8QN8Z0LU7LJUyirP"
 	},
     {
@@ -340,8 +340,8 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240803",
-		memo: "とっても長いサルサ曲。「」",
-        link: ""
+		memo: "とっても長いサルサ曲。ディスコ調から始まるその楽曲の背景・雰囲気などが大好きです。以前お試しではしましたが、クラスでも普通に使っていきたい曲です。",
+        link: "https://youtu.be/KPWvD5vbJ8I?si=9hrdxsqtMZ1yDIK6"
     },
     {
         title: "Bailalo",
@@ -351,7 +351,7 @@ const musicData = [
         category: ["Powerful", "Experimental", "Distinctive"],
 		tempo: "1",
 		usage: "240504",
-		memo: "おなかに効かせたい一曲。hala!→腹！の空耳。",
+		memo: "おなかに効かせたい一曲。hala!→腹！の空耳ですね。ふくらはぎにも効きます！",
         link: "https://youtu.be/wwrgDrXK4i8?si=oTEi4E9C6aGcmeW7"
 	},
     {
@@ -362,7 +362,7 @@ const musicData = [
         category: ["Cool"],
 		tempo: "1",
 		usage: "240603",
-		memo: "",
+		memo: "イントロから格好いい曲。コーラスの転調が気持ちいいです。オリジナルの振付は片脚バランスや方向転換などもあって難しいですね汗",
         link: ""
 	},
     {
@@ -373,7 +373,7 @@ const musicData = [
         category: ["Cool", "Experimental"],
 		tempo: "1",
 		usage: "2301104",
-		memo: "ブルーノマーズの有名な楽曲をZumbaがアレンジ！トラップの要素が強い後半、",
+		memo: "ブルーノマーズの有名な楽曲をZumbaがアレンジ！トラップの要素が強い後半、体重をしっかりのせて踊りましょう！",
         link: "https://youtu.be/PMivT7MJ41M?si=QW6itaZPAENZ3vRC"
 	},
     {
@@ -384,8 +384,8 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "241001",
-		memo: "ZIN 112のあ",
-        link: ""
+		memo: "ZIN 112のSi Antes Te Hubiera Conocidoと同じような公式振付。難しいですが音にぴったりはまります。",
+        link: "https://youtu.be/K24NCgA5SnY?si=h7RrqMoNqpMqZ_Ug"
 	},
     {
         title: "Tumbao",
@@ -395,7 +395,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "240802",
-		memo: "クールダウンとして用いているインストラクターが多いイメージです。",
+		memo: "コーラスのところは僕無しでも踊れるはず！クールダウンとして用いているインストラクターが多いですね。",
         link: "https://youtu.be/B6wTkZwq7nI"
 	},
     {
@@ -450,7 +450,7 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "240203",
-		memo: "",
+		memo: "速いメレンゲ。Zumbaでみられるメレンゲの振付をほぼすべて詰め込みました！",
         link: "https://youtu.be/FTzS5Oa03WE"
 	},
     {
@@ -461,7 +461,7 @@ const musicData = [
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240301",
-		memo: "",
+		memo: "ソカですがダンスホール寄りの振付にしました。腰をしっかり回します。",
         link: "https://youtu.be/UI2XXgbnyrU?si=uUI-iToCd9CNkrE1"
 	},
     {
@@ -472,7 +472,7 @@ const musicData = [
         category: ["Cool", "Emotional"],
 		tempo: "1",
 		usage: "240701",
-		memo: "",
+		memo: "もの悲しげなラテンポップ。オトナな雰囲気が漂う楽曲ですね。少しアラビックな振付にしてみました。",
         link: "https://youtu.be/oWw1BcFhk-k?si=lGO9BNbHEU6OZDTS"
 	},
     {
@@ -483,7 +483,7 @@ const musicData = [
         category: ["Distinctive", "Traditional"],
 		tempo: "1",
 		usage: "240901",
-		memo: "",
+		memo: "頭を使うベリーダンス。足のステップに加え、電話のポーズまで。四肢全てを動かします。練習すれば少しずつできてくるはず！",
         link: "https://youtu.be/Qa56XzB7yIk?si=s2bo-Kikw7cTcjIC"
 	},
     {
@@ -494,7 +494,7 @@ const musicData = [
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
 		usage: "240501",
-		memo: "",
+		memo: "少し明るめなクンビア。最初のパーカッション・キックの音に合わせて足を鳴らす振付は自分でもお気に入り。",
         link: ""
 	},
     {
@@ -505,7 +505,7 @@ const musicData = [
         category: ["Powerful", "Traditional", "Blast"],
 		tempo: "1",
 		usage: "240903",
-		memo: "",
+		memo: "とても激しいバングラ！基本のステップに手のスリスリや「なるほどな！？」の振付も足してみました。",
         link: ""
 	},
     {
@@ -516,7 +516,7 @@ const musicData = [
         category: ["Powerful", "Blast"],
 		tempo: "1",
 		usage: "240104",
-		memo: "",
+		memo: "メレンゲリピアーノ（速いメレンゲ）というジャンルに分類されます。勢いのまま動きましょう！",
         link: "https://youtu.be/lYzPoNQvCoE"
 	},
     {
@@ -527,7 +527,7 @@ const musicData = [
         category: ["Powerful", "Cool"],
 		tempo: "1",
 		usage: "240103",
-		memo: "",
+		memo: "ダンスホール楽曲で有名なフアン・マガンとトラックメーカーDeorroの楽曲。パーティーみたいに盛り上がりましょう！",
         link: "https://youtu.be/v6lELbZiZG8?si=FASZyEH_jaR_UnON"
 	},
     {
@@ -538,7 +538,7 @@ const musicData = [
         category: ["Traditional", "Rhythmic"],
 		tempo: "1",
 		usage: "231103",
-		memo: "",
+		memo: "ボーカル無し！パーカッションのみ！細かい音もはっきり聞こえるのでしっかり身体で表していきます。",
         link: ""
 	},
     {
@@ -549,7 +549,7 @@ const musicData = [
         category: ["Rhythmic", "Powerful"],
 		tempo: "1",
 		usage: "231004",
-		memo: "",
+		memo: "ケブラディータ！足をあげて軽やかに！…Zumbaバージョンに収録されてない後半のギターが超格好いいです。↑ぜひ公式版聞いてください。",
         link: "https://youtu.be/4vjLdni4OVQ"
 	},
     {
@@ -571,7 +571,7 @@ const musicData = [
         category: ["Powerful", "Traditional", "Distinctive"],
 		tempo: "1",
 		usage: "240802",
-		memo: "",
+		memo: "「ビートに合わせて、この場所を揺れ動かそう。悲しみから解き放たれるんだ」Pa'lla !：さあ！の掛け声に合わせて力強く踊りましょう♪",
         link: "https://youtu.be/BhnLw2mOaBU"
 	},
     {
@@ -582,7 +582,7 @@ const musicData = [
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
 		usage: "231203",
-		memo: "",
+		memo: "デンボウのリズムが入ったかわいい曲。手拍子も忘れずに！",
         link: "https://youtu.be/a2OKyeX_R1g"
 	},
     {
@@ -593,7 +593,7 @@ const musicData = [
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
 		usage: "240504",
-		memo: "",
+		memo: "前半と後半のギャップに驚くことと思います笑。大切なのは「かわいく笑顔で！」",
         link: "https://youtu.be/LZjS9euH04c?si=IzZIAMorhfaJfOt_"
 	},
     {
@@ -604,7 +604,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "241003",
-		memo: "",
+		memo: "初めての人でもこの一曲でサルサがしっかり踊れます。突然4方向入れて難易度上げることもありますが…",
         link: "https://youtu.be/AsCnKFzhFSA?si=TA5GzfEHe3NjYOTR"
 	},
     {
@@ -615,7 +615,7 @@ const musicData = [
         category: ["Traditional", "Relaxing"],
 		tempo: "1",
 		usage: "240403",
-		memo: "",
+		memo: "Zumbaではなかなか見ないゆっくりフロントマンボ。ただ歩くだけではなくて、上半身も使って雰囲気を目いっぱい身体で表しましょう。",
         link: ""
 	},
     {
@@ -626,7 +626,7 @@ const musicData = [
         category: ["Dark", "Powerful"],
 		tempo: "1",
 		usage: "231102",
-		memo: "",
+		memo: "推しのアーティスト（癖強め）の一人です。ダンスホールの振付も多めに入れています。",
         link: "https://youtu.be/y5Hf0O1nWMQ?si=IKRUF7IJ-6BP8-Zp"
 	},
     {
@@ -637,19 +637,8 @@ const musicData = [
         category: ["Rhythmic", "Dark", "Experimental"],
 		tempo: "1",
 		usage: "231004",
-		memo: "",
+		memo: "最初の雰囲気どこ行った？ってなるメレンゲ部分。",
         link: "https://youtu.be/tXA7zOQhwPA?si=4BpTEIFYSAakRDjh"
-	},
-    {
-        title: "Piedra, Papel o Tijera",
-        artist: ["Bela Hamilton"],
-        genre: ["Reggaeton", "Urban"],
-        type: "ZIn 82",
-        category: ["Cool", "Dark"],
-		tempo: "1",
-		usage: "231203",
-		memo: "",
-        link: "https://youtu.be/D3nmBUEBJYs"
 	},
     {
         title: "Bailando",
@@ -659,7 +648,7 @@ const musicData = [
         category: ["Cool", "Rhythmic", "Bright"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "さわやか！速くてノれる！そんなメレンゲ曲です。",
         link: ""
 	},
     {
@@ -681,7 +670,7 @@ const musicData = [
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "ジャンプの時は腹筋に力を入れること、あとは表情。それ以外は何も気にせず踊る曲！",
+		memo: "この曲で大事なことは、ジャンプの時は胴部は曲げない、そして表情！それ以外は何も気にせず踊る曲！",
         link: "https://youtu.be/TD1UaFbGQNo?si=nXNej9p1JU5zI_aV"
 	},
     {
@@ -736,7 +725,7 @@ const musicData = [
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
 		usage: "240701",
-		memo: "",
+		memo: "メレンゲの少し忙しい部分とイントロにもある静かな部分、踊り分けましょう。指パチンもしっかり！",
         link: "https://youtu.be/Zn0B2HcMprs?si=lgNKluS-ytk_JvkV"
 	},
     {
@@ -791,7 +780,7 @@ const musicData = [
         category: ["Powerful", "Emotional"],
 		tempo: "1",
 		usage: "240903",
-		memo: "短めなクールダウン曲。",
+		memo: "短めなクールダウン曲。終わった後追加でストレッチはした方がいいですね。",
         link: ""
 	},
 	{
@@ -1043,8 +1032,8 @@ const musicData = [
         type: "ZIN 100",
         category: ["Dark", "Cool", "Emotional", "Blast"],
 		tempo: "1",
-		usage: "「忘れられない人を探して。LA, New York, Berlinと世界中を探している」そんな曲です。遠くを指さして「あっちこっち」",
-		memo: "241004",
+		usage: "241004",
+		memo: "「忘れられない人を探して。LA, New York, Berlinと世界中を探している」そんな曲です。遠くを指さして「あっちこっち」",
         link: "https://youtu.be/5Eed1XaWgDI?si=1XsGjkRER2IMRVpX"
 	},
     {
@@ -1066,7 +1055,7 @@ const musicData = [
         category: ["Powerful", "Dark", "Blast"],
 		tempo: "1",
 		usage: "240802",
-		memo: "激しく動くパートの後はバイクをイメージ。レッグカールしながら「ブゥォン！」とエンジンをふかすように。",
+		memo: "激しく動くパートの後はバイクをイメージ。レ「ブゥォン！」とエンジンをふかすように。",
         link: "https://youtu.be/9_QglowL9Hc?si=62gYn5-czN3Wx0Pn"
 	},
     {
@@ -1088,7 +1077,7 @@ const musicData = [
         category: ["Bright", "Blast", "Rhythmic"],
 		tempo: "1",
 		usage: "240301",
-		memo: "歌詞の全てから愛する人への想いが溢れまくってる曲。振付もそれに合わせて作りました。名前が変わったりもしていますがアーティスト「Los Enbajadres de la Salsa」格好いい曲ばかりなので聞いてみてください。",
+		memo: "歌詞の全てから愛する人への想いが溢れまくってる曲。振付もそれに合わせて作りました。「Los Enbajadres de la Salsa」格好いい曲ばかりなので聞いてみてください。",
         link: "https://youtu.be/FCYkWbPmRfo"
 	},
     {
@@ -1099,7 +1088,7 @@ const musicData = [
         category: ["Power", "Rhythmic"],
 		tempo: "1",
 		usage: "240601",
-		memo: "短めなメレンゲ曲。",
+		memo: "短めなメレンゲ曲。しっかりと止める部分が楽曲にも振付にもあります。流れて行ってしまわないように～",
         link: "https://youtu.be/tzZC26HDgqI"
 	},
     {
@@ -1121,7 +1110,7 @@ const musicData = [
         category: ["Bright", "Power", "Rhythmic"],
 		tempo: "1",
 		usage: "240803",
-		memo: "",
+		memo: "とっても激しい曲です！「フーウゥー」は風に乗って飛ばされるみたいに！",
         link: ""
 	},
     {
@@ -1132,7 +1121,7 @@ const musicData = [
         category: ["Experimental"],
 		tempo: "1",
 		usage: "241004",
-		memo: "最近の曲調ではないような音の使い方をするレゲトン曲。基本の動きに忠実に、ちょっと遊びも入れながら。",
+		memo: "最近の曲調ではないような音の使い方をするレゲトン曲。基本の動きに忠実に、ちょっと遊びも入れながら「Yo! Yo! Oh! Oh!」",
         link: ""
 	},
     {
@@ -1143,7 +1132,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240402",
-		memo: "CNCOはオシャレなレゲトン曲が多いですね。",
+		memo: "CNCOはオシャレなレゲトン曲が多いですね。優しげな雰囲気の部分と力強く動く部分、しっかり分けて動けるといいかもです。",
         link: "https://youtu.be/r5o8Dyn8aiQ"
 	},
     {
@@ -1154,7 +1143,7 @@ const musicData = [
         category: ["Dark", "Powerful", "Experimental"],
 		tempo: "1",
 		usage: "240502",
-		memo: "前半はバチャータのリズム、後半はビートの強いダンス系。",
+		memo: "前半はバチャータのリズム、後半はビートの強いダンス系。Warm-upによく入れます。",
         link: ""
 	},
     {
@@ -1165,7 +1154,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240503",
-		memo: "",
+		memo: "有名な2人のアーティストによるカバー。女声の低音と男声の高音って格好良くないですか？",
         link: "https://youtu.be/j5y6xLpRwx4?si=b35MAgJi0lq5lCYG"
 	},
     {
@@ -1176,7 +1165,7 @@ const musicData = [
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240904",
-		memo: "シンセサイザーの音が入ったフラメンコ。",
+		memo: "シンセサイザーの音が入ったフラメンコ。曲が流れる前から振付が始まっています。そろそろ扇子買わねば。",
         link: ""
 	},
     {
@@ -1198,7 +1187,7 @@ const musicData = [
         category: ["Dark", "Traditional"],
 		tempo: "1",
 		usage: "240403",
-		memo: "",
+		memo: "「ティンバ！ティンバ！」の部分を出来るだけ力強く！移動のしっとりした部分が映えます。",
         link: ""
 	},
 	{
@@ -1209,7 +1198,7 @@ const musicData = [
         category: ["Cool", "Experimental", "Blast"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "ChampetaやTrapのジャンルで有名なBIP。後半のインストパートが印象的！",
         link: ""
 	},
     {
@@ -1220,7 +1209,7 @@ const musicData = [
         category: ["Rhythmic", "Emotional", "Distinctive"],
 		tempo: "1",
 		usage: "241003",
-		memo: "公開されて1日で振付作りました笑。ぜんまい仕掛けの踊る人形みたいなイメージで振付しました。",
+		memo: "公開されて1日で振付作りました笑。ぜんまい仕掛けの踊る人形みたいなイメージで振付しました。スカートの裾を持ってお辞儀。ぜひお隣同士で。",
         link: ""
 	},
     {
@@ -1286,7 +1275,7 @@ const musicData = [
         category: ["Relaxing", "Distinctive", "Emotional"],
 		tempo: "1",
 		usage: "240502",
-		memo: "これも振付が特徴的ですね。",
+		memo: "これも振付が特徴的ですね。「ナナナナ♪」",
         link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
 	},
     {
@@ -1319,7 +1308,7 @@ const musicData = [
         category: ["Cool", "Rhythmic", "Dark"],
 		tempo: "1",
 		usage: "240302",
-		memo: "強いビートと「ずっっちゃっちゃずっちゃっちゃ」",
+		memo: "強いビートと「ずっっちゃっちゃずっちゃっちゃ」。推しアーティストの一人です。",
         link: "https://youtu.be/srmxQt0QNR4?si=9-ujaXf2FgR6-oxI"
 	},
     {
@@ -1330,7 +1319,7 @@ const musicData = [
         category: ["Bright", "Rhythmic", "Blast"],
 		tempo: "1",
 		usage: "240303",
-		memo: "たまにある「たくさんのインストラクターが使ってて、誰でもきっと好きになる曲。」",
+		memo: "たまにある「たくさんのインストラクターが使ってて、誰でもきっと好きになる曲。」大好きです。",
         link: "https://youtu.be/VolmYSTcUzM?si=K8qDlBJFtu13gTDB"
 	},
     {
@@ -1352,7 +1341,7 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240601",
-		memo: "",
+		memo: "大人しめなラテンソング。",
         link: "https://youtu.be/dhDhjmsz4aI?si=mIX3-9dfybIau97y"
 	},
     {
@@ -1396,7 +1385,7 @@ const musicData = [
         category: ["Powerful", "Cool"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "力強さを前面に押し出した曲ですね。他インストラクターのしていた空耳で笑ってしまうので長いこと封印してました笑。",
         link: ""
 	},
     {
@@ -1407,7 +1396,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240801",
-		memo: "",
+		memo: "ZIN 55に同名のサルサ曲がありますね。最初の部分はエフェクトの感じからクラゲをイメージ。",
         link: "https://youtu.be/VEp_2nGB0AU?si=fHLUhG-q2xjQeNw-"
 	},
     {
@@ -1451,7 +1440,7 @@ const musicData = [
         category: ["Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240601",
-		memo: "",
+		memo: "イントロが格好いい曲。",
         link: ""
 	},
     {
@@ -1462,7 +1451,7 @@ const musicData = [
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
 		usage: "240802",
-		memo: "",
+		memo: "イントロで分かる、オシャレな楽曲。",
         link: "https://example.com"
     },
     {
@@ -1484,7 +1473,7 @@ const musicData = [
         category: ["Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240703",
-		memo: "",
+		memo: "後半、音をしっかり聞いて三回「ダッダッダッ！」リフティングするぐらい腿上げ目指しましょう！",
         link: "https://youtu.be/RcbwlEejylI?si=oJ3w6M79XNXb0D52"
 	},
     {
@@ -1506,7 +1495,7 @@ const musicData = [
         category: ["Powerful", "Traditional"],
 		tempo: "1",
 		usage: "240602",
-		memo: "",
+		memo: "こちらも個人的に癖強めで好きなアーティストの曲。",
         link: "https://youtu.be/S61iMZDiN_w?si=XKozmGriyFHjBIYY"
 	},
     {
@@ -1528,7 +1517,7 @@ const musicData = [
         category: ["Distinctive", "Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240703",
-		memo: "少し難解な進行をするサルサ曲。「よくわからんけど格好いい」と思ってます。",
+		memo: "少し難解な進行をするサルサ曲。「よくわからんけど格好いい」掛け声に合わせて「Pa' arriba, ¡si!」",
         link: "https://youtu.be/gruomptSqq0?si=rM4co35G7SdzWog1"
 	},
     {
@@ -1539,7 +1528,7 @@ const musicData = [
         category: ["Bright", "Distinctive"],
 		tempo: "1",
 		usage: "240901",
-		memo: "「指さし→口元」の振付はきっとみんな大好き！",
+		memo: "「指さし→口元」だけできっと通じる笑。きっとみんな大好きな振付！",
         link: ""
 	},
     {
@@ -1561,7 +1550,7 @@ const musicData = [
         category: ["Cool", "Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240804",
-		memo: "ディスコ！知らないけど雰囲気をイメージしてオリジナル振付しました。後半のDembowパートは力強くかつ滑らかに。",
+		memo: "ディスコ！知らないけど雰囲気をイメージしてオリジナル振付しました。後半のDembowパートは力強く＆滑らかに。",
         link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
 	},
     {
@@ -1744,7 +1733,7 @@ const musicData = [
         title: "Ram Pam Pam",
         artist: ["Natti Natasha", "feat.", "Becky G"],
         genre: ["Reggaeton", "Cumbia", "Urban"],
-        type: "Others",
+        type: "Hot Bonus Tracks",
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
 		usage: "240402",
@@ -1759,7 +1748,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "240301",
-		memo: "高音の透き通る声のBeéle（ZIN 108 のBachataもこの方）とEmotionalなレゲトンを歌い上げるFarrukoのコラボ曲。",
+		memo: "高音の透き通る声のBeéle（ZIN 108 のBachataもこの方）とEmotionalなレゲトンを歌い上げるFarrukoの曲。ウェーブ多用します。",
         link: "https://youtu.be/FS__SaIBf-A?si=BwYeaXnwgqtOk-KS"
 	},
     {
