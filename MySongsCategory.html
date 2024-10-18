@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Songs</title>
+  <title>My Class Songs</title>
   <link rel="stylesheet" type="text/css" href="MySongs.css">
 </head>
 
 <body>
     <header>
-        <h1>使用楽曲</h1>
+    	<h1>使用楽曲</h1>
     </header>
 
     <div id="main">
@@ -49,6 +49,8 @@
                 <button onclick="toggleButton(this, 'すべて')">すべて表示</button>
             </div>
             <div id="container">
+				<button onclick="sortByUsage('asc')">あまり使ってない曲</button>
+				<button onclick="sortByUsage('desc')">最近使った曲</button>
                 <table id="musicTable">
                     <thead>
 						<tr>
@@ -242,6 +244,24 @@
 	    window.open(url, '_blank');
 	}
 
+
+	function sortByUsage(order) {
+    let sortedSongs;
+    
+    if (order === 'asc') {
+        // 昇順ソート
+        sortedSongs = musicData.slice().sort((a, b) => a.usage.localeCompare(b.usage));
+    } else {
+        // 降順ソート
+        sortedSongs = musicData.slice().sort((a, b) => b.usage.localeCompare(a.usage));
+    }
+
+    displaySongs(sortedSongs); // ソートされた曲リストを表示
+}
+
     </script>
+
+
+
 </body>
 </html>
