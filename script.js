@@ -970,6 +970,17 @@ const musicData = [
 		memo: "Oro Solido(Raul Acosta)の曲の中でもイントロ、コーラス等の分かれ目が分かりやすい曲、大好き。点心を落とさないように「おっとっと！」",
         link: ""
 	},
+{
+        title: "El Teke Teke (Extended Version)",
+        artist: ["Carlos Vives", "Black Eyed Peas", "Play-N-Skillz"],
+        genre: ["Reggaeton"],
+        type: "ZIN 99",
+        category: ["Bright", "Rhythmic", "Distinctive"],
+		tempo: "1",
+		usage: "241004",
+		memo: "MVが鮮やかで楽しそうな雰囲気。ハロウィンシーズンに合わせてゾンビの振付です「Asi!」で正面を向くのがポイント！",
+        link: "https://youtu.be/Y6vQr9squvw?si=MCwL7T9TKFfquZf1"
+	},
     {
         title: "Yo Te Conozco",
         artist: ["Max Pizzolante"],
