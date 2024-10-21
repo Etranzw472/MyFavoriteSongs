@@ -9,7 +9,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241004",
 		memo: "「豹のマンボ」サルサのステップに合わせてみんなで威嚇「シャーッ！」",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
@@ -20,7 +20,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241004",
 		memo: "雰囲気はまるでセルジオ・メンデスのサンバ・ボサノヴァ。Bonito：「美しい」誰かを前に心が揺れちゃう、そんな振付です。",
         link: ""
     },
@@ -669,7 +669,7 @@ const musicData = [
         type: "MegaMix 85",
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241001",
 		memo: "この曲で大事なことは、ジャンプの時は胴部は曲げない、そして表情！それ以外は何も気にせず踊る曲！",
         link: "https://youtu.be/TD1UaFbGQNo?si=nXNej9p1JU5zI_aV"
 	},
@@ -1120,7 +1120,7 @@ const musicData = [
         type: "MegaMix 101",
         category: ["Experimental"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241002",
 		memo: "最近の曲調ではないような音の使い方をするレゲトン曲。基本の動きに忠実に、ちょっと遊びも入れながら「Yo! Yo! Oh! Oh!」",
         link: ""
 	},
@@ -1175,7 +1175,7 @@ const musicData = [
         type: "MegaMix 102",
         category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241003",
 		memo: "雨の音から入る静かな曲。振り一つひとつが楽器の音に合うようにしているので聞いてみてください。",
         link: ""
 	},
@@ -1274,8 +1274,8 @@ const musicData = [
         type: "ZIN 105",
         category: ["Relaxing", "Distinctive", "Emotional"],
 		tempo: "1",
-		usage: "240502",
-		memo: "これも振付が特徴的ですね。「ナナナナ♪」",
+		usage: "241004",
+		memo: "これも振付が特徴的ですね。「ナナナナ♪」Loveのセバスチャン・ヤトラの曲です。",
         link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
 	},
     {
@@ -1363,7 +1363,7 @@ const musicData = [
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
 		usage: "240301",
-		memo: "バルヴィン、アッシャーとメジャーなアーティストによるアーバンポップ。",
+		memo: "バルヴィン、アッシャーとメジャーなアーティストによるアーバンポップ。忘れない振付ですけど結構難しいですね…",
         link: "https://youtu.be/gVPgwoXm5Rc?si=yLk80z5z3UXXJWiU"
 	},
     {
@@ -1407,7 +1407,7 @@ const musicData = [
         category: ["Powerful", "Distinctive"],
 		tempo: "1",
 		usage: "240502",
-		memo: "野球の振付をしているインストラクターが多かったですね。",
+		memo: "野球の振付をしているインストラクターが多かったですね。ZIN 113のメレンゲと同じアーティストです。",
         link: "https://youtu.be/bbNl15ffEv8?si=5sxThIvwtrh4MoFW"
 	},
     {
@@ -1572,7 +1572,7 @@ const musicData = [
         category: ["Emotional"],
 		tempo: "1",
 		usage: "240903",
-		memo: "「もっとはやくあなたに出会えてたら」優しい、でも少しもの悲しい曲。ZESのLorettaとNickの振付がベースです。",
+		memo: "「もっとはやくあなたに出会えてたら。」優しい、でも少しもの悲しい曲。ZESのLorettaとNickの振付がベースです。",
         link: "https://youtu.be/MgsdDfdGdHc?si=p3JLLxX7l8ed0H6Q"
     },
     {
@@ -1594,7 +1594,7 @@ const musicData = [
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
 		usage: "240902",
-		memo: "",
+		memo: "最近カリビアンの曲が流行してますね。明るくノリノリで動きましょー！",
         link: ""
 	},
     {
@@ -1605,7 +1605,7 @@ const musicData = [
         category: ["Bright", "Blast", "Distinctive"],
 		tempo: "1",
 		usage: "241004",
-		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！エレキベース・ギターがとても気持ちいい一曲。",
+		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！エレキベースの音がとても気持ちいい一曲。",
         link: ""
 	},
     {
@@ -1648,7 +1648,7 @@ const musicData = [
         type: "KIDS 2018 NOV",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241003",
 		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や顔の向きを大切に。",
         link: ""
 	},
@@ -1670,7 +1670,7 @@ const musicData = [
         type: "KIDS 2021 AUG",
         category: ["Powerful", "Distinctive", "Blast"],
 		tempo: "1",
-		usage: "240904",
+		usage: "241004",
 		memo: "マーベルヒーローのハルクですね。ハルクとブルース博士の様に力強く荒々しいところ、またそれ以外をきっちり分けて動けるといいですね。",
         link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
 	},
@@ -1726,7 +1726,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "240603",
-		memo: "",
+		memo: "アフリカンの振付でリズムを楽しみましょう。体重をしっかりのせて動くのが大事ですよ。",
         link: "https://youtu.be/F8bZVnynDdc?si=GWnevmOKOkiSvoGc"
 	},
     {
@@ -1758,7 +1758,7 @@ const musicData = [
         type: "Others",
         category: ["Powerful", "Dark", "Cool", "Blast"],
 		tempo: "1",
-		usage: "241003",
+		usage: "231003",
 		memo: "著名なDJスティーブ・アオキによるリミックス曲。オリジナルMVの有名な振付も取り入れてます。",
         link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
 	},
@@ -1825,7 +1825,7 @@ const musicData = [
         category: ["Distinctive", "Powerful", "Blast"],
 		tempo: "1",
 		usage: "240504",
-		memo: "世界で流行したCreepy Nutsの楽曲のメレンゲカバー版。",
+		memo: "世界で流行したCreepy Nutsの楽曲を別アーティスト（カバーが専門？）がメレンゲアレンジしたもの。インストパートのサックスの使い方が大好きです。",
         link: "https://youtu.be/pYOgZFtjcas?si=4irg6zsQtApILFm3"
 	},
     {
@@ -1857,7 +1857,7 @@ const musicData = [
         type: "Others",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241002",
 		memo: "「さぁ見て僕らを、僕らは夢を追う者たち」挑戦し戦い続ける人へ向けたエールの曲。振付はアフロビートを中心に構成。",
         link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
 	},
@@ -1868,7 +1868,7 @@ const musicData = [
         type: "Others",
         category: ["Pop", "Emotional", "Traditional"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241002",
 		memo: "イギリスのアーティストエドシーランの一曲。特徴的なバイオリンの奏法などフォークミュージックの一面もある格好いい曲です。",
         link: "https://youtu.be/87gWaABqGYs?si=1ghDXpzw5rjUbClA"
 	},
@@ -1890,8 +1890,8 @@ const musicData = [
         type: "Others",
         category: ["Dark", "Distinctive", "Emotional"],
 		tempo: "1",
-		usage: "241003",
-		memo: "",
+		usage: "241004",
+		memo: "3兄弟ジャパンツアーで使われていた曲・振付。ZES Jeffがリードされてましたね。振付はダンスホールを中心に。",
         link: "https://youtu.be/rMCnyJgEjnA?si=IBDYYPGwn308WcXe"
 	}
 
