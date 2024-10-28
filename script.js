@@ -9,7 +9,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241005",
 		memo: "「豹のマンボ」サルサのステップに合わせてみんなで威嚇「シャーッ！」",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
@@ -977,7 +977,7 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241005",
 		memo: "MVが鮮やかで楽しそうな雰囲気。ハロウィンシーズンに合わせてゾンビの振付です「Asi!」で正面を向くのがポイント！",
         link: "https://youtu.be/Y6vQr9squvw?si=MCwL7T9TKFfquZf1"
 	},
@@ -1615,7 +1615,7 @@ const musicData = [
         type: "ZIN 113",
         category: ["Bright", "Blast", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241005",
 		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！エレキベースの音がとても気持ちいい一曲。",
         link: ""
 	},
@@ -1628,6 +1628,17 @@ const musicData = [
 		tempo: "1",
 		usage: "241003",
 		memo: "イントロでハートを掴まれてしまった曲。こちらもおふたりの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
+        link: ""
+	},
+    {
+        title: "Better Life",
+        artist: ["Ella Sainte"],
+        genre: ["Pop"],
+        type: "ZIN 113",
+        category: ["Emotional", "Relax"],
+		tempo: "1",
+		usage: "241005",
+		memo: "Cooldownに使用しています。この曲のアーティスト、ZIN 108のCooldown楽曲も担当されていましたね。優しいイメージの楽曲です。",
         link: ""
 	},
     {
@@ -1659,7 +1670,7 @@ const musicData = [
         type: "KIDS 2018 NOV",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241005",
 		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や顔の向きを大切に。",
         link: ""
 	},
@@ -1769,7 +1780,7 @@ const musicData = [
         type: "Others",
         category: ["Powerful", "Dark", "Cool", "Blast"],
 		tempo: "1",
-		usage: "231003",
+		usage: "231005",
 		memo: "著名なDJスティーブ・アオキによるリミックス曲。オリジナルMVの有名な振付も取り入れてます。",
         link: "https://youtu.be/b0RyiTp8gSA?si=e0guIh63oFiu_DpS"
 	},
@@ -1780,7 +1791,7 @@ const musicData = [
         type: "Others",
         category: ["Dark", "Traditional"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241005",
 		memo: "ハロウィーンの季節にピッタリのクンビア。ジャケットは死者の日を想起させますね。",
         link: "https://youtu.be/rn9tEErGMik?si=mixHpnvaCO2MLFdZ"
 	},
@@ -1901,7 +1912,7 @@ const musicData = [
         type: "Others",
         category: ["Dark", "Distinctive", "Emotional"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241005",
 		memo: "3兄弟ジャパンツアーで使われていた曲・振付。ZES Jeffがリードされてましたね。振付はダンスホールを中心に。",
         link: "https://youtu.be/rMCnyJgEjnA?si=IBDYYPGwn308WcXe"
 	}
