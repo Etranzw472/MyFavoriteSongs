@@ -9,7 +9,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241005",
+		usage: "241102",
 		memo: "「豹のマンボ」サルサのステップに合わせてみんなで威嚇「シャーッ！」",
         link: "https://youtu.be/KLsGFDeiY5I?si=UpW4Qp9ZdjX6hSo7"
     },
@@ -394,7 +394,7 @@ const musicData = [
         type: "ZIN 71",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "240802",
+		usage: "241101",
 		memo: "コーラスのところは僕無しでも踊れるはず！クールダウンとして用いているインストラクターが多いですね。",
         link: "https://youtu.be/B6wTkZwq7nI"
 	},
@@ -603,9 +603,20 @@ const musicData = [
         type: "ZIN 81",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241101",
 		memo: "初めての人でもこの一曲でサルサがしっかり踊れます。突然4方向入れて難易度上げることもありますが…",
         link: "https://youtu.be/AsCnKFzhFSA?si=TA5GzfEHe3NjYOTR"
+	},
+    {
+        title: "Angel Eyes",
+        artist: ["Zumba", "feat.", "AISHA"],
+        genre: ["Bachata", "Tango"],
+        type: "MegaMix 81",
+        category: ["Emotional", "Rhythmic"],
+		tempo: "1",
+		usage: "241102",
+		memo: "",
+        link: ""
 	},
     {
         title: "Se Te Ve",
@@ -977,7 +988,7 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Rhythmic", "Distinctive"],
 		tempo: "1",
-		usage: "241005",
+		usage: "241102",
 		memo: "MVが鮮やかで楽しそうな雰囲気。ハロウィンシーズンに合わせてゾンビの振付です「Asi!」で正面を向くのがポイント！",
         link: "https://youtu.be/Y6vQr9squvw?si=MCwL7T9TKFfquZf1"
 	},
@@ -1186,7 +1197,7 @@ const musicData = [
         type: "MegaMix 102",
         category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241101",
 		memo: "雨の音から入る静かな曲。振り一つひとつが楽器の音に合うようにしているので聞いてみてください。",
         link: ""
 	},
@@ -1219,7 +1230,7 @@ const musicData = [
         type: "MegaMix 103",
         category: ["Rhythmic", "Emotional", "Distinctive"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241102",
 		memo: "公開されて1日で振付作りました笑。ぜんまい仕掛けの踊る人形みたいなイメージで振付しました。スカートの裾を持ってお辞儀。ぜひお隣同士で。",
         link: ""
 	},
@@ -1439,7 +1450,7 @@ const musicData = [
         type: "ZIN 109",
         category: ["Bright", "Relaxing", "Distinctive"],
 		tempo: "1",
-		usage: "240503",
+		usage: "241101",
 		memo: "ダークな雰囲気の曲を得意とするナターシャの明るい曲。Youtubeで探したらクンビアバージョンもあります。",
         link: "https://youtu.be/EWmyO1yWKls?si=S7Iovd5NgZQKu1K1"
 	},
@@ -1582,7 +1593,7 @@ const musicData = [
         type: "ZIN 112",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "240903",
+		usage: "241101",
 		memo: "「もっとはやくあなたに出会えてたら。」優しい、でも少しもの悲しい曲。ZESのLorettaとNickの振付がベースです。",
         link: "https://youtu.be/MgsdDfdGdHc?si=p3JLLxX7l8ed0H6Q"
     },
@@ -1593,7 +1604,7 @@ const musicData = [
         type: "ZIN 112",
         category: ["Distinctive", "Traditional"],
 		tempo: "1",
-		usage: "240901",
+		usage: "241101",
 		memo: "基本オリジナル振付ですね。音の強弱を体で表現してもらいたくて「静かに！」の指示が多いです。皆様の予想の3倍は出してます笑",
         link: ""
 	},
@@ -1604,7 +1615,7 @@ const musicData = [
         type: "ZIN 112",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
-		usage: "240902",
+		usage: "241101",
 		memo: "最近カリビアンの曲が流行してますね。明るくノリノリで動きましょー！",
         link: ""
 	},
@@ -1615,7 +1626,7 @@ const musicData = [
         type: "ZIN 113",
         category: ["Bright", "Blast", "Distinctive"],
 		tempo: "1",
-		usage: "241005",
+		usage: "241102",
 		memo: "ZES JeffとZJ MIZUKIの振付で踊っています。Zumbaに慣れてきたら楽しく踊れること間違いなし！エレキベースの音がとても気持ちいい一曲。",
         link: ""
 	},
@@ -1626,7 +1637,7 @@ const musicData = [
         type: "ZIN 113",
         category: ["Emotional", "Cool"],
 		tempo: "1",
-		usage: "241003",
+		usage: "241102",
 		memo: "イントロでハートを掴まれてしまった曲。こちらもおふたりの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
         link: ""
 	},
@@ -1637,7 +1648,7 @@ const musicData = [
         type: "ZIN 113",
         category: ["Emotional", "Relax"],
 		tempo: "1",
-		usage: "241005",
+		usage: "241102",
 		memo: "Cooldownに使用しています。この曲のアーティスト、ZIN 108のCooldown楽曲も担当されていましたね。優しいイメージの楽曲です。",
         link: ""
 	},
@@ -1670,7 +1681,7 @@ const musicData = [
         type: "KIDS 2018 NOV",
         category: ["Traditional", "Distinctive"],
 		tempo: "1",
-		usage: "241005",
+		usage: "241101",
 		memo: "元々ジャンルはアラビック・サルサ。キックやパーカッションの音に合わせたベリーダンスの振付にしています。雰囲気や顔の向きを大切に。",
         link: ""
 	},
@@ -1692,7 +1703,7 @@ const musicData = [
         type: "KIDS 2021 AUG",
         category: ["Powerful", "Distinctive", "Blast"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241102",
 		memo: "マーベルヒーローのハルクですね。ハルクとブルース博士の様に力強く荒々しいところ、またそれ以外をきっちり分けて動けるといいですね。",
         link: "https://youtu.be/WRT3lBem0Ck?si=M8BVfrK3-bBDUnQu"
 	},
@@ -1879,7 +1890,7 @@ const musicData = [
         type: "Others",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "241002",
+		usage: "241102",
 		memo: "「さぁ見て僕らを、僕らは夢を追う者たち」挑戦し戦い続ける人へ向けたエールの曲。振付はアフロビートを中心に構成。",
         link: "https://youtu.be/Jm29kLeWqDA?si=nXPXVMMtoMvAC3cQ"
 	},
@@ -1890,7 +1901,7 @@ const musicData = [
         type: "Others",
         category: ["Pop", "Emotional", "Traditional"],
 		tempo: "1",
-		usage: "241002",
+		usage: "241102",
 		memo: "イギリスのアーティストエドシーランの一曲。特徴的なバイオリンの奏法などフォークミュージックの一面もある格好いい曲です。",
         link: "https://youtu.be/87gWaABqGYs?si=1ghDXpzw5rjUbClA"
 	},
