@@ -66,7 +66,7 @@ const musicData = [
 		tempo: "1",
 		usage: "241101",
 		memo: "R&B歌手チャカ・カーンの名曲。ZUMBAで使うのはアレックス・ウィルソンのサルサ版ですね。",
-        link: "https://youtu.be/LXo_9AMNp6Q?si=ljhtvY4K6ugsObIG",
+        link: "",
     },
     {
         title: "Gimme Five",
