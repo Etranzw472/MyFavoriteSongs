@@ -20,7 +20,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
-		usage: "241004",
+		usage: "241103",
 		memo: "雰囲気はまるでセルジオ・メンデスのサンバ・ボサノヴァ。Bonito：「美しい」誰かを前に心が揺れちゃう、そんな振付です。",
         link: ""
     },
@@ -56,6 +56,17 @@ const musicData = [
 		usage: "240402",
 		memo: "Cumbia + BhangraでCumbhangra ですがベリーダンスのステップも入れています。",
         link: ""
+    },
+	{
+        title: "Ain't Nobody",
+        artist: ["Chaka khan", "Alex Wilson", "(Covered by Zumba)"],
+        genre: ["Salsa"],
+        type: "Mega Mix 34",
+        category: ["Rhythmic", "Emotional", "Cool"],
+		tempo: "1",
+		usage: "241101",
+		memo: "R&B歌手チャカ・カーンの名曲。ZUMBAで使うのはアレックス・ウィルソンのサルサ版ですね。",
+        link: "https://youtu.be/LXo_9AMNp6Q?si=ljhtvY4K6ugsObIG",
     },
     {
         title: "Gimme Five",
@@ -119,7 +130,7 @@ const musicData = [
         type: "ZIN 52",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
-		usage: "240904",
+		usage: "241104",
 		memo: "オススメして頂いて大好きになった曲の一つです。最後の「oh oh oh oh」では回りの方に是非会いに行ってくださいね。",
         link: "https://youtu.be/NUsoVlDFqZg?si=R1KZNTg4obtd4uei"
 	},
@@ -131,7 +142,7 @@ const musicData = [
         category: ["Cool", "Emotional"],
 		tempo: "1",
 		usage: "231202",
-		memo: "タンゴの仲間、ミロンガ。ライトも落として、雰囲気たっぷりで踊ると気持ちいです♪",
+		memo: "タンゴの仲間、ミロンガ。ライトも落として、雰囲気たっぷりで踊ると気持ちいいです♪",
         link: ""
     },
     {
@@ -504,7 +515,7 @@ const musicData = [
         type: "MegaMix 78",
         category: ["Powerful", "Traditional", "Blast"],
 		tempo: "1",
-		usage: "240903",
+		usage: "241103",
 		memo: "とても激しいバングラ！基本のステップに手のスリスリや「なるほどな！？」の振付も足してみました。",
         link: ""
 	},
@@ -603,7 +614,7 @@ const musicData = [
         type: "ZIN 81",
         category: ["Emotional"],
 		tempo: "1",
-		usage: "241101",
+		usage: "241104",
 		memo: "初めての人でもこの一曲でサルサがしっかり踊れます。突然4方向入れて難易度上げることもありますが…",
         link: "https://youtu.be/AsCnKFzhFSA?si=TA5GzfEHe3NjYOTR"
 	},
@@ -614,8 +625,8 @@ const musicData = [
         type: "MegaMix 81",
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
-		usage: "241102",
-		memo: "",
+		usage: "241104",
+		memo: "前半はタンゴの様に、後半は音を細かく取る振付。Angel Eyes~♪のところ、しっかり決めましょう！",
         link: ""
 	},
     {
@@ -761,6 +772,17 @@ const musicData = [
 		memo: "優しい雰囲気のレゲトンソング。",
         link: "https://youtu.be/FbT5hS-sueE"
 	},
+	 {
+        title: "Bum Bum",
+        artist: ["Kairo La Sinfonia"],
+        genre: ["Dancehall"],
+        type: "MegaMix 92",
+        category: ["Dark", "Cool"],
+		tempo: "1",
+		usage: "240901",
+		memo: "ダンスホールの振付のみで構成してます。力を溜めて開放して…抜き切らないのがポイント。",
+        link: "https://youtu.be/M3deetRnsaM?si=G_url82Has4uqL91"
+	},
     {
         title: "Bum Bum",
         artist: ["Kairo La Sinfonia"],
@@ -771,6 +793,17 @@ const musicData = [
 		usage: "240901",
 		memo: "ダンスホールの振付のみで構成してます。力を溜めて開放して…抜き切らないのがポイント。",
         link: "https://youtu.be/M3deetRnsaM?si=G_url82Has4uqL91"
+	},
+	 {
+        title: "Pa Que Le De",
+        artist: ["KYEN?ES?", "Play-N-Skillz"],
+        genre: ["Cumbia"],
+        type: "MegaMix 92",
+        category: ["Dark", "Cool"],
+		tempo: "1",
+		usage: "241104",
+		memo: "築部ZESのクンビア曲のコリオの組み方、後は音楽をしっかり聴いて音を体で表現できるような振付で作りました。結構お気に入り。",
+        link: "https://youtu.be/OtfrR9h4_xI?si=wmDRmCxEtsZY9mYG"
 	},
     {
         title: "Boom Bye Bye",
@@ -1156,6 +1189,17 @@ const musicData = [
 		usage: "240402",
 		memo: "CNCOはオシャレなレゲトン曲が多いですね。優しげな雰囲気の部分と力強く動く部分、しっかり分けて動けるといいかもです。",
         link: "https://youtu.be/r5o8Dyn8aiQ"
+	},
+	{
+        title: "Cara E' Tabla",
+        artist: ["Max Pizzolante"],
+        genre: ["Salsa"],
+        type: "ZIN 102",
+        category: ["Bright", "Rhythmic", "Distinctive"],
+		tempo: "1",
+		usage: "241103",
+		memo: "3&4のリズムの音で胸のドキドキを表しています。胸部のアイソレーションを使って表現してみましょう。",
+        link: "https://youtu.be/VdjPmCleNe8?si=UDNhhA5QEeMxFhVf"
 	},
     {
         title: "Let It Out",
@@ -1615,7 +1659,7 @@ const musicData = [
         type: "ZIN 112",
         category: ["Bright", "Rhythmic"],
 		tempo: "1",
-		usage: "241101",
+		usage: "241102",
 		memo: "最近カリビアンの曲が流行してますね。明るくノリノリで動きましょー！",
         link: ""
 	},
@@ -1637,7 +1681,7 @@ const musicData = [
         type: "ZIN 113",
         category: ["Emotional", "Cool"],
 		tempo: "1",
-		usage: "241102",
+		usage: "241104",
 		memo: "イントロでハートを掴まれてしまった曲。こちらもおふたりの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
         link: ""
 	},
@@ -1740,6 +1784,28 @@ const musicData = [
 		memo: "コーラスでは曲名の「手を挙げてね！」を意識した振付。泳ぐ振付を入れてるのはこの曲だけかも？",
         link: ""
 	},
+	{
+        title: "KESI",
+        artist: ["Kidz Bop Kids"],
+        genre: ["Soca"],
+        type: "KIDS 2022 SEP",
+        category: ["Relaxing"],
+		tempo: "1",
+		usage: "241104",
+		memo: "元々は9月に配信された曲。やっとこの曲が合うような涼しさになってきました。ZIN 113のある曲のコリオを基に振付。",
+        link: "https://youtu.be/vdV8qetd7Os?si=JUHk149M21OPvLUL"
+	},
+	{
+        title: "Dame Tu Sonrisa",
+        artist: ["Zumba"],
+        genre: ["Merengue"],
+        type: "KIDS 2021 DEC",
+        category: ["Bright", "Rhythmic", "Distinctive"],
+		tempo: "1",
+		usage: "241104",
+		memo: "脚の動きよりアームバリエーションが忙しい曲ですね。ZUMBA BASICをお持ちの方もそうでない方も、ぜひチャレンジ！！",
+        link: ""
+	},
     {
         title: "Cyberpunk",
         artist: ["ATEEZ"],
@@ -1758,7 +1824,7 @@ const musicData = [
         type: "Others",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
-		usage: "240603",
+		usage: "241104",
 		memo: "アフリカンの振付でリズムを楽しみましょう。体重をしっかりのせて動くのが大事ですよ。",
         link: "https://youtu.be/F8bZVnynDdc?si=GWnevmOKOkiSvoGc"
 	},
@@ -1926,6 +1992,17 @@ const musicData = [
 		usage: "241005",
 		memo: "3兄弟ジャパンツアーで使われていた曲・振付。ZES Jeffがリードされてましたね。振付はダンスホールを中心に。",
         link: "https://youtu.be/rMCnyJgEjnA?si=IBDYYPGwn308WcXe"
+	},
+	{
+        title: "Quiero Ser Como Tu",
+        artist: ["Richard M. Sherman", "Robert B. Sherman", "Canaveral"],
+        genre: ["Cumbia"],
+        type: "Others",
+        category: ["Bright", "Emotional"],
+		tempo: "1",
+		usage: "241102",
+		memo: "映画「ジャングル・ブック」の劇中歌で、様々なディズニー映画音楽を手掛けたシャーマン兄弟の作品です。ラテンアーティストのCanaveralがカバー。",
+        link: ""
 	}
 
 
