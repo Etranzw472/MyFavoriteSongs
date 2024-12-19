@@ -2031,10 +2031,21 @@ const musicData = [
         artist: ["Mark Anthony"],
         genre: ["Salsa"],
         type: "Others",
-        category: ["Emotional", ""],
+        category: ["Emotional", "Traditional"],
 		tempo: "1",
 		usage: "241202",
-		memo: "ZIN 111のサルサ曲でもある「Muevence」のアーティストアルバムの曲。テンポはゆっくりめですがSalsa Chokeのステップや、ベテランインストラクターの先生方が使われる振付も入れてます。",
+		memo: "ZIN 111のサルサ曲でもある「Muevence」のアーティストアルバムの曲。テンポはゆっくりめですがSalsa Chokeのステップや、ベテランインストラクターの先生方が使われる振付も入れてます。全部入り！",
+        link: ""
+	},
+	{
+        title: "Contigo Quiero",
+        artist: ["Lucas Sugo"],
+        genre: ["Cumbia"],
+        type: "Others",
+        category: ["Emotional", "Rhythmic"],
+		tempo: "1",
+		usage: "241202",
+		memo: "リクエストしてもらって知ったクンビア。曲名は「あなたと一緒にいたい」という意味なんだとか。心もこもった歌声と少しもの悲しさを感じる雰囲気…想像が膨らみます…。",
         link: ""
 	},
 	
