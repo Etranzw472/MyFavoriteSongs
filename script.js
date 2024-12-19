@@ -255,6 +255,17 @@ const musicData = [
 		memo: "Happy Colorsというアーティスト、ZIN106 Mucho Flowにも携わっているアーティストなんですよ。アーバンチックなクンビアを手掛けるElDustyとの曲です。",
         link: "https://youtu.be/MT02fwtyVVU"
 	},
+	{
+        title: "Boogie Boogie",
+        artist: ["BIP"],
+        genre: ["Cha-cha-cha"],
+        type: "ZIN 60",
+        category: ["Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "241202",
+		memo: "ワークショップで秋野ZESに習ったon2のCha-cha-cha。音楽をよく聞くと、踏み込むところ（マンボ）、チャチャチャのところとon2の方が気持ちよく動ける！かもしれません笑",
+        link: "",
+    },
     {
         title: "Indian Passion",
         artist: ["Zumba"],
@@ -1697,6 +1708,17 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Pa Probar",
+        artist: ["Jenn Morel"],
+        genre: ["Bachata", "Fusion"],
+        type: "ZIN 114",
+        category: ["Bright", "Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "241202",
+		memo: "Dembowを多く歌われているイメージのJenn Morel。大人っぽい低めの歌いぶりを聞くことが多いですが、この曲は別！高く伸びのある歌声が響きます…！強いビートをキック、腰、腕で表しましょう。",
+        link: "",
+    },
+    {
         title: "Help Me!",
         artist: ["The Moonsters", "Enric Font", "feat.", "Lexter"],
         genre: ["EDM"],
@@ -2003,7 +2025,19 @@ const musicData = [
 		usage: "241102",
 		memo: "映画「ジャングル・ブック」の劇中歌で、様々なディズニー映画音楽を手掛けたシャーマン兄弟の作品です。ラテンアーティストのCanaveralがカバー。",
         link: ""
-	}
+	},
+	{
+        title: "En la Distancia",
+        artist: ["Mark Anthony"],
+        genre: ["Salsa"],
+        type: "Others",
+        category: ["Emotional", ""],
+		tempo: "1",
+		usage: "241202",
+		memo: "ZIN 111のサルサ曲でもある「Muevence」のアーティストアルバムの曲。テンポはゆっくりめですがSalsa Chokeのステップや、ベテランインストラクターの先生方が使われる振付も入れてます。",
+        link: ""
+	},
+	
 
 
 
