@@ -483,7 +483,7 @@ const musicData = [
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240301",
-		memo: "ソカですがダンスホール寄りの振付にしました。腰をしっかり回します。",
+		memo: "ソカですがダンスホール寄りの振付にしました。腰をしっかり回します。また振付をガラッと変えて実施しようかなとも考えてます。",
         link: "https://youtu.be/UI2XXgbnyrU?si=uUI-iToCd9CNkrE1"
 	},
     {
