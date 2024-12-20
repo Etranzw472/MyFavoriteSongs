@@ -1528,8 +1528,8 @@ const musicData = [
         category: ["Dark", "Rhythmic"],
 		tempo: "1",
 		usage: "240802",
-		memo: "イントロで分かる、オシャレな楽曲。",
-        link: "https://example.com"
+		memo: "イントロで分かる、オシャレな楽曲。ストリングスの音色がベースの音をしっかり聞いて踊ってみましょう。",
+        link: "https://youtu.be/DTLvwh49j5w?si=dUKggmROx5KjZkZc"
     },
     {
         title: "Sueltate El Pelo",
@@ -1550,7 +1550,7 @@ const musicData = [
         category: ["Rhythmic", "Distinctive"],
 		tempo: "1",
 		usage: "240703",
-		memo: "後半、音をしっかり聞いて三回「ダッダッダッ！」リフティングするぐらい腿上げ目指しましょう！",
+		memo: "後半、ブラスの音をしっかり聞いて三回「ダッダッダッ！」。リフティングするぐらいの腿上げ目指しましょう！",
         link: "https://youtu.be/RcbwlEejylI?si=oJ3w6M79XNXb0D52"
 	},
     {
@@ -1572,7 +1572,7 @@ const musicData = [
         category: ["Powerful", "Traditional"],
 		tempo: "1",
 		usage: "240602",
-		memo: "こちらも個人的に癖強めで好きなアーティストの曲。",
+		memo: "こちらも個人的に癖強めで好きなアーティストの曲。ビートの強さを体の上下のノリで表しましょう！",
         link: "https://youtu.be/S61iMZDiN_w?si=XKozmGriyFHjBIYY"
 	},
     {
@@ -1594,7 +1594,7 @@ const musicData = [
         category: ["Distinctive", "Experimental", "Rhythmic"],
 		tempo: "1",
 		usage: "240703",
-		memo: "少し難解な進行をするサルサ曲。「よくわからんけど格好いい」掛け声に合わせて「Pa' arriba, ¡si!」",
+		memo: "少し難解な楽曲進行をするサルサ曲。掛け声に合わせて「Pa' arriba, ¡si!」",
         link: "https://youtu.be/gruomptSqq0?si=rM4co35G7SdzWog1"
 	},
     {
@@ -1605,7 +1605,7 @@ const musicData = [
         category: ["Bright", "Distinctive"],
 		tempo: "1",
 		usage: "240901",
-		memo: "「指さし→口元」だけできっと通じる笑。きっとみんな大好きな振付！",
+		memo: "「指さし→口元」だけできっと多くの人に通じる曲笑。きっとみんな大好きな振付！",
         link: ""
 	},
     {
@@ -1638,7 +1638,7 @@ const musicData = [
         category: ["Cool", "Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240803",
-		memo: "曲名のSushiはジャケット見る限り寿司っぽいですね。",
+		memo: "曲名のSushiはジャケット見る限りお寿司っぽいですね。イントロ終わりすぐの2歩をしっかり決めましょう！",
         link: "https://youtu.be/LPcUQBMKW-o?si=52PoVX7i4TKfh8Va"
 	},
     {
@@ -1836,7 +1836,7 @@ const musicData = [
         category: ["Powerful", "Cool", "Dark"],
 		tempo: "1",
 		usage: "240404",
-		memo: "強いビートのK-Pop。どんどん変わる声色に合わせた振付にしました。",
+		memo: "強いビートのK-Pop。コーラス（サビ）の掛け合い部分がとてもCoolな一曲です",
         link: "https://youtu.be/nHFd4eEBvP4?si=RGUeuXGRd8Hp1i4i"
 	},
     {
@@ -2001,7 +2001,7 @@ const musicData = [
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
 		usage: "240904",
-		memo: "",
+		memo: "Bomba Esteleo、推してます笑。ChampetaやCumbiaも歌われていて雰囲気がとても好きです。この曲はクールダウンにて使用しています。",
         link: "https://youtu.be/THBP1tq49wk?si=r6WQFqTjd7e4BIoY"
 	},
     {
