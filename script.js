@@ -915,6 +915,17 @@ const musicData = [
 		memo: "デンボウ要素強めの速いクンビア、人気曲。ZIN 62の「Shut Up Th Dance」と似たフレーズが入ってるなぁ最近気づきました。",
         link: ""
 	},
+	{
+        title: "La Mitad",
+        artist: ["Nacho", "Carlos Vives", "Mike Bahia"],
+        genre: ["Cumbia", "Reggaeton"],
+        type: "ZIN 96",
+        category: ["Bright", "Experimental", "Blast"],
+		tempo: "1",
+		usage: "241202",
+		memo: "Cumbiaのコアステップをふんだんに使いました。明るくて元気になれる、Vallenatoっぽい雰囲気が好きだなぁ。",
+        link: "https://youtu.be/VDuuinmdZSQ?si=scDPUTjp97Vmgl4Z"
+	},
     {
         title: "Ataca",
         artist: ["Becca", "Jota"],
@@ -1692,8 +1703,8 @@ const musicData = [
         type: "ZIN 113",
         category: ["Emotional", "Cool"],
 		tempo: "1",
-		usage: "241104",
-		memo: "イントロでハートを掴まれてしまった曲。こちらもおふたりの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
+		usage: "241202",
+		memo: "イントロでハートを掴まれてしまった曲。こちらも日本のZUMBAプレゼンターの振付。メロディや楽器、曲の雰囲気に合う振付で大好きです。",
         link: ""
 	},
     {
@@ -2035,7 +2046,7 @@ const musicData = [
 		tempo: "1",
 		usage: "241202",
 		memo: "ZIN 111のサルサ曲でもある「Muevence」のアーティストアルバムの曲。テンポはゆっくりめですがSalsa Chokeのステップや、ベテランインストラクターの先生方が使われる振付も入れてます。全部入り！",
-        link: ""
+        link: "https://youtu.be/EGO1FojH0-0?si=V9EcR_fxiMadYw1W"
 	},
 	{
         title: "Contigo Quiero",
@@ -2046,7 +2057,7 @@ const musicData = [
 		tempo: "1",
 		usage: "241202",
 		memo: "リクエストしてもらって知ったクンビア。曲名は「あなたと一緒にいたい」という意味なんだとか。心もこもった歌声と少しもの悲しさを感じる雰囲気…想像が膨らみます…。",
-        link: ""
+        link: "https://youtu.be/dx6j3WKEn9A?si=12C5827OYqrNGLNW"
 	},
 	
 
