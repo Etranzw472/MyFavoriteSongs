@@ -32,7 +32,7 @@ const musicData = [
         category: ["Rhythmic", "Traditional"],
 		tempo: "1",
 		usage: "240602",
-		memo: "ZIN 107のサルサと同じアーティストですね。リズムの構成が特殊で好きです。",
+		memo: "ZIN 107のサルサでも採用されたRonald Borjasの曲。リズムの構成が特殊で好きです。",
         link: "https://youtu.be/M7oZquZM8to?si=2jdbQVxlOVjLPQGQ",
     },
     {
@@ -54,7 +54,7 @@ const musicData = [
         category: ["Traditional"],
 		tempo: "1",
 		usage: "240402",
-		memo: "Cumbia + BhangraでCumbhangra ですがベリーダンスのステップも入れています。",
+		memo: "Cumbia + BhangraでCumbhangra（なるほど）…ですがベリーダンスのステップも入れています。",
         link: ""
     },
 	{
@@ -109,7 +109,7 @@ const musicData = [
         category: ["Powerful", "Blast"],
 		tempo: "1",
 		usage: "231204",
-		memo: "",
+		memo: "力強いビートと浴びせかけるような掛け声！トリニダード・ドバゴのカーニバルのリズムを感じながら踊りましょう！",
         link: "https://youtu.be/zUxfgSdYNN4"
     },
     {
@@ -131,7 +131,7 @@ const musicData = [
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
 		usage: "241104",
-		memo: "オススメして頂いて大好きになった曲の一つです。最後の「oh oh oh oh」では回りの方に是非会いに行ってくださいね。",
+		memo: "オススメして頂いて大好きになった曲の一つです。最後の「oh oh oh oh」では周りの方に是非会いに行ってくださいね。",
         link: "https://youtu.be/NUsoVlDFqZg?si=R1KZNTg4obtd4uei"
 	},
     {
@@ -164,7 +164,7 @@ const musicData = [
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
 		usage: "240703",
-		memo: "速い！激しい！メレンゲの楽曲。尊敬するインストラクターの振付をを一部真似してます（許可頂きました！）ソカ・ダンスホールで有名なMachel Montanoの曲に似たのがあるのが少し気になってます笑。",
+		memo: "速い！激しい！メレンゲの楽曲。尊敬するインストラクターの振付を一部真似してます（許可頂きました！）ソカ・ダンスホールで有名なMachel Montanoの曲に似たのがあるのが少し気になってます笑。",
         link: "https://youtu.be/0NSJaxY_vzM?si=nGYg2G-1juxyrww-"
     },
     {
@@ -197,7 +197,7 @@ const musicData = [
         category: ["Bright"],
 		tempo: "1",
 		usage: "231001",
-		memo: "シンプルな振付で踊れるメレンゲ曲。",
+		memo: "シンプルな振付で踊れるメレンゲ曲。一曲でメレンゲステップが堪能できます。",
         link: "https://youtu.be/4Xr24SmSvBI?si=tjysHq5_iqdROZ__"
 	},
     {
@@ -230,7 +230,7 @@ const musicData = [
         category: ["Powerful", "Experimental"],
 		tempo: "1",
 		usage: "240701",
-		memo: "レゲトンの曲にバングラの要素が入っていますね。振付も同様にして作りました。",
+		memo: "レゲトンの曲にバングラの要素が入っていますね。振付も同様にして作りました。肩でリズムをとるのを忘れずに。",
         link: ""
 	},
 	{
@@ -252,7 +252,7 @@ const musicData = [
         category: ["Traditional", "Experimental"],
 		tempo: "1",
 		usage: "230901",
-		memo: "Happy Colorsというアーティスト、ZIN106 Mucho Flowにも携わっているアーティストなんですよ。アーバンチックなクンビアを手掛けるElDustyとの曲です。",
+		memo: "Happy Colorsというアーティスト、ZIN 106 Mucho Flowにも携わっているアーティストなんですよ。アーバンチックなクンビアを手掛けるEl Dustyとの曲です。",
         link: "https://youtu.be/MT02fwtyVVU"
 	},
 	{
@@ -263,7 +263,7 @@ const musicData = [
         category: ["Rhythmic", "Experimental"],
 		tempo: "1",
 		usage: "241202",
-		memo: "ワークショップで秋野ZESに習ったon2のCha-cha-cha。音楽をよく聞くと、踏み込むところ（マンボ）、チャチャチャのところとon2の方が気持ちよく動ける！かもしれません笑",
+		memo: "ワークショップで秋野ZESに習ったon2のCha-cha-cha。アクセントは1拍目、でもマンボステップは2拍目…少し混乱しちゃうかもしれませんが、音楽をよく聞くと、踏み込むところ（マンボ）、チャチャチャのところとon2の方が気持ちよく動ける！かもしれません笑",
         link: "",
     },
     {
@@ -285,7 +285,7 @@ const musicData = [
         category: ["Emotional", "Rhythmic"],
 		tempo: "1",
 		usage: "240501",
-		memo: "勢いはあるのに少しもの悲しげな雰囲気、サルサはこんな曲がいくつもあるので好きです。",
+		memo: "勢いはあるのに少しもの悲しげな雰囲気、サルサはこんな曲がいくつもあるので好きです。Youtubeで聞ける公式原曲、歌声が特に好きです。気持ちまで伝わってきそうな…そんな魅力を感じます。",
         link: "https://youtu.be/HagwTbmyyVA?si=uHYyZ6i0pBpbHGwJ"
 	},
     {
@@ -296,7 +296,7 @@ const musicData = [
         category: ["Rhythmic"],
 		tempo: "1",
 		usage: "231204",
-		memo: "メレンゲポップ。「もう泣かない」失恋の曲でしょうか？次々展開していく雰囲気が想像をかきたてますね。",
+		memo: "Robert Taylorが手掛けたメレンゲポップ。「音楽を止めないでDJ！今日は忘れたいの…泣かないんだから！」",
         link: "https://youtu.be/-41v6jLOcas?si=8R_pafH9PXLtyuzn"
 	},
     {
