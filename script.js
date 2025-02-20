@@ -696,6 +696,17 @@ const musicData = [
         link: "https://youtu.be/CBqCOwv4c6E?si=xqUMy4b9GVuCrPy9"
 	},
     {
+        title: "Cumbia A La Gente",
+        artist: ["Zumba"],
+        genre: ["Cumbia"],
+        type: "Mega Mix 84",
+        category: ["Traditional"],
+		tempo: "1",
+		usage: "250202",
+		memo: "パーカッションやリズムがはっきりしていて、聞くとすぐクンビアだとわかります。コアステップを組み合わせて踊ります。",
+        link: ""
+	},
+    {
         title: "Escucha Mujer (Zumba Remix)",
         artist: ["Zona Prieta", "feat.", "Aldo Ranks"],
         genre: ["Pacific", "Urban"],
@@ -1263,7 +1274,7 @@ const musicData = [
         type: "MegaMix 102",
         category: ["Relaxing", "Emotional", "Distinctive"],
 		tempo: "1",
-		usage: "241101",
+		usage: "250104",
 		memo: "雨の音から入る静かな曲。振り一つひとつが楽器の音に合うようにしているので聞いてみてください。",
         link: ""
 	},
@@ -1287,6 +1298,17 @@ const musicData = [
 		tempo: "1",
 		usage: "240602",
 		memo: "ChampetaやTrapのジャンルで有名なBIP。後半のインストパートが印象的！",
+        link: ""
+	},
+{
+        title: "Me Gustas Tu",
+        artist: ["Robert Taylor"],
+        genre: ["Merengue"],
+        type: "MegaMix 103",
+        category: ["Powerful", "Bright", "Distinctive"],
+		tempo: "1",
+		usage: "250203",
+		memo: "音にはまると気持ちいい！そんな振付になりました。A Mi Me Gusta(Mega Mix 66)も同じアーティストの曲ですね。僕この人のMerengue好きかも。",
         link: ""
 	},
     {
@@ -1363,8 +1385,41 @@ const musicData = [
         category: ["Relaxing", "Distinctive", "Emotional"],
 		tempo: "1",
 		usage: "241004",
-		memo: "これも振付が特徴的ですね。「ナナナナ♪」Loveのセバスチャン・ヤトラの曲です。",
+		memo: "これも振付が特徴的ですね「ナナナナ♪」。Love(ZIN 75)のセバスチャン・ヤトラの曲です。",
         link: "https://youtu.be/0J1hIERZ1yA?si=wESv-626-NVH3v6a"
+	},
+    {
+        title: "La Mentira",
+        artist: ["Icons Curacao", "Amos Balentin"],
+        genre: ["Salsa"],
+        type: "MegaMix 105",
+        category: ["Rhythmic", "Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "250202",
+		memo: "拍子が変わる箇所があり「もう一回あると思ったのに！」が多発します…！リードをよく見て踊り切りましょう！",
+        link: ""
+	},
+    {
+        title: "Perreito",
+        artist: ["Jean Then", "Dimelo H"],
+        genre: ["Reggaeton"],
+        type: "MegaMix 105",
+        category: ["Rhythmic", "Emotional", "Distinctive"],
+		tempo: "1",
+		usage: "250202",
+		memo: "ステップはコアステップのみを使っていますが手の動きは忙しいですね。オ・オ・エオエのリズムに合わせて挑戦してみましょう！",
+        link: ""
+	},
+    {
+        title: "rreito",
+        artist: ["Jean Then", "Dimelo H"],
+        genre: ["Reggaeton"],
+        type: "MegaMix 105",
+        category: ["Rhythmic", "Emotional", "Distinctive"],
+		tempo: "1",
+		usage: "250202",
+		memo: "ステップはコアステップのみを使っていますが手の動きは忙しいですね。オ・オ・エオエのリズムに合わせて挑戦してみましょう！",
+        link: ""
 	},
     {
         title: "A Contra Tiempo",
@@ -1719,6 +1774,28 @@ const musicData = [
         link: ""
 	},
     {
+        title: "Temblequeo",
+        artist: ["Luke"],
+        genre: ["Reggaeton", "Salsa"],
+        type: "ZIN 113",
+        category: ["Rhythmic", "Emotional", "Distinctive"],
+		tempo: "1",
+		usage: "250202",
+		memo: "最近ZIN Volumeによく採用されているLukeの曲。Slasaパートでは楽曲の雰囲気に合わせて重みを感じる振付も。",
+        link: ""
+	},
+    {
+        title: "Robame Un Beso",
+        artist: ["Luck Ra"],
+        genre: ["Merengue", "Cuarteto"],
+        type: "ZIN 114",
+        category: ["Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "250202",
+		memo: "アルゼンチンの音楽ジャンルCuarteto。縦移動をイメージして振り付けしてます。",
+        link: "",
+    },
+    {
         title: "Pa Probar",
         artist: ["Jenn Morel"],
         genre: ["Bachata", "Fusion"],
@@ -1729,6 +1806,94 @@ const musicData = [
 		memo: "Dembowを多く歌われているイメージのJenn Morel。大人っぽい低めの歌いぶりを聞くことが多いですが、この曲は別！高く伸びのある歌声が響きます…！強いビートをキック、腰、腕で表しましょう。",
         link: "",
     },
+    {
+        title: "Lo Que Tengo Yo",
+        artist: ["Max Pizzolante"],
+        genre: ["Cumbia", "Salsa"],
+        type: "ZIN 114",
+        category: ["Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "250202",
+		memo: "ZIN69のLo Que Tienes Tuの雰囲気を残した楽曲。シンセサイザーの音やサルサパートが増えました。",
+        link: "",
+    },
+{
+        title: "Que Vuelvas",
+        artist: ["Zumba"],
+        genre: ["Tango", "Latin"],
+        type: "ZIN 114",
+        category: ["Rhythmic", "Experimental"],
+		tempo: "1",
+		usage: "250201",
+		memo: "ZUMBAの新Volume、1年ぶりのリアル開催はアルゼンチンが舞台！タンゴの6カウントを入れて構成してます。",
+        link: "",
+    },
+{
+        title: "Strategy",
+        artist: ["TWICE", "(ft. Megan Thee Stallion)"],
+        genre: ["K-Pop", "Pop"],
+        type: "ZIN 114",
+        category: ["Rhythmic", "Distinctive", "Experimental"],
+		tempo: "1",
+		usage: "250202",
+		memo: "今回の新VolumeはなんとTWICEの新曲が入りました！Hey Boy?の部分はお隣の方と一緒にぜひどうぞ。",
+        link: "",
+    },
+    {
+        title: "Abusadora",
+        artist: ["ZZ"],
+        genre: ["Brazilian Funk"],
+        type: "Virtual +",
+        category: ["Dark", "Powerful", "Distinctive"],
+		tempo: "1",
+		usage: "250102",
+		memo: "沖縄出身の比嘉ZJに習った振付で踊っています。「私に尽くしてくれるって言ったでしょ？」という歌詞なんだとか。",
+        link: ""
+	},
+    {
+        title: "Ahora",
+        artist: ["Becca"],
+        genre: ["Bachata"],
+        type: "GOLD 2021 FEB",
+        category: ["Relaxing", "Emotional"],
+		tempo: "1",
+		usage: "250202",
+		memo: "ゆったりした曲ですが方向転換が細かく入ります。Beccaは他にも多くのZUMBA採用曲を歌われています。探してみてくださいね！",
+        link: ""
+	},
+    {
+        title: "Chiribamba",
+        artist: ["Moino"],
+        genre: ["Flamenco"],
+        type: "GOLD 2024 MAY",
+        category: ["Bright", "Emotional"],
+		tempo: "1",
+		usage: "250202",
+		memo: "推しのインストラクターの一人が振付を担当をしています。滑らかな動きは指先まで意識してみましょう！",
+        link: ""
+	},
+    {
+        title: "Como Rl Domingo",
+        artist: ["Max Pizzolante"],
+        genre: ["Vallenato"],
+        type: "GOLD 2022 SEP",
+        category: ["Relaxing", "Emotional"],
+		tempo: "1",
+		usage: "250202",
+		memo: "Vallenato…Cumbiaの地域で生まれたジャンルですね。リード楽器の明るい旋律が特徴的でピアノの入るパートでは雰囲気が一変します。",
+        link: ""
+	},
+    {
+        title: "Oso",
+        artist: ["Periko"],
+        genre: ["Salsa", "Bellydance"],
+        type: "MegaMix 105",
+        category: ["Rhythmic", "Emotional", "Distinctive"],
+		tempo: "1",
+		usage: "250202",
+		memo: "ステップはコアステップのみを使っていますが手の動きは忙しいですね。オ・オ・エオエのリズムに合わせて挑戦してみましょう！",
+        link: ""
+	},
     {
         title: "Help Me!",
         artist: ["The Moonsters", "Enric Font", "feat.", "Lexter"],
