@@ -20,7 +20,7 @@ const musicData = [
         type: "MegaMix 14",
         category: ["Relaxing", "Distinctive"],
 		tempo: "1",
-		usage: "241103",
+		usage: "250103",
 		memo: "雰囲気はまるでセルジオ・メンデスのサンバ・ボサノヴァ。Bonito：「美しい」誰かを前に心が揺れちゃう、そんな振付です。",
         link: ""
     },
@@ -42,7 +42,7 @@ const musicData = [
         type: "FitnessVariation 26",
         category: ["Dark", "Traditional"],
 		tempo: "1",
-		usage: "240601",
+		usage: "241201",
 		memo: "都会の夜のイメージ。音に合わせた力強い動きとクンビアのビートに合わせた滑らかな動きが特徴です。",
         link: "https://youtu.be/Rgq2-DYsQfM?si=EMH1UPicZE0Tw-50"
     },
@@ -130,7 +130,7 @@ const musicData = [
         type: "ZIN 52",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
-		usage: "241104",
+		usage: "241204",
 		memo: "オススメして頂いて大好きになった曲の一つです。最後の「oh oh oh oh」では周りの方に是非会いに行ってくださいね。",
         link: "https://youtu.be/NUsoVlDFqZg?si=R1KZNTg4obtd4uei"
 	},
@@ -163,7 +163,7 @@ const musicData = [
         type: "MegaMix 52",
         category: ["Powerful", "Rhythmic"],
 		tempo: "1",
-		usage: "240703",
+		usage: "241103",
 		memo: "速い！激しい！メレンゲの楽曲。尊敬するインストラクターの振付を一部真似してます（許可頂きました！）ソカ・ダンスホールで有名なMachel Montanoの曲に似たのがあるのが少し気になってます笑。",
         link: "https://youtu.be/0NSJaxY_vzM?si=nGYg2G-1juxyrww-"
     },
@@ -218,7 +218,7 @@ const musicData = [
         type: "MegaMix 58",
         category: ["Emotional", "Relaxing"],
 		tempo: "1",
-		usage: "240603",
+		usage: "240903",
 		memo: "コーラスの「デス・パ・シート」の部分で鳥肌が立っちゃいます。足元が忙しいですが、曲の雰囲気をいっぱい感じながら踊れるといいですね。",
         link: "https://youtu.be/kJQP7kiw5Fk?si=58YW4GhEKvD_iobq"
 	},
@@ -999,7 +999,7 @@ const musicData = [
         type: "ZIN 98",
         category: ["Relaxing", "Emotional"],
 		tempo: "1",
-		usage: "240603",
+		usage: "241203",
 		memo: "バジェナートといえば！のCarlos Vives。優しい雰囲気の楽曲ですね。",
         link: "https://youtu.be/fOAYjG_G4xY?si=-IDiwwJk1KwDiR4C"
 	},
@@ -1010,7 +1010,7 @@ const musicData = [
         type: "ZIN 99",
         category: ["Bright", "Relaxing", "Emotional"],
 		tempo: "1",
-		usage: "240604",
+		usage: "241004",
 		memo: "サルサバージョンのみZumba Volumeに収録。メレンゲ版と同じような振付になるようにしています。",
         link: "https://youtu.be/mdFpJO9H_U8"
     },
@@ -1088,7 +1088,7 @@ const musicData = [
         category: ["Cool", "Blast"],
 		tempo: "1",
 		usage: "240803",
-		memo: "この曲からフラメンコに目覚めました！",
+		memo: "この曲からフラメンコに目覚めました！コーラスパートのタップ3回は力を入れすぎずクールに！",
         link: ""
 	},
     {
@@ -1411,14 +1411,14 @@ const musicData = [
         link: ""
 	},
     {
-        title: "rreito",
-        artist: ["Jean Then", "Dimelo H"],
-        genre: ["Reggaeton"],
+        title: "Que Tu Quieres",
+        artist: ["Maxter"],
+        genre: ["Soca"],
         type: "MegaMix 105",
-        category: ["Rhythmic", "Emotional", "Distinctive"],
+        category: ["Rhythmic", "Powerful"],
 		tempo: "1",
-		usage: "250202",
-		memo: "ステップはコアステップのみを使っていますが手の動きは忙しいですね。オ・オ・エオエのリズムに合わせて挑戦してみましょう！",
+		usage: "250203",
+		memo: "Maxterの曲にはよく「ハッハッハー！」のフレーズが入っています。どこにあるか探してみてくださいね。難しい動きは少なめに、思いっきり動く振付にしました！",
         link: ""
 	},
     {
@@ -1791,7 +1791,7 @@ const musicData = [
         type: "ZIN 114",
         category: ["Rhythmic", "Experimental"],
 		tempo: "1",
-		usage: "250202",
+		usage: "250203",
 		memo: "アルゼンチンの音楽ジャンルCuarteto。縦移動をイメージして振り付けしてます。",
         link: "",
     },
@@ -1802,7 +1802,7 @@ const musicData = [
         type: "ZIN 114",
         category: ["Bright", "Rhythmic", "Experimental"],
 		tempo: "1",
-		usage: "241202",
+		usage: "240201",
 		memo: "Dembowを多く歌われているイメージのJenn Morel。大人っぽい低めの歌いぶりを聞くことが多いですが、この曲は別！高く伸びのある歌声が響きます…！強いビートをキック、腰、腕で表しましょう。",
         link: "",
     },
@@ -1813,7 +1813,7 @@ const musicData = [
         type: "ZIN 114",
         category: ["Rhythmic", "Experimental"],
 		tempo: "1",
-		usage: "250202",
+		usage: "250102",
 		memo: "ZIN69のLo Que Tienes Tuの雰囲気を残した楽曲。シンセサイザーの音やサルサパートが増えました。",
         link: "",
     },
